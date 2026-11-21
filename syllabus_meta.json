@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-11-21T17:18:40.299Z",
+  "subjects": {
+    "Maths": {
+      "file": "maths.json",
+      "total_questions": 180,
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "lesson_name": "My Number World",
+          "count": 60
+        },
+        {
+          "lesson_no": 2,
+          "lesson_name": "Addition and Subtraction",
+          "count": 60
+        },
+        {
+          "lesson_no": 3,
+          "lesson_name": "Multiplication and Division",
+          "count": 60
+        }
+      ]
+    },
+    "EVS": {
+      "file": "evs.json",
+      "total_questions": 60,
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "lesson_name": "Migration of People",
+          "count": 60
+        }
+      ]
+    },
+    "English": {
+      "file": "english.json",
+      "total_questions": 0,
+      "lessons": []
+    },
+    "Telugu": {
+      "file": "telugu.json",
+      "total_questions": 0,
+      "lessons": []
+    }
+  }
+}

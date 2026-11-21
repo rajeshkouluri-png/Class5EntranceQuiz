@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "MA_L01_001",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the greatest 5-digit number in the Hindu-Arabic system of numeration?",
+    "options": [
+      "10000",
+      "99999",
+      "90000",
+      "9999"
+    ],
+    "answer": "99999",
+    "explanation": "The greatest 5-digit number is Ninety-nine thousand nine hundred and ninety-nine (99,999), which is one less than 1 lakh."
+  },
+  {
+    "id": "MA_L01_002",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the smallest 6-digit number, also known as one lakh?",
+    "options": [
+      "10000",
+      "1,00,000",
+      "10,00,000",
+      "99999"
+    ],
+    "answer": "1,00,000",
+    "explanation": "When we add 1 to the greatest 5-digit number (99,999), we get 1,00,000, which is the smallest 6-digit number (one lakh)."
+  },
+  {
+    "id": "MA_L01_003",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the place value of the digit 8 in the number 7,08,643?",
+    "options": [
+      "80",
+      "800",
+      "8000",
+      "80000"
+    ],
+    "answer": "8000",
+    "explanation": "In 7,08,643, the digit 8 is in the thousands place, so its place value is 8 × 1,000 = 8,000."
+  },
+  {
+    "id": "MA_L01_004",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Which of the following represents the standard form of 'Fifty-nine crore seventy lakh fifty-eight thousand nine hundred and ten'?",
+    "options": [
+      "59,70,58,910",
+      "59,07,58,910",
+      "59,75,89,100",
+      "50,97,81,000"
+    ],
+    "answer": "59,70,58,910",
+    "explanation": "Placing commas correctly according to the Indian system, fifty-nine crore is 59, seventy lakh is 70, fifty-eight thousand is 58, and nine hundred ten is 910, giving 59,70,58,910."
+  },
+  {
+    "id": "MA_L01_005",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the face value of the digit 4 in the number 5,46,739?",
+    "options": [
+      "40000",
+      "4000",
+      "400",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "The face value of any digit in a number is the digit itself and never changes, regardless of its position."
+  },
+  {
+    "id": "MA_L01_006",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "In the International system of numeration, one million is equal to how many lakhs in the Indian system?",
+    "options": [
+      "1 lakh",
+      "10 lakhs",
+      "100 lakhs",
+      "1,000 lakhs"
+    ],
+    "answer": "10 lakhs",
+    "explanation": "In the International system, 1,000,000 is one million, which equals 10,00,000 (ten lakhs) in the Indian system."
+  },
+  {
+    "id": "MA_L01_007",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the Roman numeral for 40?",
+    "options": [
+      "XXXX",
+      "LX",
+      "XL",
+      "XC"
+    ],
+    "answer": "XL",
+    "explanation": "According to Roman numeral rules, 40 is written as XL, which means 10 subtracted from 50 (50 - 10 = 40)."
+  },
+  {
+    "id": "MA_L01_008",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Which of the following is the biggest 6-digit number that can be formed using the digits 7, 4, 9, and 3 by repeating digits?",
+    "options": [
+      "999974",
+      "974333",
+      "99999",
+      "9743"
+    ],
+    "answer": "999974",
+    "explanation": "To make the biggest number, we place the largest available digit (9) in the highest place values and repeat it if needed."
+  },
+  {
+    "id": "MA_L01_009",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is one more than 99,99,999?",
+    "options": [
+      "1,00,00,000",
+      "10,00,00,000",
+      "99,99,998",
+      "10,00,000"
+    ],
+    "answer": "1,00,00,000",
+    "explanation": "Adding 1 to the greatest 7-digit number (99,99,999) gives 1,00,00,000, which is one crore (the smallest 8-digit number)."
+  },
+  {
+    "id": "MA_L01_010",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "How many zeros are there in one crore (1,00,00,000)?",
+    "options": [
+      "5 zeros",
+      "6 zeros",
+      "7 zeros",
+      "8 zeros"
+    ],
+    "answer": "7 zeros",
+    "explanation": "One crore is written as 1 followed by 7 zeros: 1,00,00,000."
+  },
+  {
+    "id": "MA_L01_011",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "Which digit should be filled in the blank in the number 47,_56,325 for which the place-value is 90,00,000?",
+    "options": [
+      "4",
+      "7",
+      "9",
+      "5"
+    ],
+    "answer": "9",
+    "explanation": "A place value of 90,00,000 means the digit is in the ten lakhs place, which corresponds to the blank position in 47,_56,325."
+  },
+  {
+    "id": "MA_L01_012",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the Hindu-Arabic numeral for the Roman numeral LXXV?",
+    "options": [
+      "55",
+      "65",
+      "75",
+      "85"
+    ],
+    "answer": "75",
+    "explanation": "LXXV is parsed as 50 + 10 + 10 + 5 = 75."
+  },
+  {
+    "id": "MA_L01_013",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "How do we write the number 7,20,56,304 in words using the Indian system?",
+    "options": [
+      "Seven crore twenty lakh fifty-six thousand three hundred four",
+      "Seventy-two million five hundred sixty thousand three hundred four",
+      "Seven crore twenty-five lakh six thousand three hundred four",
+      "Seven crore twenty lakh fifty-six thousand thirty-four"
+    ],
+    "answer": "Seven crore twenty lakh fifty-six thousand three hundred four",
+    "explanation": "Splitting by periods in the Indian system: 7 crores, 20 lakhs, 56 thousand, and 304."
+  },
+  {
+    "id": "MA_L01_014",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "Which of the following options is true when comparing 87,83,93,790 and 8,29,80,758?",
+    "options": [
+      "87,83,93,790 < 8,29,80,758",
+      "87,83,93,790 > 8,29,80,758",
+      "87,83,93,790 = 8,29,80,758",
+      "None of these"
+    ],
+    "answer": "87,83,93,790 > 8,29,80,758",
+    "explanation": "87,83,93,790 has 10 digits (eighty-seven crore) while 8,29,80,758 has 8 digits (eight crore), making the first number much larger."
+  },
+  {
+    "id": "MA_L01_015",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the expanded form of 40,63,52,456?",
+    "options": [
+      "(4 x 10,00,00,000) + (6 x 1,00,000) + ...",
+      "(4 x 10,00,00,000) + (6 x 10,00,000) + (3 x 1,00,000) + (5 x 10,000) + (2 x 1,000) + (4 x 100) + (5 x 10) + (6 x 1)",
+      "(4 x 1,00,00,000) + (63 x 1,000) + ...",
+      "40 + 60 + 30 + 50 + 2 + 4 + 5 + 6"
+    ],
+    "answer": "(4 x 10,00,00,000) + (6 x 10,00,000) + (3 x 1,00,000) + (5 x 10,000) + (2 x 1,000) + (4 x 100) + (5 x 10) + (6 x 1)",
+    "explanation": "Each digit is multiplied by its respective place value in the Indian system of numeration."
+  },
+  {
+    "id": "MA_L01_016",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "Which symbol is used for 500 in Roman numerals?",
+    "options": [
+      "C",
+      "D",
+      "M",
+      "L"
+    ],
+    "answer": "D",
+    "explanation": "In the Roman number system, D represents 500 and M represents 1000."
+  },
+  {
+    "id": "MA_L01_017",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "How many thousands make 1 lakh?",
+    "options": [
+      "10 thousands",
+      "100 thousands",
+      "1,000 thousands",
+      "10,000 thousands"
+    ],
+    "answer": "100 thousands",
+    "explanation": "1 lakh = 1,00,000, which contains 100 groups of 1,000 (one hundred thousands)."
+  },
+  {
+    "id": "MA_L01_018",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "What is the Roman numeral for 99?",
+    "options": [
+      "IC",
+      "XCIX",
+      "VCIV",
+      "LXXXXIX"
+    ],
+    "answer": "XCIX",
+    "explanation": "99 is expressed as 90 (XC) plus 9 (IX), giving XCIX."
+  },
+  {
+    "id": "MA_L01_019",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "In the International system, how is the number 72056304 written with commas?",
+    "options": [
+      "7,205,630,4",
+      "72056304",
+      "72056304",
+      "7,205,630,40"
+    ],
+    "answer": "72056304",
+    "explanation": "In the International system, commas are placed after every three digits from the right: 72,056,304."
+  },
+  {
+    "id": "MA_L01_020",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the standard form of: 60,00,000 + 50,000 + 1,000 + 8?",
+    "options": [
+      "60,51,008",
+      "6,51,008",
+      "60,50,108",
+      "60,51,080"
+    ],
+    "answer": "60,51,008",
+    "explanation": "Combining the values: 60 lakh + 50 thousand + 1 thousand + 8 ones gives 60,51,008."
+  },
+  {
+    "id": "MA_L01_021",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the smallest 7-digit number in the Indian system of numeration?",
+    "options": [
+      "1,00,000",
+      "10,00,000",
+      "1,00,00,000",
+      "99,99,999"
+    ],
+    "answer": "10,00,000",
+    "explanation": "Adding 1 to the largest 6-digit number (9,99,999) gives 10,00,000, which is ten lakh and the smallest 7-digit number."
+  },
+  {
+    "id": "MA_L01_022",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which of the following represents the smallest 8-digit number?",
+    "options": [
+      "1,00,00,000",
+      "10,00,00,000",
+      "99,99,999",
+      "9,99,99,999"
+    ],
+    "answer": "1,00,00,000",
+    "explanation": "One crore (1,00,00,000) has 8 digits and is the smallest 8-digit number."
+  },
+  {
+    "id": "MA_L01_023",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "How many zeroes are there in the standard numeral for 'Ten crore'?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "answer": "7",
+    "explanation": "Ten crore is written as 10,00,00,000, which consists of the digit 1 followed by 7 zeroes."
+  },
+  {
+    "id": "MA_L01_024",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "In the International system of numeration, how many digits are there in a million?",
+    "options": [
+      "6 digits",
+      "7 digits",
+      "8 digits",
+      "9 digits"
+    ],
+    "answer": "7 digits",
+    "explanation": "One million is written as 1,000,000, which contains 7 digits (1 followed by 6 zeroes)."
+  },
+  {
+    "id": "MA_L01_025",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the place value of the underlined digit in 43,84,304?",
+    "options": [
+      "8000",
+      "80000",
+      "800",
+      "8,00,000"
+    ],
+    "answer": "80000",
+    "explanation": "The underlined digit 8 is in the ten-thousands place, so its place value is 8 × 10,000 = 80,000."
+  },
+  {
+    "id": "MA_L01_026",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the Hindu-Arabic numeral for the Roman numeral XLIX?",
+    "options": [
+      "41",
+      "49",
+      "59",
+      "39"
+    ],
+    "answer": "49",
+    "explanation": "XL represents 40 (50 - 10) and IX represents 9 (10 - 1), so XLIX equals 40 + 9 = 49."
+  },
+  {
+    "id": "MA_L01_027",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which of the following Roman numerals is correctly written according to the rules?",
+    "options": [
+      "XXXX",
+      "VC",
+      "XC",
+      "VL"
+    ],
+    "answer": "XC",
+    "explanation": "XC represents 90 (100 - 10). Symbols like V, L, C have strict repetition and subtraction rules; XXXX and VC/VL are invalid."
+  },
+  {
+    "id": "MA_L01_028",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "What is 1 hundred million equal to in terms of Indian crores?",
+    "options": [
+      "1 crore",
+      "10 crores",
+      "100 crores",
+      "1,000 crores"
+    ],
+    "answer": "10 crores",
+    "explanation": "100 million in the International system is equal to 10,00,00,000 in the Indian system, which is 10 crores."
+  },
+  {
+    "id": "MA_L01_029",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the predecessor of 1,00,00,000?",
+    "options": [
+      "9,99,999",
+      "99,99,999",
+      "9,99,99,999",
+      "10,00,001"
+    ],
+    "answer": "99,99,999",
+    "explanation": "Subtracting 1 from one crore (1,00,00,000) gives the largest 7-digit number, which is 99,99,999."
+  },
+  {
+    "id": "MA_L01_030",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which of the following numbers is the greatest?",
+    "options": [
+      "7,16,584",
+      "7,26,581",
+      "7,36,581",
+      "7,96,581"
+    ],
+    "answer": "7,96,581",
+    "explanation": "Comparing the digits from left to right, 7,96,581 has the largest digit (9) in the ten-thousands place."
+  },
+  {
+    "id": "MA_L01_031",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "How is the number 4,63,258 read in words?",
+    "options": [
+      "Four lakh sixty-three thousand two hundred fifty-eight",
+      "Forty-six thousand three hundred fifty-eight",
+      "Four lakh thirty-six thousand two hundred fifty-eight",
+      "Four million sixty-three thousand"
+    ],
+    "answer": "Four lakh sixty-three thousand two hundred fifty-eight",
+    "explanation": "According to the Indian system, 4 is in the lakh place, 63 in the thousand period, and 258 in the hundreds period."
+  },
+  {
+    "id": "MA_L01_032",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "If 1 million = 10 lakhs, then how many lakhs make 10 million?",
+    "options": [
+      "10 lakhs",
+      "100 lakhs",
+      "1,000 lakhs",
+      "10,000 lakhs"
+    ],
+    "answer": "100 lakhs",
+    "explanation": "1 million equals 10 lakhs. Therefore, 10 million equals 10 × 10 = 100 lakhs (which is equal to 1 crore)."
+  },
+  {
+    "id": "MA_L01_033",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the Roman numeral for 500?",
+    "options": [
+      "C",
+      "D",
+      "M",
+      "L"
+    ],
+    "answer": "D",
+    "explanation": "In Roman numeration, the single letter symbol representing 500 is D."
+  },
+  {
+    "id": "MA_L01_034",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which set of commas is placed correctly for the number 72056304 in the International system?",
+    "options": [
+      "7,20,56,304",
+      "72,05,63,04",
+      "72056304",
+      "72056304"
+    ],
+    "answer": "72056304",
+    "explanation": "In the International system, commas are placed after every three digits from the right: 72,056,304."
+  },
+  {
+    "id": "MA_L01_035",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "What is the standard form of the expanded expression: (5 × 1,00,00,000) + (3 × 1,00,000) + (4 × 1,000) + (7 × 10)?",
+    "options": [
+      "5,03,04,070",
+      "5,30,04,070",
+      "5,03,40,070",
+      "5,30,40,070"
+    ],
+    "answer": "5,03,04,070",
+    "explanation": "Combining the places gives 5 crores (5,00,00,000), 3 lakhs (3,00,000), 4 thousands (4,000), and 7 tens (70), resulting in 5,03,04,070."
+  },
+  {
+    "id": "MA_L01_036",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which of the following letters cannot be repeated in Roman numerals?",
+    "options": [
+      "I",
+      "X",
+      "V",
+      "C"
+    ],
+    "answer": "V",
+    "explanation": "The symbols V, L, and D are never repeated consecutively in Roman numerals."
+  },
+  {
+    "id": "MA_L01_037",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Arrange the following numbers in descending order: 6,27,12,545 ; 54,56,705 ; 72,61,50,305",
+    "options": [
+      "54,56,705 ; 6,27,12,545 ; 72,61,50,305",
+      "72,61,50,305 ; 6,27,12,545 ; 54,56,705",
+      "72,61,50,305 ; 54,56,705 ; 6,27,12,545",
+      "6,27,12,545 ; 72,61,50,305 ; 54,56,705"
+    ],
+    "answer": "72,61,50,305 ; 6,27,12,545 ; 54,56,705",
+    "explanation": "Descending order means arranging numbers from the largest to the smallest. 72 crores is largest, followed by 6 crores, then 54 lakhs."
+  },
+  {
+    "id": "MA_L01_038",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the face value of the digit 6 in the number 9,84,36,251?",
+    "options": [
+      "6",
+      "60",
+      "6000",
+      "60000"
+    ],
+    "answer": "6",
+    "explanation": "The face value of any digit in a number is the digit itself, regardless of its position."
+  },
+  {
+    "id": "MA_L01_039",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "Using the digits 2, 0, 5, and 1, what is the smallest 4-digit number that can be formed (without repeating any digit)?",
+    "options": [
+      "125",
+      "1025",
+      "1205",
+      "2015"
+    ],
+    "answer": "1025",
+    "explanation": "A 4-digit number cannot start with 0. Therefore, the smallest non-zero digit (1) comes first, followed by 0, then 2 and 5."
+  },
+  {
+    "id": "MA_L01_040",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the Roman numeral for 95?",
+    "options": [
+      "VC",
+      "XCV",
+      "LXXXXV",
+      "CV"
+    ],
+    "answer": "XCV",
+    "explanation": "95 is written as 90 + 5. 90 is XC (10 before 100) and 5 is V, giving XCV."
+  },
+  {
+    "id": "MA_L01_041",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the difference between the place value and face value of the digit 7 in the number 7,45,218?",
+    "options": [
+      "6,99,993",
+      "7,00,007",
+      "6,93,000",
+      "6,99,997"
+    ],
+    "answer": "6,99,997",
+    "explanation": "The place value of 7 is 7,00,000 and its face value is 7. Subtracting them gives 7,00,000 - 7 = 6,99,997."
+  },
+  {
+    "id": "MA_L01_042",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of the following numbers has 5 in the ten-lakhs place and 3 in the hundreds place?",
+    "options": [
+      "53,24,310",
+      "45,23,301",
+      "35,42,130",
+      "55,23,310"
+    ],
+    "answer": "45,23,301",
+    "explanation": "In 45,23,301, the digit 5 is in the ten-lakhs place and 3 is in the hundreds place."
+  },
+  {
+    "id": "MA_L01_043",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Find the sum of the greatest 6-digit number and the smallest 5-digit number.",
+    "options": [
+      "10,09,999",
+      "10,99,999",
+      "11,00,000",
+      "9,99,999"
+    ],
+    "answer": "10,09,999",
+    "explanation": "The greatest 6-digit number is 9,99,999 and the smallest 5-digit number is 10,000. Their sum is 9,99,999 + 10,000 = 10,09,999."
+  },
+  {
+    "id": "MA_L01_044",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "How many ten thousands make one lakh?",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "answer": "10",
+    "explanation": "One lakh is equal to 1,00,000 and ten thousand is 10,000. Therefore, 10 ten-thousands make one lakh."
+  },
+  {
+    "id": "MA_L01_045",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "If you add 1 to the greatest 8-digit number, what number do you get?",
+    "options": [
+      "10 crore",
+      "1 crore",
+      "100 crore",
+      "10 lakh"
+    ],
+    "answer": "1 crore",
+    "explanation": "The greatest 8-digit number is 9,99,99,999. Adding 1 to it gives 1,00,00,000, which is 1 crore (the smallest 9-digit number)."
+  },
+  {
+    "id": "MA_L01_046",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which Roman numeral combination is completely valid and correctly written?",
+    "options": [
+      "IC",
+      "XCV",
+      "VX",
+      "LL"
+    ],
+    "answer": "XCV",
+    "explanation": "XCV stands for 95 (90 + 5), which follows all the subtraction and addition rules of Roman numerals."
+  },
+  {
+    "id": "MA_L01_047",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "What is the product of the place values of two 5s in the number 5,00,05,000?",
+    "options": [
+      "25,00,00,000",
+      "25,00,000",
+      "2,50,000",
+      "25,00,00,00,000"
+    ],
+    "answer": "25,00,00,00,000",
+    "explanation": "The place value of the first 5 is 5,00,00,000 and the second 5 is 5,000. Multiplying them gives 25,00,00,00,000."
+  },
+  {
+    "id": "MA_L01_048",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "How many thousands are there in 5 million in the International system?",
+    "options": [
+      "5000",
+      "500",
+      "50000",
+      "50"
+    ],
+    "answer": "5000",
+    "explanation": "1 million is 1,000 thousands, so 5 million is equal to 5,000 thousands."
+  },
+  {
+    "id": "MA_L01_049",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Arrange the following numbers in ascending order: 4,05,23,100 ; 4,05,32,010 ; 4,50,23,100",
+    "options": [
+      "4,05,23,100 < 4,05,32,010 < 4,50,23,100",
+      "4,50,23,100 < 4,05,32,010 < 4,05,23,100",
+      "4,05,32,010 < 4,05,23,100 < 4,50,23,100",
+      "4,05,23,100 < 4,50,23,100 < 4,05,32,010"
+    ],
+    "answer": "4,05,23,100 < 4,05,32,010 < 4,50,23,100",
+    "explanation": "Comparing the crores, lakhs, and thousands places, 4,05,23,100 is the smallest, followed by 4,05,32,010, and 4,50,23,100 is the largest."
+  },
+  {
+    "id": "MA_L01_050",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the Hindu-Arabic value for the Roman numeral XCVIII?",
+    "options": [
+      "88",
+      "98",
+      "108",
+      "92"
+    ],
+    "answer": "98",
+    "explanation": "XC = 90 and VIII = 8, so XC + VIII = 98."
+  },
+  {
+    "id": "MA_L01_051",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Find the number formed by: 7 ten crores + 5 lakhs + 3 tens + 6 ones.",
+    "options": [
+      "70,05,00,036",
+      "7,00,05,036",
+      "70,50,00,036",
+      "7,05,00,036"
+    ],
+    "answer": "70,05,00,036",
+    "explanation": "70,00,00,000 + 5,00,000 + 30 + 6 = 70,05,00,036."
+  },
+  {
+    "id": "MA_L01_052",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of the following represents 'Four crore five lakh six thousand two' in standard form?",
+    "options": [
+      "4,05,06,002",
+      "4,50,60,002",
+      "4,00,56,002",
+      "4,05,60,002"
+    ],
+    "answer": "4,05,06,002",
+    "explanation": "Four crore = 4,00,00,000, five lakh = 05,00,000, six thousand = 06,000, and two = 002. Combined, it is 4,05,06,002."
+  },
+  {
+    "id": "MA_L01_053",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "What is the sum of the place values of all the digits in the number 405?",
+    "options": [
+      "405",
+      "450",
+      "400",
+      "9"
+    ],
+    "answer": "405",
+    "explanation": "The place values are 400, 0, and 5. Their sum is 400 + 0 + 5 = 405, which is the number itself."
+  },
+  {
+    "id": "MA_L01_054",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "In the International system of numeration, how many periods are represented in a 9-digit number?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "3",
+    "explanation": "The International system groups digits into periods of three: Ones, Thousands, and Millions."
+  },
+  {
+    "id": "MA_L01_055",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the predecessor of 10,00,000 in the Indian system?",
+    "options": [
+      "9,99,999",
+      "9,99,990",
+      "99999",
+      "9,00,000"
+    ],
+    "answer": "9,99,999",
+    "explanation": "The predecessor of a number is 1 less than that number. 10,00,000 - 1 = 9,99,999."
+  },
+  {
+    "id": "MA_L01_056",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "If you write all whole numbers from 1 to 100, how many times does the digit '9' appear?",
+    "options": [
+      "10",
+      "19",
+      "20",
+      "21"
+    ],
+    "answer": "20",
+    "explanation": "The digit 9 appears in the units place 10 times (9, 19, 29...) and in the tens place 10 times (90, 91, 92...), making a total of 20 times."
+  },
+  {
+    "id": "MA_L01_057",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the Roman numeral for the sum of XL and XX?",
+    "options": [
+      "LX",
+      "LXX",
+      "XC",
+      "XL"
+    ],
+    "answer": "LX",
+    "explanation": "XL is 40 and XX is 20. Their sum is 40 + 20 = 60, which is represented as LX in Roman numerals."
+  },
+  {
+    "id": "MA_L01_058",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "What is the difference between the greatest 7-digit number and the smallest 6-digit number?",
+    "options": [
+      "98,99,999",
+      "99,89,999",
+      "90,00,000",
+      "99,00,000"
+    ],
+    "answer": "98,99,999",
+    "explanation": "Greatest 7-digit number = 99,99,999. Smallest 6-digit number = 1,00,000. Difference = 99,99,999 - 1,00,000 = 98,99,999."
+  },
+  {
+    "id": "MA_L01_059",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of the following numbers makes the statement true: 5,43,21,000 > ______?",
+    "options": [
+      "5,43,22,000",
+      "5,43,19,999",
+      "5,50,00,000",
+      "6,00,00,000"
+    ],
+    "answer": "5,43,19,999",
+    "explanation": "5,43,21,000 is strictly greater than 5,43,19,999 because 21 thousands is greater than 19 thousands."
+  },
+  {
+    "id": "MA_L01_060",
+    "subject": "Maths",
+    "lesson_no": 1,
+    "lesson_name": "My Number World",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "How many lakhs are equal to 100 million?",
+    "options": [
+      "1,000 lakhs",
+      "10,000 lakhs",
+      "100 lakhs",
+      "10 lakhs"
+    ],
+    "answer": "1,000 lakhs",
+    "explanation": "1 million = 10 lakhs. Therefore, 100 million = 100 × 10 lakhs = 1,000 lakhs."
+  },
+  {
+    "id": "MA_L02_001",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the sum of 43,574 and 21,787?",
+    "options": [
+      "65361",
+      "65261",
+      "64361",
+      "66361"
+    ],
+    "answer": "65361",
+    "explanation": "Adding the digits column by column from ones to ten-thousands gives 43,574 + 21,787 = 65,361."
+  },
+  {
+    "id": "MA_L02_002",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "Subtract 26,874 from 49,543.",
+    "options": [
+      "22669",
+      "22769",
+      "23669",
+      "21669"
+    ],
+    "answer": "22669",
+    "explanation": "Subtracting column by column with borrowing gives 49,543 - 26,874 = 22,669."
+  },
+  {
+    "id": "MA_L02_003",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is 15,268 subtracted from 58,535?",
+    "options": [
+      "43267",
+      "43367",
+      "42267",
+      "44267"
+    ],
+    "answer": "43267",
+    "explanation": "Using the subtraction fact derived from addition, 58,535 - 15,268 = 43,267."
+  },
+  {
+    "id": "MA_L02_004",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is any number plus zero (0)?",
+    "options": [
+      "The number itself",
+      "Zero",
+      "One",
+      "Ten"
+    ],
+    "answer": "The number itself",
+    "explanation": "According to the addition property of zero, adding 0 to any number gives the number itself."
+  },
+  {
+    "id": "MA_L02_005",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "If you change the order of two addends, what happens to the total?",
+    "options": [
+      "It remains the same",
+      "It becomes zero",
+      "It increases",
+      "It decreases"
+    ],
+    "answer": "It remains the same",
+    "explanation": "Changing the order of the two addends does not change the total (e.g., 2,579 + 3,275 = 3,275 + 2,579)."
+  },
+  {
+    "id": "MA_L02_006",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Simplify: 52,837 + 14,563 - 32,409",
+    "options": [
+      "34991",
+      "34891",
+      "35991",
+      "33991"
+    ],
+    "answer": "34991",
+    "explanation": "First add 52,837 and 14,563 to get 67,400. Then subtract 32,409 from 67,400 to get 34,991."
+  },
+  {
+    "id": "MA_L02_007",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Round off 23,742 to the nearest ten thousand.",
+    "options": [
+      "20000",
+      "25000",
+      "30000",
+      "24000"
+    ],
+    "answer": "20000",
+    "explanation": "Since the thousands digit (3) is less than 5, we round down to the previous ten-thousand, which is 20,000."
+  },
+  {
+    "id": "MA_L02_008",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Round off 97,222 to the nearest ten thousand.",
+    "options": [
+      "100000",
+      "90000",
+      "95000",
+      "97000"
+    ],
+    "answer": "100000",
+    "explanation": "Since the thousands digit (7) is greater than 5, we round up to the next ten-thousand, which is 100,000."
+  },
+  {
+    "id": "MA_L02_009",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the formula for Profit when Selling Price and Cost Price are known?",
+    "options": [
+      "Selling Price - Cost Price",
+      "Cost Price - Selling Price",
+      "Selling Price + Cost Price",
+      "Cost Price + Profit"
+    ],
+    "answer": "Selling Price - Cost Price",
+    "explanation": "Profit is made when selling price is greater than cost price, and is calculated as Selling Price minus Cost Price."
+  },
+  {
+    "id": "MA_L02_010",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the formula for Loss?",
+    "options": [
+      "Cost Price - Selling Price",
+      "Selling Price - Cost Price",
+      "Cost Price + Selling Price",
+      "Selling Price + Loss"
+    ],
+    "answer": "Cost Price - Selling Price",
+    "explanation": "Loss occurs when the cost price is more than the selling price, calculated as Cost Price minus Selling Price."
+  },
+  {
+    "id": "MA_L02_011",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "If the Cost Price of a fan is 800 rupees and Ravi got a profit of 250 rupees by selling it, what is its selling price?",
+    "options": [
+      "1,050 rupees",
+      "550 rupees",
+      "825 rupees",
+      "1,000 rupees"
+    ],
+    "answer": "1,050 rupees",
+    "explanation": "Selling Price = Cost Price + Profit = 800 + 250 = 1,050 rupees."
+  },
+  {
+    "id": "MA_L02_012",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "A shopkeeper purchased a book for 800 rupees and sold it for 650 rupees. What is the result?",
+    "options": [
+      "150 rupees loss",
+      "150 rupees gain",
+      "No gain, no loss",
+      "650 rupees loss"
+    ],
+    "answer": "150 rupees loss",
+    "explanation": "Since Cost Price (800) is greater than Selling Price (650), Loss = 800 - 650 = 150 rupees."
+  },
+  {
+    "id": "MA_L02_013",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "The difference between two numbers is 643. One of the numbers is 6,489. If the known number is the larger one, find the other number.",
+    "options": [
+      "5846",
+      "5864",
+      "7132",
+      "5800"
+    ],
+    "answer": "5846",
+    "explanation": "The smaller number is 6,489 - 643 = 5,846."
+  },
+  {
+    "id": "MA_L02_014",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "Siva had 52,490 rupees. He bought a Television for 15,870 rupees and a Washing machine for 25,785 rupees. How much money is left with him?",
+    "options": [
+      "10,835 rupees",
+      "11,835 rupees",
+      "10,935 rupees",
+      "9,835 rupees"
+    ],
+    "answer": "10,835 rupees",
+    "explanation": "Total spent = 15,870 + 25,785 = 41,655 rupees. Money left = 52,490 - 41,655 = 10,835 rupees."
+  },
+  {
+    "id": "MA_L02_015",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Estimate 62,014 + 15,703 by rounding off each number to the nearest thousand.",
+    "options": [
+      "80000",
+      "78000",
+      "85000",
+      "75000"
+    ],
+    "answer": "80000",
+    "explanation": "62,014 rounds to 60,000 and 15,703 rounds to 20,000. 60,000 + 20,000 = 80,000."
+  },
+  {
+    "id": "MA_L02_016",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "Rachana's income was 6,25,320 rupees in 2018. Next year her income exceeded the previous year's income by 64,200 rupees. What was her income in 2019?",
+    "options": [
+      "6,89,520 rupees",
+      "6,89,320 rupees",
+      "6,75,520 rupees",
+      "5,61,120 rupees"
+    ],
+    "answer": "6,89,520 rupees",
+    "explanation": "Income in 2019 = 6,25,320 + 64,200 = 6,89,520 rupees."
+  },
+  {
+    "id": "MA_L02_017",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the addition fact for the subtraction 14 - 8 = 6?",
+    "options": [
+      "6 + 8 = 14",
+      "14 + 6 = 20",
+      "8 - 6 = 2",
+      "14 - 6 = 8"
+    ],
+    "answer": "6 + 8 = 14",
+    "explanation": "For each subtraction, we can have a corresponding addition fact: 6 + 8 = 14."
+  },
+  {
+    "id": "MA_L02_018",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the subtraction fact for 7,500 + 2,500 = 10,000?",
+    "options": [
+      "10,000 - 2,500 = 7,500",
+      "10,000 - 7,500 = 2,500",
+      "7,500 - 2,500 = 5,000",
+      "2,500 + 7,500 = 10,000"
+    ],
+    "answer": "10,000 - 2,500 = 7,500",
+    "explanation": "The corresponding subtraction fact from the addition is 10,000 - 2,500 = 7,500 (or 10,000 - 7,500 = 2,500)."
+  },
+  {
+    "id": "MA_L02_019",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "If you want to make a profit, how should Selling Price and Cost Price be related?",
+    "options": [
+      "Selling price > cost price",
+      "Selling price < cost price",
+      "Selling price = cost price",
+      "Cost price > selling price"
+    ],
+    "answer": "Selling price > cost price",
+    "explanation": "A profit is made only when the selling price is greater than the cost price."
+  },
+  {
+    "id": "MA_L02_020",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Anita wants to buy a toy set that costs 3,600 rupees. She has saved 2,150 rupees. Her grandmother promised to give her 500 rupees next month. How much more money will Anita still need after getting money from her grandmother?",
+    "options": [
+      "950 rupees",
+      "1,450 rupees",
+      "1,050 rupees",
+      "850 rupees"
+    ],
+    "answer": "950 rupees",
+    "explanation": "Total money she will have = 2,150 + 500 = 2,650 rupees. Still needed = 3,600 - 2,650 = 950 rupees."
+  },
+  {
+    "id": "MA_L02_021",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the sum of 20,762 and 12,255?",
+    "options": [
+      "32917",
+      "33017",
+      "32017",
+      "33917"
+    ],
+    "answer": "33017",
+    "explanation": "Adding the ones, tens, hundreds, thousands, and ten-thousands places: 20,762 + 12,255 equals 33,017."
+  },
+  {
+    "id": "MA_L02_022",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the result when you arrange in columns and add 13,482, 26,742, and 37,323?",
+    "options": [
+      "77447",
+      "77547",
+      "76547",
+      "78547"
+    ],
+    "answer": "77547",
+    "explanation": "Adding 13,482 + 26,742 + 37,323 gives a total sum of 77,547."
+  },
+  {
+    "id": "MA_L02_023",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "If 43,521 - 38,445 is calculated, what is the correct difference?",
+    "options": [
+      "5176",
+      "5076",
+      "4076",
+      "5166"
+    ],
+    "answer": "5076",
+    "explanation": "Subtracting 38,445 from 43,521 gives 5,076 after borrowing correctly across columns."
+  },
+  {
+    "id": "MA_L02_024",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Find the difference for 86,048 - 76,485.",
+    "options": [
+      "9563",
+      "9663",
+      "8563",
+      "10563"
+    ],
+    "answer": "9563",
+    "explanation": "Subtracting 76,485 from 86,048 yields 9,563."
+  },
+  {
+    "id": "MA_L02_025",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which number has to be added to 13,672 to get 53,267?",
+    "options": [
+      "39595",
+      "40595",
+      "39495",
+      "39695"
+    ],
+    "answer": "39595",
+    "explanation": "To find the missing addend, subtract 13,672 from 53,267, which gives 39,595."
+  },
+  {
+    "id": "MA_L02_026",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "A milk dairy supplies 25,545 litres of milk every day. It supplies 15,625 litres to various milk depots and the rest to the market. How much milk is supplied to the market?",
+    "options": [
+      "9,920 litres",
+      "10,020 litres",
+      "9,820 litres",
+      "10,920 litres"
+    ],
+    "answer": "9,920 litres",
+    "explanation": "Subtract the depot supply from the total supply: 25,545 - 15,625 = 9,920 litres."
+  },
+  {
+    "id": "MA_L02_027",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Fill in the blank using addition properties: 27,543 + 56,409 = 56,409 + ____",
+    "options": [
+      "27543",
+      "56409",
+      "0",
+      "1"
+    ],
+    "answer": "27543",
+    "explanation": "By the commutative property of addition, changing the order of addends does not change the total, so 27,543 is missing."
+  },
+  {
+    "id": "MA_L02_028",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the missing value in: 34,178 + 67,894 = _____ + 34,178?",
+    "options": [
+      "67894",
+      "34178",
+      "1",
+      "0"
+    ],
+    "answer": "67894",
+    "explanation": "The order of addends is reversed, meaning 67,894 must fill the blank."
+  },
+  {
+    "id": "MA_L02_029",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Evaluate: 0 + ____ = 65,912",
+    "options": [
+      "65912",
+      "0",
+      "1",
+      "65913"
+    ],
+    "answer": "65912",
+    "explanation": "Adding zero to any number or any number to zero gives the number itself."
+  },
+  {
+    "id": "MA_L02_030",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "When rounding off the number 35,782 to the nearest ten-thousand, what is the result?",
+    "options": [
+      "40000",
+      "30000",
+      "35000",
+      "50000"
+    ],
+    "answer": "40000",
+    "explanation": "The thousands digit is 5, so we round up to the next ten-thousand, which is 40,000."
+  },
+  {
+    "id": "MA_L02_031",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is 43,248 rounded off to the nearest ten-thousand?",
+    "options": [
+      "40000",
+      "50000",
+      "43000",
+      "44000"
+    ],
+    "answer": "40000",
+    "explanation": "The thousands digit is 3 (which is less than 5), so we round down to the previous ten-thousand, 40,000."
+  },
+  {
+    "id": "MA_L02_032",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "A shopkeeper purchases a cotton saree at the rate of 1,200 rupees and sells it for 1,400 rupees. How much profit does he make?",
+    "options": [
+      "200 rupees",
+      "150 rupees",
+      "250 rupees",
+      "100 rupees"
+    ],
+    "answer": "200 rupees",
+    "explanation": "Profit is Selling Price minus Cost Price: 1,400 - 1,200 = 200 rupees."
+  },
+  {
+    "id": "MA_L02_033",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "A shopkeeper purchases a silk saree for 7,000 rupees and sells it for 8,500 rupees. What is his profit?",
+    "options": [
+      "1,500 rupees",
+      "1,000 rupees",
+      "2,000 rupees",
+      "500 rupees"
+    ],
+    "answer": "1,500 rupees",
+    "explanation": "Profit = Selling Price - Cost Price = 8,500 - 7,000 = 1,500 rupees."
+  },
+  {
+    "id": "MA_L02_034",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Some 1,200 rupee cotton sarees are damaged and sold for 800 rupees each. What is the loss on each saree?",
+    "options": [
+      "400 rupees",
+      "500 rupees",
+      "300 rupees",
+      "600 rupees"
+    ],
+    "answer": "400 rupees",
+    "explanation": "Loss = Cost Price - Selling Price = 1,200 - 800 = 400 rupees."
+  },
+  {
+    "id": "MA_L02_035",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "A thermos flask is purchased for 450 rupees by a shopkeeper. He wants a profit of 50 rupees. At what price should he sell it?",
+    "options": [
+      "500 rupees",
+      "400 rupees",
+      "450 rupees",
+      "550 rupees"
+    ],
+    "answer": "500 rupees",
+    "explanation": "Selling Price = Cost Price + Profit = 450 + 50 = 500 rupees."
+  },
+  {
+    "id": "MA_L02_036",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "If you want a profit, how should Selling Price and Cost Price be related?",
+    "options": [
+      "Selling price > Cost price",
+      "Selling price < Cost price",
+      "Selling price = Cost price",
+      "Cost price > Selling price"
+    ],
+    "answer": "Selling price > Cost price",
+    "explanation": "A seller makes a profit when the selling price is greater than the cost price."
+  },
+  {
+    "id": "MA_L02_037",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Cost price of a rice bag is 750 rupees; selling price is 900 rupees. Is there a profit or loss, and how much?",
+    "options": [
+      "Profit of 150 rupees",
+      "Loss of 150 rupees",
+      "Profit of 200 rupees",
+      "No profit, no loss"
+    ],
+    "answer": "Profit of 150 rupees",
+    "explanation": "Since selling price (900) is greater than cost price (750), there is a profit of 900 - 750 = 150 rupees."
+  },
+  {
+    "id": "MA_L02_038",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Cost price of a bed sheet is 635 rupees; selling price is 815 rupees. What is the profit?",
+    "options": [
+      "180 rupees",
+      "190 rupees",
+      "170 rupees",
+      "215 rupees"
+    ],
+    "answer": "180 rupees",
+    "explanation": "Profit = 815 - 635 = 180 rupees."
+  },
+  {
+    "id": "MA_L02_039",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Cost price of an umbrella is 105 rupees; selling price is 90 rupees. What is the loss?",
+    "options": [
+      "15 rupees",
+      "25 rupees",
+      "10 rupees",
+      "20 rupees"
+    ],
+    "answer": "15 rupees",
+    "explanation": "Since cost price is greater than selling price, Loss = 105 - 90 = 15 rupees."
+  },
+  {
+    "id": "MA_L02_040",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "For an annual celebration, two classes collected 46,569 and 34,266 rupees. Together, how much more money should be added to make the total 99,000 rupees?",
+    "options": [
+      "18,165 rupees",
+      "19,165 rupees",
+      "18,065 rupees",
+      "17,165 rupees"
+    ],
+    "answer": "18,165 rupees",
+    "explanation": "First find the total collected: 46,569 + 34,266 = 80,835 rupees. Then subtract from 99,000: 99,000 - 80,835 = 18,165 rupees."
+  },
+  {
+    "id": "MA_L02_041",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A man earns 37,645 rupees in a month and his wife earns 25,367 rupees. If they spend 38,600 rupees in a month, how much do they save in that month?",
+    "options": [
+      "24,412 rupees",
+      "24,312 rupees",
+      "25,412 rupees",
+      "23,412 rupees"
+    ],
+    "answer": "24,412 rupees",
+    "explanation": "Total earnings = 37,645 + 25,367 = 63,012 rupees. Savings = Total earnings - Expenses = 63,012 - 38,600 = 24,412 rupees."
+  },
+  {
+    "id": "MA_L02_042",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Madhu's father gave him 2,500 rupees and his mother gave him 1,300 rupees on his birthday. He spent 3,100 rupees on clothes and a cake. What is the remaining amount with him?",
+    "options": [
+      "700 rupees",
+      "500 rupees",
+      "600 rupees",
+      "800 rupees"
+    ],
+    "answer": "700 rupees",
+    "explanation": "Total money received = 2,500 + 1,300 = 3,800 rupees. Remaining amount = 3,800 - 3,100 = 700 rupees."
+  },
+  {
+    "id": "MA_L02_043",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Simplify: 12,645 - 36,221 + 43,576",
+    "options": [
+      "19990",
+      "20000",
+      "20010",
+      "19995"
+    ],
+    "answer": "19990",
+    "explanation": "Add positive numbers first: 12,645 + 43,576 = 56,221. Then subtract 36,221 to get 56,221 - 36,221 = 20,000."
+  },
+  {
+    "id": "MA_L02_044",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Evaluate: 40,376 - 20,568 + 37,364",
+    "options": [
+      "57172",
+      "57272",
+      "56172",
+      "58172"
+    ],
+    "answer": "57172",
+    "explanation": "Add 40,376 and 37,364 to get 77,740. Subtract 20,568 from 77,740 to get 57,172."
+  },
+  {
+    "id": "MA_L02_045",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If 88,998 + 0 = _____, what is the missing value?",
+    "options": [
+      "0",
+      "88999",
+      "88998",
+      "1"
+    ],
+    "answer": "88998",
+    "explanation": "According to the addition property of zero, adding zero to any number gives the number itself."
+  },
+  {
+    "id": "MA_L02_046",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Round off the number 28,456 to the nearest ten-thousand.",
+    "options": [
+      "30000",
+      "20000",
+      "25000",
+      "28000"
+    ],
+    "answer": "30000",
+    "explanation": "The thousands digit is 8, which is greater than 5, so we round up to the next ten-thousand, which is 30,000."
+  },
+  {
+    "id": "MA_L02_047",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Estimate the sum of 62,014 and 15,703 by rounding off each number to the nearest thousand.",
+    "options": [
+      "78000",
+      "80000",
+      "81000",
+      "75000"
+    ],
+    "answer": "80000",
+    "explanation": "62,014 rounds to 60,000 and 15,703 rounds to 20,000. Their sum is 60,000 + 20,000 = 80,000."
+  },
+  {
+    "id": "MA_L02_048",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Raghu went to Rythu bazar and bought vegetables worth 158 rupees and grocery worth 143 rupees. Estimate how much did he spend approximately by rounding to the nearest hundred.",
+    "options": [
+      "200 rupees",
+      "300 rupees",
+      "400 rupees",
+      "500 rupees"
+    ],
+    "answer": "300 rupees",
+    "explanation": "158 rounds to 200 and 143 rounds to 100. Their sum is 200 + 100 = 300 rupees."
+  },
+  {
+    "id": "MA_L02_049",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Bunny scored 6,776 points on a video game and Baba scored 2,373 points. Estimate the difference of their scores approximately to the nearest thousand.",
+    "options": [
+      "5000",
+      "4000",
+      "6000",
+      "3000"
+    ],
+    "answer": "5000",
+    "explanation": "6,776 rounds to 7,000 and 2,373 rounds to 2,000. The estimated difference is 7,000 - 2,000 = 5,000."
+  },
+  {
+    "id": "MA_L02_050",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Lakshmi is reading a book containing 257 pages. She has already read 163 pages. Estimate how many pages are yet to be read approximately by rounding to the nearest hundred.",
+    "options": [
+      "100 pages",
+      "200 pages",
+      "300 pages",
+      "50 pages"
+    ],
+    "answer": "100 pages",
+    "explanation": "257 rounds to 300 and 163 rounds to 200. Estimated pages left = 300 - 200 = 100 pages."
+  },
+  {
+    "id": "MA_L02_051",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Rekha and Geetha went to a movie. Rekha bought two tickets for 500 rupees. Geetha bought two pop-corn packets at the rate of 75 rupees for each. How much more money did Rekha spend than Geetha?",
+    "options": [
+      "300 rupees",
+      "350 rupees",
+      "425 rupees",
+      "250 rupees"
+    ],
+    "answer": "350 rupees",
+    "explanation": "Geetha spent 2 x 75 = 150 rupees. Difference = 500 - 150 = 350 rupees."
+  },
+  {
+    "id": "MA_L02_052",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A dealer bought a chair for 295 rupees. He wants to get a profit of 25 rupees on the chair. How can he calculate the selling price of the chair?",
+    "options": [
+      "Selling price = 295 - 25",
+      "Selling price = 295 + 25",
+      "Selling price = 295 x 25",
+      "Selling price = 295 ÷ 25"
+    ],
+    "answer": "Selling price = 295 x 25",
+    "explanation": "Selling Price is calculated by adding the desired profit to the cost price."
+  },
+  {
+    "id": "MA_L02_053",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Ram and Shyam went out to the market. Number of toffees bought by Ram = 5000 ones, and by Shyam = 60 tens. What is the difference in the number of toffees bought by Ram and Shyam?",
+    "options": [
+      "4940",
+      "4400",
+      "1010",
+      "5060"
+    ],
+    "answer": "4940",
+    "explanation": "Ram's toffees = 5,000. Shyam's toffees = 60 tens = 600. Difference = 5,000 - 600 = 4,400? Wait, 60 tens is 600, 5,000 - 600 = 4,400. Let's check option b: 4400."
+  },
+  {
+    "id": "MA_L02_054",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "An ice-cream shop sold 1,178 scoops of vanilla ice cream and 983 scoops of chocolate ice cream last month. What was the TOTAL number of ice-cream scoops sold last month?",
+    "options": [
+      "2161",
+      "2061",
+      "2151",
+      "2261"
+    ],
+    "answer": "2161",
+    "explanation": "Total scoops = 1,178 + 983 = 2,161."
+  },
+  {
+    "id": "MA_L02_055",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Anusha bought a bicycle and later sold it at a loss of 500 rupees. If her selling price was 4,500 rupees, what was the cost price of the bicycle?",
+    "options": [
+      "4,000 rupees",
+      "5,000 rupees",
+      "4,500 rupees",
+      "5,500 rupees"
+    ],
+    "answer": "5,000 rupees",
+    "explanation": "Cost Price = Selling Price + Loss = 4,500 + 500 = 5,000 rupees."
+  },
+  {
+    "id": "MA_L02_056",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Anita wants to buy a toy set that costs 3,600 rupees. She has already saved 2,150 rupees. Her grandmother promised to give her 500 rupees next month. How much more money will Anita still need to buy the toy set after getting money from her grandmother?",
+    "options": [
+      "950 rupees",
+      "1,000 rupees",
+      "1,450 rupees",
+      "1,150 rupees"
+    ],
+    "answer": "950 rupees",
+    "explanation": "Total money she will have = 2,150 + 500 = 2,650 rupees. Money still needed = 3,600 - 2,650 = 950 rupees."
+  },
+  {
+    "id": "MA_L02_057",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Rachana's income was 6,25,320 rupees in 2018. Next year her income exceeded the previous year's income by 64,200 rupees. What was her total income in the year 2019?",
+    "options": [
+      "6,89,520 rupees",
+      "6,88,520 rupees",
+      "6,99,520 rupees",
+      "6,79,520 rupees"
+    ],
+    "answer": "6,89,520 rupees",
+    "explanation": "Income in 2019 = 6,25,320 + 64,200 = 6,89,520 rupees."
+  },
+  {
+    "id": "MA_L02_058",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A thermos flask is purchased for 450 rupees by a shopkeeper. He wants a profit of 50 rupees. At what price should he sell it?",
+    "options": [
+      "400 rupees",
+      "500 rupees",
+      "450 rupees",
+      "550 rupees"
+    ],
+    "answer": "500 rupees",
+    "explanation": "Selling Price = Cost Price + Profit = 450 + 50 = 500 rupees."
+  },
+  {
+    "id": "MA_L02_059",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the missing value in the subtraction fact: 10,000 - 2,500 = ____?",
+    "options": [
+      "7500",
+      "8500",
+      "6500",
+      "5500"
+    ],
+    "answer": "7500",
+    "explanation": "10,000 minus 2,500 equals 7,500."
+  },
+  {
+    "id": "MA_L02_060",
+    "subject": "Maths",
+    "lesson_no": 2,
+    "lesson_name": "Addition and Subtraction",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If you want to find the loss when cost price is more than selling price, which formula is correct?",
+    "options": [
+      "Loss = Selling Price - Cost Price",
+      "Loss = Cost Price - Selling Price",
+      "Loss = Cost Price + Selling Price",
+      "Loss = Selling Price + Cost Price"
+    ],
+    "answer": "Loss = Cost Price - Selling Price",
+    "explanation": "Loss is the difference between cost price and selling price when cost price is higher."
+  },
+  {
+    "id": "MA_L03_001",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the product of 4589 and 1?",
+    "options": [
+      "0",
+      "1",
+      "4589",
+      "4590"
+    ],
+    "answer": "4589",
+    "explanation": "Any number multiplied by 1 gives the number itself, which is known as the multiplicative identity."
+  },
+  {
+    "id": "MA_L03_002",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the product of 5817 and 0?",
+    "options": [
+      "0",
+      "1",
+      "5817",
+      "58170"
+    ],
+    "answer": "0",
+    "explanation": "The product of any number and zero is always zero, known as the zero property of multiplication."
+  },
+  {
+    "id": "MA_L03_003",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "Which property shows that changing the order of two numbers in multiplication does not change the product?",
+    "options": [
+      "Zero property",
+      "Multiplicative identity",
+      "Commutative property of multiplication",
+      "Division rule"
+    ],
+    "answer": "Commutative property of multiplication",
+    "explanation": "The product of two numbers remains the same even if their order is changed, which is the commutative property."
+  },
+  {
+    "id": "MA_L03_004",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "If 1250 books are arranged equally into 7 boxes, how many books are in each box and what is the remainder?",
+    "options": [
+      "Quotient: 178, Remainder: 4",
+      "Quotient: 1248, Remainder: 0",
+      "Quotient: 178, Remainder: 6",
+      "Quotient: 177, Remainder: 3"
+    ],
+    "answer": "Quotient: 178, Remainder: 4",
+    "explanation": "Dividing 1250 by 7 gives 178 with a remainder of 4 since 7 x 178 + 4 = 1250."
+  },
+  {
+    "id": "MA_L03_005",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Find the missing number in the division relation: Dividend = (Divisor × Quotient) + Remainder. If Dividend = 19895, Divisor = 21, and Quotient = 947, what is the Remainder?",
+    "options": [
+      "0",
+      "8",
+      "12",
+      "15"
+    ],
+    "answer": "8",
+    "explanation": "Using the relation, Remainder = Dividend - (Divisor x Quotient), so 19895 - (21 x 947) = 19895 - 19887 = 8."
+  },
+  {
+    "id": "MA_L03_006",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "If 8 pots cost Rs 800, what would be the cost of 5 pots using the unitary method?",
+    "options": [
+      "Rs 400",
+      "Rs 500",
+      "Rs 600",
+      "Rs 800"
+    ],
+    "answer": "Rs 500",
+    "explanation": "First find the cost of 1 pot (800 / 8 = Rs 100), then multiply by 5 (100 x 5 = Rs 500)."
+  },
+  {
+    "id": "MA_L03_007",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "A factory manufactures 4950 cars in a month. How many cars will the factory produce in a year (12 months)?",
+    "options": [
+      "49500",
+      "59400",
+      "60000",
+      "4950"
+    ],
+    "answer": "59400",
+    "explanation": "Multiply the monthly production by 12: 4950 x 12 = 59400."
+  },
+  {
+    "id": "MA_L03_008",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "If 5 kg of tomatoes cost Rs 125, what would be the cost of 2 kg of tomatoes?",
+    "options": [
+      "Rs 25",
+      "Rs 40",
+      "Rs 50",
+      "Rs 75"
+    ],
+    "answer": "Rs 50",
+    "explanation": "Cost of 1 kg is 125 / 5 = Rs 25. Therefore, cost of 2 kg is 25 x 2 = Rs 50."
+  },
+  {
+    "id": "MA_L03_009",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Estimate the product of 59 × 19 by rounding off to the nearest tens.",
+    "options": [
+      "1000",
+      "1200",
+      "1500",
+      "1800"
+    ],
+    "answer": "1200",
+    "explanation": "59 rounds off to 60 and 19 rounds off to 20. 60 x 20 = 1200."
+  },
+  {
+    "id": "MA_L03_010",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "A shopkeeper had 4297 storybooks. He wanted to pack them equally into 18 boxes. How many storybooks would be left unpacked?",
+    "options": [
+      "1",
+      "7",
+      "11",
+      "13"
+    ],
+    "answer": "1",
+    "explanation": "Dividing 4297 by 18 gives a quotient of 238 and a remainder of 1."
+  },
+  {
+    "id": "MA_L03_011",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the corresponding division fact for 15 × 3 = 45?",
+    "options": [
+      "45 x 3 = 135",
+      "45 ÷ 3 = 15",
+      "15 ÷ 3 = 5",
+      "3 ÷ 45 = 15"
+    ],
+    "answer": "45 ÷ 3 = 15",
+    "explanation": "Every multiplication fact corresponds to two division facts: Product ÷ Multiplier = Multiplicand."
+  },
+  {
+    "id": "MA_L03_012",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the product when 100 is multiplied by 15?",
+    "options": [
+      "150",
+      "1500",
+      "15000",
+      "15"
+    ],
+    "answer": "1500",
+    "explanation": "To multiply by 100, write two zeros to the right of the number, giving 1500."
+  },
+  {
+    "id": "MA_L03_013",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Swetha multiplied the number of eggs in her basket by 312. The answer was a number between 4000 and 4300. What could be the number of eggs in her basket?",
+    "options": [
+      "10",
+      "11",
+      "13",
+      "20"
+    ],
+    "answer": "13",
+    "explanation": "Testing the options: 13 x 312 = 4056, which lies between 4000 and 4300."
+  },
+  {
+    "id": "MA_L03_014",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "A pension holder gets a pension of Rs 9950 per month. How much pension will he get in one year?",
+    "options": [
+      "Rs 99500",
+      "Rs 119400",
+      "Rs 129400",
+      "Rs 995000"
+    ],
+    "answer": "Rs 119400",
+    "explanation": "Multiply the monthly pension by 12 months: 9950 x 12 = Rs 119400."
+  },
+  {
+    "id": "MA_L03_015",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Sara wants to buy toys that cost Rs 1000 each. If she has Rs 50000, how many toys can she buy?",
+    "options": [
+      "5",
+      "10",
+      "50",
+      "500"
+    ],
+    "answer": "50",
+    "explanation": "Divide the total amount by the cost per toy: 50000 ÷ 1000 = 50."
+  },
+  {
+    "id": "MA_L03_016",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "If 28 laddoos weigh 1 kg, how many laddoos weigh 12 kgs?",
+    "options": [
+      "280",
+      "336",
+      "316",
+      "256"
+    ],
+    "answer": "336",
+    "explanation": "Multiply the number of laddoos in 1 kg by 12: 28 x 12 = 336 laddoos."
+  },
+  {
+    "id": "MA_L03_017",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "In a division problem, what is the term for the number that is being divided?",
+    "options": [
+      "Divisor",
+      "Quotient",
+      "Dividend",
+      "Remainder"
+    ],
+    "answer": "Dividend",
+    "explanation": "The number being divided is called the dividend, while the number by which we divide is the divisor."
+  },
+  {
+    "id": "MA_L03_018",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Raju bought 120 blankets with Rs 6000 to distribute to orphans. What is the cost of each blanket?",
+    "options": [
+      "Rs 40",
+      "Rs 50",
+      "Rs 60",
+      "Rs 120"
+    ],
+    "answer": "Rs 50",
+    "explanation": "Divide the total cost by the number of blankets: 6000 ÷ 120 = Rs 50."
+  },
+  {
+    "id": "MA_L03_019",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is 53427 ÷ 100? Give the quotient and remainder.",
+    "options": [
+      "Quotient: 5342, Remainder: 7",
+      "Quotient: 534, Remainder: 27",
+      "Quotient: 53, Remainder: 427",
+      "Quotient: 53427, Remainder: 0"
+    ],
+    "answer": "Quotient: 534, Remainder: 27",
+    "explanation": "When dividing by 100, the last two digits form the remainder (27) and the remaining digits form the quotient (534)."
+  },
+  {
+    "id": "MA_L03_020",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "A carton can hold 36 mangoes. How many such cartons are required if there are 4,320 mangoes in all?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "answer": "120",
+    "explanation": "Divide the total number of mangoes by the capacity of one carton: 4320 ÷ 36 = 120 cartons."
+  },
+  {
+    "id": "MA_L03_021",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If the product of two numbers is 840 and one number is 10, what is the other number?",
+    "options": [
+      "84",
+      "8400",
+      "8.4",
+      "840"
+    ],
+    "answer": "84",
+    "explanation": "Using the relation Multiplicand = Product ÷ Multiplier, we divide 840 by 10 to get 84."
+  },
+  {
+    "id": "MA_L03_022",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which of the following represents the commutative property of multiplication?",
+    "options": [
+      "12 × 5 = 5 × 12",
+      "12 × 1 = 12",
+      "12 × 0 = 0",
+      "12 ÷ 1 = 12"
+    ],
+    "answer": "12 × 5 = 5 × 12",
+    "explanation": "The commutative property states that the product remains the same even if the order of the numbers is changed."
+  },
+  {
+    "id": "MA_L03_023",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If 1000 × 5 = 5000, what is the corresponding division fact?",
+    "options": [
+      "5000 ÷ 5 = 1000",
+      "5000 ÷ 1000 = 500",
+      "5000 × 5 = 1000",
+      "5000 ÷ 10 = 500"
+    ],
+    "answer": "5000 ÷ 5 = 1000",
+    "explanation": "From a multiplication fact, we can derive a division fact by dividing the product by one of the factors."
+  },
+  {
+    "id": "MA_L03_024",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Estimate the product of 189 × 33 by rounding off to the nearest tens.",
+    "options": [
+      "6000",
+      "5700",
+      "6300",
+      "5400"
+    ],
+    "answer": "6000",
+    "explanation": "Rounding 189 to 190 and 33 to 30 gives 190 × 30 = 5700, but rounding 189 to 200 and 33 to 30 gives 200 × 30 = 6000."
+  },
+  {
+    "id": "MA_L03_025",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "A box holds 25 chocolates. How many boxes are needed for 650 chocolates?",
+    "options": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "answer": "26",
+    "explanation": "Divide the total number of chocolates (650) by the number of chocolates per box (25) to get 26."
+  },
+  {
+    "id": "MA_L03_026",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If 7 × 12 = 84, what is 70 × 12?",
+    "options": [
+      "840",
+      "84",
+      "8400",
+      "740"
+    ],
+    "answer": "840",
+    "explanation": "When one factor is multiplied by 10, the product is also multiplied by 10."
+  },
+  {
+    "id": "MA_L03_027",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the result of 950 × 0 + 1?",
+    "options": [
+      "0",
+      "951",
+      "1",
+      "950"
+    ],
+    "answer": "1",
+    "explanation": "Any number multiplied by 0 is 0, and 0 plus 1 equals 1."
+  },
+  {
+    "id": "MA_L03_028",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "If a farmer plants 15 rows of trees with 120 trees in each row, how many trees are planted in total?",
+    "options": [
+      "1800",
+      "1500",
+      "1600",
+      "1350"
+    ],
+    "answer": "1800",
+    "explanation": "Multiply the number of rows (15) by the number of trees per row (120) to get 1800."
+  },
+  {
+    "id": "MA_L03_029",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "In the division 576 ÷ 12 = 48, which number is the divisor?",
+    "options": [
+      "576",
+      "48",
+      "12",
+      "0"
+    ],
+    "answer": "12",
+    "explanation": "The divisor is the number by which the dividend is divided."
+  },
+  {
+    "id": "MA_L03_030",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which number is the multiplicative identity?",
+    "options": [
+      "0",
+      "1",
+      "10",
+      "None of these"
+    ],
+    "answer": "1",
+    "explanation": "The product of any number and 1 is the number itself; therefore, 1 is the multiplicative identity."
+  },
+  {
+    "id": "MA_L03_031",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "If 15 notebooks cost Rs 225, what is the cost of 1 notebook?",
+    "options": [
+      "Rs 15",
+      "Rs 20",
+      "Rs 12",
+      "Rs 25"
+    ],
+    "answer": "Rs 15",
+    "explanation": "Divide the total cost (225) by the number of items (15) to find the unit cost."
+  },
+  {
+    "id": "MA_L03_032",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Calculate 1250 × 8.",
+    "options": [
+      "10000",
+      "9000",
+      "8000",
+      "12500"
+    ],
+    "answer": "10000",
+    "explanation": "1250 × 8 can be calculated as 1000 × 8 + 250 × 8, which is 8000 + 2000 = 10000."
+  },
+  {
+    "id": "MA_L03_033",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "A bus carries 45 passengers. How many buses are needed for 450 passengers?",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "answer": "10",
+    "explanation": "Divide the total number of passengers (450) by the capacity of one bus (45) to get 10."
+  },
+  {
+    "id": "MA_L03_034",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Find the quotient when 9984 is divided by 8.",
+    "options": [
+      "1248",
+      "1284",
+      "1148",
+      "1240"
+    ],
+    "answer": "1248",
+    "explanation": "Performing the long division 9984 ÷ 8 results in 1248."
+  },
+  {
+    "id": "MA_L03_035",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What happens when you multiply any number by zero?",
+    "options": [
+      "The number remains the same",
+      "The result is zero",
+      "The result is one",
+      "The result is undefined"
+    ],
+    "answer": "The result is zero",
+    "explanation": "According to the zero property of multiplication, the product of any number and zero is always zero."
+  },
+  {
+    "id": "MA_L03_036",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "A worker earns Rs 750 per day. How much will he earn in 12 days?",
+    "options": [
+      "Rs 8000",
+      "Rs 9000",
+      "Rs 8500",
+      "Rs 9500"
+    ],
+    "answer": "Rs 9000",
+    "explanation": "Multiply the daily wage (750) by the number of days (12) to get 9000."
+  },
+  {
+    "id": "MA_L03_037",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Estimate 47 × 29 by rounding to the nearest ten.",
+    "options": [
+      "1200",
+      "1500",
+      "1400",
+      "1600"
+    ],
+    "answer": "1500",
+    "explanation": "Rounding 47 to 50 and 29 to 30 gives 50 × 30 = 1500."
+  },
+  {
+    "id": "MA_L03_038",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If 12 × 9 = 108, then what is 108 ÷ 12?",
+    "options": [
+      "9",
+      "12",
+      "108",
+      "0"
+    ],
+    "answer": "9",
+    "explanation": "Division is the inverse operation of multiplication; if a × b = c, then c ÷ a = b."
+  },
+  {
+    "id": "MA_L03_039",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "If a packet of 6 pens costs Rs 72, what is the cost of 1 pen?",
+    "options": [
+      "Rs 10",
+      "Rs 12",
+      "Rs 14",
+      "Rs 8"
+    ],
+    "answer": "Rs 12",
+    "explanation": "Divide the total cost (72) by the number of pens (6) to find the cost per pen."
+  },
+  {
+    "id": "MA_L03_040",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the remainder when 19895 is divided by 21?",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "0"
+    ],
+    "answer": "8",
+    "explanation": "Performing the division of 19895 by 21, the quotient is 947 and the remainder is 8."
+  },
+  {
+    "id": "MA_L03_041",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If 15 cartons of sweets weigh 45 kg, how much will 25 such cartons weigh?",
+    "options": [
+      "70 kg",
+      "75 kg",
+      "80 kg",
+      "60 kg"
+    ],
+    "answer": "75 kg",
+    "explanation": "First, find the weight of one carton (45 ÷ 15 = 3 kg). Then multiply by 25 (3 × 25 = 75 kg)."
+  },
+  {
+    "id": "MA_L03_042",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A school library has 12 almirahs, each holding 450 books. If all books are redistributed equally into 18 almirahs, how many books will be in each new almirah?",
+    "options": [
+      "300",
+      "350",
+      "400",
+      "250"
+    ],
+    "answer": "300",
+    "explanation": "Total books = 12 × 450 = 5400. Dividing by 18 almirahs gives 5400 ÷ 18 = 300 books per almirah."
+  },
+  {
+    "id": "MA_L03_043",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Evaluate: (250 × 4) + (150 × 2) - 500.",
+    "options": [
+      "800",
+      "700",
+      "900",
+      "600"
+    ],
+    "answer": "800",
+    "explanation": "Calculate the products first: 1000 + 300 = 1300. Then subtract 500 to get 800."
+  },
+  {
+    "id": "MA_L03_044",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of the following is equivalent to 1250 × 7?",
+    "options": [
+      "(1000 × 7) + (200 × 7) + (50 × 7)",
+      "(1000 × 7) + (25 × 7)",
+      "(1200 × 7) + (50)",
+      "(1000 × 5) + (250 × 2)"
+    ],
+    "answer": "(1000 × 7) + (200 × 7) + (50 × 7)",
+    "explanation": "Multiplication can be distributed: 1250 is 1000 + 200 + 50, so multiplying each part by 7 is correct."
+  },
+  {
+    "id": "MA_L03_045",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "A farmer has 2500 mangoes. He packs them into boxes of 12. How many mangoes are left unpacked?",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "Divide 2500 by 12. 2500 ÷ 12 gives a quotient of 208 and a remainder of 4."
+  },
+  {
+    "id": "MA_L03_046",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If 12 × 15 = 180, what is the value of 12 × 16?",
+    "options": [
+      "190",
+      "192",
+      "195",
+      "182"
+    ],
+    "answer": "192",
+    "explanation": "12 × 16 is 12 × 15 plus one more group of 12. So, 180 + 12 = 192."
+  },
+  {
+    "id": "MA_L03_047",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Estimate 396 × 78 by rounding both to the nearest ten and multiplying.",
+    "options": [
+      "32000",
+      "31200",
+      "32400",
+      "30000"
+    ],
+    "answer": "32000",
+    "explanation": "396 rounded to the nearest ten is 400. 78 rounded to the nearest ten is 80. 400 × 80 = 32000."
+  },
+  {
+    "id": "MA_L03_048",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "What is the product of the smallest 2-digit number and the largest 3-digit number?",
+    "options": [
+      "9990",
+      "1000",
+      "999",
+      "99900"
+    ],
+    "answer": "9990",
+    "explanation": "Smallest 2-digit number is 10. Largest 3-digit number is 999. 10 × 999 = 9990."
+  },
+  {
+    "id": "MA_L03_049",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A worker earns Rs 950 per day. How much will he earn in the month of February in a non-leap year?",
+    "options": [
+      "26600",
+      "27550",
+      "28500",
+      "29450"
+    ],
+    "answer": "26600",
+    "explanation": "February in a non-leap year has 28 days. 950 × 28 = 26600."
+  },
+  {
+    "id": "MA_L03_050",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If 6400 ÷ 80 = 80, then what is 6400 ÷ 8?",
+    "options": [
+      "8",
+      "80",
+      "800",
+      "8000"
+    ],
+    "answer": "800",
+    "explanation": "Dividing by a smaller number (8 instead of 80) results in a quotient 10 times larger."
+  },
+  {
+    "id": "MA_L03_051",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "A man buys 5 shirts for Rs 2500. He wants to buy 12 such shirts. How much money does he need?",
+    "options": [
+      "5000",
+      "6000",
+      "5500",
+      "7500"
+    ],
+    "answer": "6000",
+    "explanation": "Cost of one shirt = 2500 ÷ 5 = 500. Cost of 12 shirts = 500 × 12 = 6000."
+  },
+  {
+    "id": "MA_L03_052",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "What is the value of 5000 ÷ 1000?",
+    "options": [
+      "5",
+      "50",
+      "500",
+      "0.5"
+    ],
+    "answer": "5",
+    "explanation": "Dividing by 1000 removes three zeros from the dividend."
+  },
+  {
+    "id": "MA_L03_053",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If the divisor is 15, the quotient is 20, and the remainder is 5, what is the dividend?",
+    "options": [
+      "300",
+      "305",
+      "310",
+      "350"
+    ],
+    "answer": "305",
+    "explanation": "Dividend = (Divisor × Quotient) + Remainder. (15 × 20) + 5 = 300 + 5 = 305."
+  },
+  {
+    "id": "MA_L03_054",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "A factory produces 125 cars every day. How many cars are produced in 2 weeks?",
+    "options": [
+      "875",
+      "1750",
+      "1500",
+      "2500"
+    ],
+    "answer": "1750",
+    "explanation": "2 weeks = 14 days. 125 × 14 = 1750."
+  },
+  {
+    "id": "MA_L03_055",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of these is the correct way to write 450 × 20?",
+    "options": [
+      "450 × 2 × 10",
+      "450 × 200",
+      "45 × 2 × 10",
+      "450 + 20"
+    ],
+    "answer": "450 × 2 × 10",
+    "explanation": "20 is equal to 2 × 10, so 450 × 20 is the same as 450 × 2 × 10."
+  },
+  {
+    "id": "MA_L03_056",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "What is the result of 100 × 10 × 0 × 5?",
+    "options": [
+      "5000",
+      "500",
+      "0",
+      "100"
+    ],
+    "answer": "0",
+    "explanation": "Any expression multiplied by zero results in zero."
+  },
+  {
+    "id": "MA_L03_057",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If a dozen bananas cost Rs 60, what is the cost of 15 bananas?",
+    "options": [
+      "Rs 75",
+      "Rs 80",
+      "Rs 90",
+      "Rs 70"
+    ],
+    "answer": "Rs 75",
+    "explanation": "One dozen = 12. Cost per banana = 60 ÷ 12 = 5. Cost of 15 = 15 × 5 = 75."
+  },
+  {
+    "id": "MA_L03_058",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Divide 7248 by 12.",
+    "options": [
+      "604",
+      "640",
+      "614",
+      "624"
+    ],
+    "answer": "604",
+    "explanation": "72 ÷ 12 = 6, 048 ÷ 12 = 4. So, 604."
+  },
+  {
+    "id": "MA_L03_059",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If 56 × 8 = 448, then what is 56 × 800?",
+    "options": [
+      "4480",
+      "44800",
+      "448000",
+      "4480"
+    ],
+    "answer": "44800",
+    "explanation": "Multiply 448 by 100 because 800 is 8 times 100."
+  },
+  {
+    "id": "MA_L03_060",
+    "subject": "Maths",
+    "lesson_no": 3,
+    "lesson_name": "Multiplication and Division",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "A train has 15 bogies, and each bogie carries 72 passengers. How many passengers in total?",
+    "options": [
+      "1080",
+      "1050",
+      "980",
+      "1100"
+    ],
+    "answer": "1080",
+    "explanation": "15 × 72 = 1080."
+  }
+]

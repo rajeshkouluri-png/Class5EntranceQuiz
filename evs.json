@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "EV_L01_001",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the movement of people from one place to another in search of a better livelihood called?",
+    "options": [
+      "Transportation",
+      "Communication",
+      "Migration",
+      "Occupation"
+    ],
+    "answer": "Migration",
+    "explanation": "Migration is defined as the movement of people from one place to another to find better living conditions or work."
+  },
+  {
+    "id": "EV_L01_002",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "Which of these is a natural reason for migration?",
+    "options": [
+      "Business opportunities",
+      "Natural calamities",
+      "Higher salary",
+      "Better schools"
+    ],
+    "answer": "Natural calamities",
+    "explanation": "Natural calamities like floods, cyclones, and droughts make life difficult, forcing people to move."
+  },
+  {
+    "id": "EV_L01_003",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What do we call a migration where people move for a short time and return to their own homes?",
+    "options": [
+      "Permanent migration",
+      "Temporary migration",
+      "Daily migration",
+      "Business migration"
+    ],
+    "answer": "Temporary migration",
+    "explanation": "Temporary migration involves moving for a short period, such as for a specific season, and then returning home."
+  },
+  {
+    "id": "EV_L01_004",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Why do some children who migrate with their parents stop going to school?",
+    "options": [
+      "Because they have too many friends",
+      "Because of family problems and lack of school access",
+      "Because they prefer working",
+      "Because they do not like studying"
+    ],
+    "answer": "Because of family problems and lack of school access",
+    "explanation": "Moving to a new place often creates challenges like family instability, which can prevent children from joining a new school."
+  },
+  {
+    "id": "EV_L01_005",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the main reason for the formation of slums in urban areas?",
+    "options": [
+      "Government planning",
+      "Rapid migration from rural to urban areas",
+      "Increase in forest areas",
+      "Building of big parks"
+    ],
+    "answer": "Rapid migration from rural to urban areas",
+    "explanation": "Rapid migration leads to overcrowding and a lack of proper facilities, which causes the formation of slum areas."
+  },
+  {
+    "id": "EV_L01_006",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is a family budget?",
+    "options": [
+      "A list of friends",
+      "A plan to spend income on needs and wants",
+      "A book about nature",
+      "A list of games to play"
+    ],
+    "answer": "A plan to spend income on needs and wants",
+    "explanation": "A family budget helps manage income by planning how much to spend on necessities and desires over time."
+  },
+  {
+    "id": "EV_L01_007",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Which of these is considered a 'need' rather than a 'want'?",
+    "options": [
+      "Sunglasses",
+      "Gold ornaments",
+      "Food",
+      "A car"
+    ],
+    "answer": "Food",
+    "explanation": "Needs are essential for survival, like food, while wants are desires that make life more comfortable."
+  },
+  {
+    "id": "EV_L01_008",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the primary goal of the 'Aatma-Nirbhar Bharat' programme mentioned in the lesson?",
+    "options": [
+      "To increase migration",
+      "To make India self-reliant",
+      "To encourage moving to cities",
+      "To stop all business"
+    ],
+    "answer": "To make India self-reliant",
+    "explanation": "Aatma-Nirbhar Bharat aims to reduce dependence on other countries by supporting local products and industries."
+  },
+  {
+    "id": "EV_L01_009",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "If a family spends more than their total income, what is the best financial action?",
+    "options": [
+      "Spend more on luxuries",
+      "Stop all savings",
+      "Follow a proper family budget",
+      "Move to a more expensive city"
+    ],
+    "answer": "Follow a proper family budget",
+    "explanation": "A family budget helps track expenses and ensures the family lives within their means."
+  },
+  {
+    "id": "EV_L01_010",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is a positive effect of migration for a family?",
+    "options": [
+      "Loss of school for children",
+      "Improvement in financial status",
+      "Overcrowding in cities",
+      "Loss of skilled people in villages"
+    ],
+    "answer": "Improvement in financial status",
+    "explanation": "Migration can help people earn more money, which improves the overall financial status of the family."
+  },
+  {
+    "id": "EV_L01_011",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What kind of birds are flamingos?",
+    "options": [
+      "Small green birds",
+      "Tall, pink birds that migrate",
+      "Flightless birds",
+      "Birds that only live in deserts"
+    ],
+    "answer": "Tall, pink birds that migrate",
+    "explanation": "Flamingos are tall, pink birds that migrate to safer areas when their lakes dry up or food becomes scarce."
+  },
+  {
+    "id": "EV_L01_012",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the main challenge faced by children of migrant families?",
+    "options": [
+      "They get too much money",
+      "They face the risk of becoming child labourers",
+      "They always find better schools",
+      "They never have to study"
+    ],
+    "answer": "They face the risk of becoming child labourers",
+    "explanation": "Economic pressure on migrant families often forces children to work instead of attending school, leading to child labour."
+  },
+  {
+    "id": "EV_L01_013",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "Which of these is a negative effect of migration on cities?",
+    "options": [
+      "Better infrastructure",
+      "Increased employment for everyone",
+      "Pollution and overcrowded conditions",
+      "Improvement in village life"
+    ],
+    "answer": "Pollution and overcrowded conditions",
+    "explanation": "Rapid migration puts pressure on city resources, leading to overcrowding and pollution."
+  },
+  {
+    "id": "EV_L01_014",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What does a pie chart represent in the context of a family budget?",
+    "options": [
+      "A list of recipes",
+      "The total number of family members",
+      "The proportions of different expenses",
+      "A map of the village"
+    ],
+    "answer": "The proportions of different expenses",
+    "explanation": "A pie chart is a circular graph used to show how a total income is divided into different sectors of expenditure."
+  },
+  {
+    "id": "EV_L01_015",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "Who is known as the 'Missile Man of India'?",
+    "options": [
+      "Mahatma Gandhi",
+      "A.P.J. Abdul Kalam",
+      "Jawaharlal Nehru",
+      "Sardar Patel"
+    ],
+    "answer": "A.P.J. Abdul Kalam",
+    "explanation": "A.P.J. Abdul Kalam is called the Missile Man of India for his contribution to India's missile development."
+  },
+  {
+    "id": "EV_L01_016",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What should the government do to stop migration from villages?",
+    "options": [
+      "Build more slums",
+      "Close all village schools",
+      "Strengthen economic activities in rural areas",
+      "Force people to stay"
+    ],
+    "answer": "Strengthen economic activities in rural areas",
+    "explanation": "By creating jobs and development in villages, the government can reduce the need for people to migrate for work."
+  },
+  {
+    "id": "EV_L01_017",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "What is the purpose of 'seasonal hostels' for children of migrant families?",
+    "options": [
+      "To provide holidays",
+      "To prevent school dropouts",
+      "To teach farming",
+      "To make them work"
+    ],
+    "answer": "To prevent school dropouts",
+    "explanation": "Seasonal hostels provide food and shelter to ensure migrant children continue their education instead of dropping out."
+  },
+  {
+    "id": "EV_L01_018",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Foundation",
+    "question": "If a family has an income of 10,000 and expenses of 12,000, what is the situation?",
+    "options": [
+      "They are saving money",
+      "They have a balanced budget",
+      "They are spending more than their income",
+      "They are becoming rich"
+    ],
+    "answer": "They are spending more than their income",
+    "explanation": "When expenses are higher than income, the family is spending more than they earn, which is not good for financial stability."
+  },
+  {
+    "id": "EV_L01_019",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Foundation",
+    "question": "Which of these is a reason for 'permanent migration'?",
+    "options": [
+      "Going on a short vacation",
+      "Elderly parents moving to live with their children forever",
+      "Moving for a one-month job",
+      "Moving during the rainy season only"
+    ],
+    "answer": "Elderly parents moving to live with their children forever",
+    "explanation": "Permanent migration happens when people leave their homes with no plan to return."
+  },
+  {
+    "id": "EV_L01_020",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Foundation",
+    "question": "What is the most important right every child has, regardless of where they live?",
+    "options": [
+      "The right to own a car",
+      "The right to get an education",
+      "The right to travel abroad",
+      "The right to work for money"
+    ],
+    "answer": "The right to get an education",
+    "explanation": "Education is a fundamental right for every child, and they should be supported to continue their studies even if they migrate."
+  },
+  {
+    "id": "EV_L01_021",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which of these is the most common reason for a family to migrate permanently?",
+    "options": [
+      "To visit a new city for a vacation",
+      "To live with children or relatives forever",
+      "To work for a few days during a harvest season",
+      "To escape a short-term rainstorm"
+    ],
+    "answer": "To live with children or relatives forever",
+    "explanation": "Permanent migration happens when people leave their homes with no plan to return, such as elderly parents moving to live with their children."
+  },
+  {
+    "id": "EV_L01_022",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If a family moves to a new city solely to earn money during the farming season and returns home afterward, what type of migration is this?",
+    "options": [
+      "Permanent migration",
+      "Educational migration",
+      "Seasonal migration",
+      "Forced migration"
+    ],
+    "answer": "Seasonal migration",
+    "explanation": "Seasonal migration refers to moving for a specific period of time, such as a season, and returning once the season changes."
+  },
+  {
+    "id": "EV_L01_023",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Which of the following is an example of a natural calamity that forces people to migrate?",
+    "options": [
+      "A new shopping mall opening",
+      "A severe drought causing crop failure",
+      "A new school being built",
+      "A relative getting married"
+    ],
+    "answer": "A severe drought causing crop failure",
+    "explanation": "Natural calamities like droughts, floods, and cyclones make life difficult in a place, forcing people to move for safety and survival."
+  },
+  {
+    "id": "EV_L01_024",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "Why does rapid migration from rural to urban areas often result in the formation of slums?",
+    "options": [
+      "Because cities have too many houses",
+      "Because urban areas have plenty of free land",
+      "Because of overcrowding and a lack of planned housing",
+      "Because people prefer living in tents"
+    ],
+    "answer": "Because of overcrowding and a lack of planned housing",
+    "explanation": "Rapid migration leads to overcrowding and a shortage of affordable housing, which forces people to live in unplanned, poor conditions known as slums."
+  },
+  {
+    "id": "EV_L01_025",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "In a family budget, which of these is considered a 'want' rather than a 'need'?",
+    "options": [
+      "Basic food",
+      "Electricity bills",
+      "Buying expensive jewelry",
+      "Rent for a house"
+    ],
+    "answer": "Buying expensive jewelry",
+    "explanation": "Needs are essential for survival, while wants are desires that make life comfortable but are not strictly necessary for survival."
+  },
+  {
+    "id": "EV_L01_026",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What is the primary purpose of creating a family budget?",
+    "options": [
+      "To spend all money on the first day",
+      "To keep track of income and control expenses",
+      "To avoid working hard",
+      "To move to a different city"
+    ],
+    "answer": "To keep track of income and control expenses",
+    "explanation": "A budget helps a family plan how to spend their income wisely on needs and wants to ensure they can save money."
+  },
+  {
+    "id": "EV_L01_027",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "If a family spends 12,000 but only earns 10,000 in a month, what is their financial status?",
+    "options": [
+      "They have savings",
+      "They are spending more than they earn",
+      "They have a balanced budget",
+      "They have no expenses"
+    ],
+    "answer": "They are spending more than they earn",
+    "explanation": "When expenses are higher than income, the family is spending more money than they have available."
+  },
+  {
+    "id": "EV_L01_028",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "How does the 'Make in India' programme aim to reduce migration?",
+    "options": [
+      "By forcing people to stay in villages",
+      "By creating more jobs and industries within the country",
+      "By closing down all city factories",
+      "By providing free transport to everyone"
+    ],
+    "answer": "By creating more jobs and industries within the country",
+    "explanation": "By encouraging local production and investment, more job opportunities are created, reducing the need for people to leave their homes for work."
+  },
+  {
+    "id": "EV_L01_029",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is a major negative impact of migration on the villages people leave behind?",
+    "options": [
+      "The village becomes too crowded",
+      "The village loses its skilled and educated people",
+      "The village gets more money from the government",
+      "The village stops having natural disasters"
+    ],
+    "answer": "The village loses its skilled and educated people",
+    "explanation": "When many people migrate, the village loses the workforce and talent needed for its own development."
+  },
+  {
+    "id": "EV_L01_030",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which of these is a positive outcome of migration for a family?",
+    "options": [
+      "Learning new languages and cultures",
+      "Losing all their friends",
+      "Living in a smaller house",
+      "Working harder for less pay"
+    ],
+    "answer": "Learning new languages and cultures",
+    "explanation": "Moving to a new place often exposes people to different cultures, languages, and new experiences, which is a positive effect."
+  },
+  {
+    "id": "EV_L01_031",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Why is it important to support children who have migrated with their parents?",
+    "options": [
+      "To make sure they do not play outside",
+      "To ensure they continue their education",
+      "To force them to work",
+      "To keep them away from their parents"
+    ],
+    "answer": "To ensure they continue their education",
+    "explanation": "Every child has the right to education, and supporting migrant children helps prevent them from becoming child labourers."
+  },
+  {
+    "id": "EV_L01_032",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "Look at the pie chart concept: If a family's budget shows a large sector for 'Luxuries' and a small sector for 'Savings', what does this imply?",
+    "options": [
+      "They are very rich",
+      "They are planning their finances perfectly",
+      "They are spending a lot on non-essential items instead of saving",
+      "They have no income"
+    ],
+    "answer": "They are spending a lot on non-essential items instead of saving",
+    "explanation": "A large portion spent on luxuries means less money is being saved for the future, which is not ideal financial planning."
+  },
+  {
+    "id": "EV_L01_033",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is the main reason flamingos migrate in large groups?",
+    "options": [
+      "To find lakes with plenty of food and suitable living conditions",
+      "To visit different countries for fun",
+      "To escape from other animals",
+      "Because they enjoy flying long distances"
+    ],
+    "answer": "To find lakes with plenty of food and suitable living conditions",
+    "explanation": "Birds like flamingos migrate to safer places with enough food and water when their original habitats dry up or lack resources."
+  },
+  {
+    "id": "EV_L01_034",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What does the 'Aatma-Nirbhar Bharat' programme aim to make India?",
+    "options": [
+      "Dependent on other countries",
+      "Self-reliant",
+      "A country with no industries",
+      "A country only for farmers"
+    ],
+    "answer": "Self-reliant",
+    "explanation": "The term Aatma-Nirbhar means self-reliant, and the programme aims to encourage local products and create better livelihoods within India."
+  },
+  {
+    "id": "EV_L01_035",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "What happens to the cost of living when many people move to a big city?",
+    "options": [
+      "It becomes cheaper to live",
+      "It becomes very expensive",
+      "It stays exactly the same",
+      "It disappears"
+    ],
+    "answer": "It becomes very expensive",
+    "explanation": "High demand for housing, food, and transport in crowded cities usually makes the cost of living higher."
+  },
+  {
+    "id": "EV_L01_036",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "Why are seasonal hostels provided by the government?",
+    "options": [
+      "To house tourists",
+      "To provide food and education to children of migrant families",
+      "To store government records",
+      "To help people find jobs"
+    ],
+    "answer": "To provide food and education to children of migrant families",
+    "explanation": "These hostels ensure that children of migrant families can continue their schooling and get proper care, preventing them from dropping out."
+  },
+  {
+    "id": "EV_L01_037",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Navodaya",
+    "question": "Which of the following best describes the life of a migrated labourer compared to their previous village life?",
+    "options": [
+      "Always easier and more comfortable",
+      "Often difficult due to high costs and uncertainty of work",
+      "Exactly the same as village life",
+      "Free of any financial worries"
+    ],
+    "answer": "Often difficult due to high costs and uncertainty of work",
+    "explanation": "While they might earn more, the higher cost of living and lack of community support make city life challenging for migrant labourers."
+  },
+  {
+    "id": "EV_L01_038",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What is a negative effect of migration on large cities?",
+    "options": [
+      "They become clean and quiet",
+      "They suffer from overcrowding and pollution",
+      "They have too many jobs for everyone",
+      "They become less populated"
+    ],
+    "answer": "They suffer from overcrowding and pollution",
+    "explanation": "Rapid population growth in cities leads to overcrowding, increased waste, and pollution, which affects the quality of life."
+  },
+  {
+    "id": "EV_L01_039",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Navodaya",
+    "question": "What lesson does A.P.J. Abdul Kalam's life teach us regarding poverty?",
+    "options": [
+      "Poverty is a permanent barrier to success",
+      "Hard work can help one overcome poverty and achieve success",
+      "One should stop studying if they are poor",
+      "Only wealthy people can become scientists"
+    ],
+    "answer": "Hard work can help one overcome poverty and achieve success",
+    "explanation": "Despite facing poverty as a child, he worked hard and became a famous scientist and the President of India, proving poverty is not a barrier to success."
+  },
+  {
+    "id": "EV_L01_040",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Navodaya",
+    "question": "Which of these is a basic need required for survival?",
+    "options": [
+      "Sunglasses",
+      "A luxury car",
+      "Food",
+      "A cable TV connection"
+    ],
+    "answer": "Food",
+    "explanation": "Food is a basic necessity for human survival, unlike luxuries like sunglasses or cable TV."
+  },
+  {
+    "id": "EV_L01_041",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "If a family spends 10,000 on rent, 5,000 on food, 2,000 on travel, and 3,000 on electricity, but their total monthly income is 18,000, what is their financial situation?",
+    "options": [
+      "They have a savings of 2,000",
+      "They are spending exactly what they earn",
+      "They are spending 2,000 more than they earn",
+      "They have a surplus of 3,000"
+    ],
+    "answer": "They are spending 2,000 more than they earn",
+    "explanation": "Total expenses are 10,000 + 5,000 + 2,000 + 3,000 = 20,000. Since income is 18,000, they are spending 2,000 more than their income."
+  },
+  {
+    "id": "EV_L01_042",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Which of the following scenarios best represents 'Permanent Migration'?",
+    "options": [
+      "A farmer moves to a nearby town for the harvest season",
+      "A family moves to a new city because their house was destroyed by a cyclone",
+      "An elderly couple moves to live with their children in a different state forever",
+      "A student goes to another city for a 3-month training course"
+    ],
+    "answer": "An elderly couple moves to live with their children in a different state forever",
+    "explanation": "Permanent migration involves leaving homes to live in a new place forever with no plan to return, unlike seasonal or temporary moves."
+  },
+  {
+    "id": "EV_L01_043",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Why does rapid urbanization caused by migration lead to the development of slums?",
+    "options": [
+      "Because urban areas have too many schools",
+      "Because of overcrowding and a scarcity of affordable housing and facilities",
+      "Because people prefer living in tents",
+      "Because the government builds houses only in villages"
+    ],
+    "answer": "Because of overcrowding and a scarcity of affordable housing and facilities",
+    "explanation": "Rapid migration leads to overcrowding and lack of resources, causing people to build temporary shelters known as slums."
+  },
+  {
+    "id": "EV_L01_044",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Consider the 'Make in India' and 'Aatma-Nirbhar Bharat' programmes. What is their shared goal regarding migration?",
+    "options": [
+      "To encourage more people to move to cities",
+      "To increase the cost of living",
+      "To create jobs in local areas to reduce the need for migration",
+      "To provide free transportation to migrant workers"
+    ],
+    "answer": "To create jobs in local areas to reduce the need for migration",
+    "explanation": "These programmes aim to make India self-reliant and create better livelihoods within the country, which helps reduce the necessity for people to migrate."
+  },
+  {
+    "id": "EV_L01_045",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "If a student's family budget allocates a large portion to 'Luxuries' and very little to 'Provisions', what does this indicate about their financial planning?",
+    "options": [
+      "They have excellent financial management",
+      "They are prioritizing needs over wants",
+      "They have poor financial planning",
+      "They are saving money for the future"
+    ],
+    "answer": "They have poor financial planning",
+    "explanation": "Financial planning requires prioritizing basic needs like provisions over non-essential wants or luxuries to ensure stability."
+  },
+  {
+    "id": "EV_L01_046",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "How does the loss of skilled and educated people through migration affect rural villages?",
+    "options": [
+      "It makes the village more developed",
+      "It leads to the growth of new industries",
+      "It hinders development in the village",
+      "It has no impact on the village"
+    ],
+    "answer": "It hinders development in the village",
+    "explanation": "When skilled and educated people leave, the village loses the talent and human resource needed for its economic and social development."
+  },
+  {
+    "id": "EV_L01_047",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Which of these is a 'want' that should be reconsidered if a family is struggling to meet their basic 'needs'?",
+    "options": [
+      "Monthly vegetable expenses",
+      "Paying for a luxury cable subscription",
+      "Buying nutritious food",
+      "Paying electricity bills"
+    ],
+    "answer": "Paying for a luxury cable subscription",
+    "explanation": "Needs are essential for survival, while luxuries like expensive cable subscriptions are wants that can be cut when money is tight."
+  },
+  {
+    "id": "EV_L01_048",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Why do children of migrant workers often struggle to continue their education?",
+    "options": [
+      "They are not smart enough",
+      "They move frequently and often do not join schools in the new location",
+      "They prefer working to studying",
+      "Schools in cities do not accept migrant children"
+    ],
+    "answer": "They move frequently and often do not join schools in the new location",
+    "explanation": "Frequent movement and family problems often prevent migrant children from enrolling in schools, which disrupts their education."
+  },
+  {
+    "id": "EV_L01_049",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "What is the primary reason flamingos travel long distances to reach different wetlands?",
+    "options": [
+      "To visit tourist places",
+      "To find better food and safe environments when their own wetlands dry up",
+      "To participate in bird races",
+      "Because they like to fly long distances"
+    ],
+    "answer": "To find better food and safe environments when their own wetlands dry up",
+    "explanation": "Birds like flamingos migrate to find wetlands with plenty of food and suitable conditions for survival when their local habitat becomes unfavorable."
+  },
+  {
+    "id": "EV_L01_050",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Based on the lesson, what is the most significant takeaway from the life of A.P.J. Abdul Kalam regarding poverty?",
+    "options": [
+      "Poverty is a permanent state that cannot be changed",
+      "Poverty is a barrier that stops people from succeeding",
+      "Poverty does not prevent one from achieving success with hard work",
+      "Only wealthy people can become scientists"
+    ],
+    "answer": "Poverty does not prevent one from achieving success with hard work",
+    "explanation": "A.P.J. Abdul Kalam's life demonstrates that determination and hard work can overcome the barriers of poverty."
+  },
+  {
+    "id": "EV_L01_051",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is the primary function of a 'seasonal hostel' operated by the government?",
+    "options": [
+      "To provide luxury housing for migrants",
+      "To prevent school dropouts among children of migrant families",
+      "To provide jobs to the parents",
+      "To act as a permanent home for migrants"
+    ],
+    "answer": "To prevent school dropouts among children of migrant families",
+    "explanation": "Seasonal hostels provide food, shelter, and education to children of migrant workers to ensure they don't leave school during their parents' migration."
+  },
+  {
+    "id": "EV_L01_052",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "When comparing village life to city life for a migrant laborer, what is a common economic challenge in the city?",
+    "options": [
+      "Food is always free in the city",
+      "The cost of living is much higher than in the village",
+      "There is no work available in the city",
+      "City people always provide free housing"
+    ],
+    "answer": "The cost of living is much higher than in the village",
+    "explanation": "While wages might be higher in cities, the cost of living (rent, food, services) is also significantly higher, often straining a migrant's budget."
+  },
+  {
+    "id": "EV_L01_053",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "Which of these is a natural calamity that often causes people to migrate?",
+    "options": [
+      "Opening of a new school",
+      "A severe drought causing crop failure",
+      "Building a new road",
+      "A local village fair"
+    ],
+    "answer": "A severe drought causing crop failure",
+    "explanation": "Natural calamities like droughts, floods, and cyclones make survival difficult in the home area, forcing families to move."
+  },
+  {
+    "id": "EV_L01_054",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "If a family has a fixed income and wants to save money, which step is most effective?",
+    "options": [
+      "Spending all money on the first day",
+      "Tracking all expenditures and distinguishing needs from wants",
+      "Moving to a new city every month",
+      "Stop buying clothes entirely"
+    ],
+    "answer": "Tracking all expenditures and distinguishing needs from wants",
+    "explanation": "Proper financial planning involves tracking expenses and categorizing them into needs and wants to identify where to save."
+  },
+  {
+    "id": "EV_L01_055",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "Why is it important to support children who have migrated with their parents?",
+    "options": [
+      "So they can work in factories",
+      "To ensure they have the right to education and a secure future",
+      "So they can learn to cook",
+      "Because the government forces us to do so"
+    ],
+    "answer": "To ensure they have the right to education and a secure future",
+    "explanation": "Every child has the right to education, and supporting migrant children prevents them from becoming child laborers and helps them lead better lives."
+  },
+  {
+    "id": "EV_L01_056",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "What is a negative consequence of 'Seasonal Migration' on a child's education?",
+    "options": [
+      "The child gets too many holidays",
+      "The child learns many new languages",
+      "The child's education is interrupted due to frequent school changes",
+      "The child becomes a better student"
+    ],
+    "answer": "The child's education is interrupted due to frequent school changes",
+    "explanation": "Moving frequently for seasonal work makes it difficult for children to maintain consistency in their studies and often leads to gaps in their learning."
+  },
+  {
+    "id": "EV_L01_057",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "easy",
+    "exam_style": "Sainik",
+    "question": "What does a pie chart show in a family budget?",
+    "options": [
+      "The exact address of the family",
+      "The proportions of different types of expenses in a whole budget",
+      "The number of people in the family",
+      "The weather forecast for the month"
+    ],
+    "answer": "The proportions of different types of expenses in a whole budget",
+    "explanation": "A pie chart is a circular graph that divides a total amount into sectors to show the share or proportion of each expense category."
+  },
+  {
+    "id": "EV_L01_058",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "How does the government try to stop migration from rural areas?",
+    "options": [
+      "By closing all schools in cities",
+      "By implementing rural development programmes to strengthen local economic activities",
+      "By banning people from leaving their villages",
+      "By forcing people to work in farms"
+    ],
+    "answer": "By implementing rural development programmes to strengthen local economic activities",
+    "explanation": "The government focuses on creating jobs and economic stability in villages through various schemes so that people do not feel forced to migrate for work."
+  },
+  {
+    "id": "EV_L01_059",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "hard",
+    "exam_style": "Sainik",
+    "question": "Which of these is a likely result of too many people moving to the same city looking for work?",
+    "options": [
+      "It becomes easier to find a job",
+      "It becomes harder to find jobs due to high competition",
+      "The city government gives everyone free money",
+      "The city becomes less crowded"
+    ],
+    "answer": "It becomes harder to find jobs due to high competition",
+    "explanation": "When the supply of workers exceeds the available job openings in a city, it becomes difficult for individuals to secure employment."
+  },
+  {
+    "id": "EV_L01_060",
+    "subject": "EVS",
+    "lesson_no": 1,
+    "lesson_name": "Migration of People",
+    "difficulty": "medium",
+    "exam_style": "Sainik",
+    "question": "In the context of the lesson, what does 'livelihood' mean?",
+    "options": [
+      "A type of house",
+      "The way or means of earning money to survive",
+      "A school subject",
+      "A natural disaster"
+    ],
+    "answer": "The way or means of earning money to survive",
+    "explanation": "Livelihood refers to the means of securing the necessities of life, such as food, shelter, and clothing, typically through work."
+  }
+]
