@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -397,25 +397,17 @@
   <!-- Loading / Error Banner -->
   <div id="loadBanner" class="status-msg">Loading Class 5 question bank...</div>
 
-  <!-- 1. STUDENT LOGIN CARD -->
+  <!-- 1. STUDENT REGISTRATION CARD (NAME & SCHOOL ONLY) -->
   <section id="loginView" class="card hidden">
-    <h2>Student Sign In</h2>
+    <h2>Student Registration</h2>
     <p style="font-size:0.88rem; color:var(--muted); margin-bottom:14px;">
-      Enter your details once so every test score is saved under your name.
+      Enter your name and school name once so every test score is saved under your profile.
     </p>
     <label for="inpName">Student Full Name</label>
     <input id="inpName" type="text" placeholder="e.g., Kavya Reddy" />
 
-    <div class="grid-2">
-      <div>
-        <label for="inpId">Roll Number or Mobile Last 4 Digits</label>
-        <input id="inpId" type="text" placeholder="e.g., 5A-12 or 4821" />
-      </div>
-      <div>
-        <label for="inpSchool">School / Village Name (Optional)</label>
-        <input id="inpSchool" type="text" placeholder="e.g., MPPS Chinamallupeta" />
-      </div>
-    </div>
+    <label for="inpSchool">School Name</label>
+    <input id="inpSchool" type="text" placeholder="e.g., MPPS Chinamallupeta" />
 
     <button class="btn btn-primary" onclick="saveStudentProfile()">Continue to Quizzes</button>
   </section>
@@ -556,15 +548,14 @@
     enabled: false,
     formResponseUrl: "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse",
     fields: {
-      studentId: "entry.111111111",
-      studentName: "entry.222222222",
-      school: "entry.333333333",
-      mode: "entry.444444444",
-      testName: "entry.555555555",
-      score: "entry.666666666",
-      total: "entry.777777777",
-      subjectSplit: "entry.888888888",
-      timeTaken: "entry.999999999"
+      studentName: "entry.111111111",
+      school: "entry.222222222",
+      mode: "entry.333333333",
+      testName: "entry.444444444",
+      score: "entry.555555555",
+      total: "entry.666666666",
+      subjectSplit: "entry.777777777",
+      timeTaken: "entry.888888888"
     }
   };
 
@@ -604,10 +595,21 @@
     }
   }
 
+  function makeStudentKey(name, school) {
+    return (name + "_" + school)
+      .toLowerCase()
+      .replace(/[^a-z0-9\u0C00-\u0C7F]+/g, "_")
+      .replace(/^_|_$/g, "") || "student";
+  }
+
   function loadStudentFromStorage() {
     const saved = localStorage.getItem("c5_student_profile");
     if (saved) {
       student = JSON.parse(saved);
+      if (!student.school || student.school === "-") student.school = "";
+      if (!student.profileKey) {
+        student.profileKey = makeStudentKey(student.name, student.school);
+      }
       showHomeView();
     } else {
       document.getElementById("loginView").classList.remove("hidden");
@@ -616,15 +618,18 @@
 
   function saveStudentProfile() {
     const name = document.getElementById("inpName").value.trim();
-    const id = document.getElementById("inpId").value.trim();
     const school = document.getElementById("inpSchool").value.trim();
 
-    if (!name || !id) {
-      alert("Please enter both your Name and Roll Number / Mobile Last 4 Digits.");
+    if (!name || !school) {
+      alert("Please enter both your Name and School Name.");
       return;
     }
 
-    student = { name, id, school: school || "-" };
+    student = {
+      name,
+      school,
+      profileKey: makeStudentKey(name, school)
+    };
     localStorage.setItem("c5_student_profile", JSON.stringify(student));
     showHomeView();
   }
@@ -653,7 +658,9 @@
     document.getElementById("homeView").classList.remove("hidden");
     const pill = document.getElementById("studentPill");
     pill.style.display = "inline-flex";
-    document.getElementById("pillLabel").textContent = `${student.name} (${student.id})`;
+    document.getElementById("pillLabel").textContent = student.school
+      ? `${student.name} • ${student.school}`
+      : student.name;
     renderHistoryTable();
   }
 
@@ -695,7 +702,6 @@
       subGrand.appendChild(opt2);
     });
 
-    // Auto-select first enabled option
     const firstValid = Array.from(subLesson.options).find(o => !o.disabled);
     if (firstValid) {
       subLesson.value = firstValid.value;
@@ -755,7 +761,6 @@
       picked = unseen.slice(0, count);
       seenIds = [...seenIds, ...picked.map(q => q.id)];
     } else {
-      // Take all remaining unseen first, then top up from reshuffled seen pool
       const seenPool = shuffleArray(pool.filter(q => seenIds.includes(q.id)));
       picked = [...unseen, ...seenPool.slice(0, count - unseen.length)];
       seenIds = picked.map(q => q.id);
@@ -781,7 +786,6 @@
     const picked = [];
     const pickedIds = new Set();
 
-    // Pass 1: pull equal share per lesson/subject (preferring unseen)
     groupNames.forEach(g => {
       const unseen = shuffleArray(groups[g].filter(q => !seenIds.includes(q.id)));
       const seen = shuffleArray(groups[g].filter(q => seenIds.includes(q.id)));
@@ -794,7 +798,6 @@
       }
     });
 
-    // Pass 2: fill any remainder fairly across unseen then seen
     if (picked.length < count) {
       const remainingUnseen = shuffleArray(pool.filter(q => !pickedIds.has(q.id) && !seenIds.includes(q.id)));
       const remainingSeen = shuffleArray(pool.filter(q => !pickedIds.has(q.id) && seenIds.includes(q.id)));
@@ -823,7 +826,7 @@
     if (lessonPool.length === 0) return alert("No questions found for this lesson yet.");
 
     const lessonName = lessonPool[0].lesson_name;
-    const questions = pickNonRepeating(lessonPool, count, `seen_${student.id}_${subName}_L${lessonNo}`);
+    const questions = pickNonRepeating(lessonPool, count, `seen_${student.profileKey}_${subName}_L${lessonNo}`);
     launchQuiz("Lesson Practice", `${subName} - L${lessonNo}: ${lessonName}`, questions, questions.length * 60);
   }
 
@@ -835,7 +838,7 @@
     const bank = await fetchSubjectQuestions(subName);
     if (bank.length === 0) return alert("No questions found for this subject yet.");
 
-    const questions = pickStratified(bank, count, "lesson_no", `seen_${student.id}_${subName}_GRAND`);
+    const questions = pickStratified(bank, count, "lesson_no", `seen_${student.profileKey}_${subName}_GRAND`);
     launchQuiz("Subject Grand", `${subName} — Full Syllabus`, questions, questions.length * 60);
   }
 
@@ -849,7 +852,7 @@
 
     const banks = await Promise.all(availableSubjects.map(s => fetchSubjectQuestions(s)));
     const combined = banks.flat();
-    const questions = pickStratified(combined, count, "subject", `seen_${student.id}_MEGA`);
+    const questions = pickStratified(combined, count, "subject", `seen_${student.profileKey}_MEGA`);
     const mins = questions.length >= 90 ? 90 : questions.length;
     launchQuiz("Mega Mock", `All-Subjects Mock (${questions.length} Qs)`, questions, mins * 60);
   }
@@ -991,7 +994,6 @@
 
     const record = {
       date: new Date().toLocaleDateString("en-IN", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" }),
-      studentId: student.id,
       studentName: student.name,
       school: student.school,
       mode: activeQuiz.mode,
@@ -1009,7 +1011,7 @@
   }
 
   function saveToLocalHistory(record) {
-    const key = "c5_history_" + student.id;
+    const key = "c5_history_" + student.profileKey;
     const list = JSON.parse(localStorage.getItem(key) || "[]");
     list.unshift(record);
     localStorage.setItem(key, JSON.stringify(list.slice(0, 100)));
@@ -1021,7 +1023,7 @@
 
     document.getElementById("resTitle").textContent = `${record.mode} • ${record.testName}`;
     document.getElementById("resScore").textContent = `${record.score} / ${record.total} (${record.pct}%)`;
-    document.getElementById("resStats").textContent = `Student: ${record.studentName} (${record.studentId}) • Time Taken: ${record.timeTaken}`;
+    document.getElementById("resStats").textContent = `Student: ${record.studentName} (${record.school}) • Time Taken: ${record.timeTaken}`;
 
     const splitEl = document.getElementById("resSplit");
     splitEl.innerHTML = Object.entries(split)
@@ -1062,7 +1064,6 @@
     try {
       const formData = new URLSearchParams();
       const f = GOOGLE_FORM_CONFIG.fields;
-      formData.append(f.studentId, record.studentId);
       formData.append(f.studentName, record.studentName);
       formData.append(f.school, record.school);
       formData.append(f.mode, record.mode);
@@ -1089,7 +1090,7 @@
   function renderHistoryTable() {
     const wrap = document.getElementById("historyTableWrap");
     if (!student) return;
-    const list = JSON.parse(localStorage.getItem("c5_history_" + student.id) || "[]");
+    const list = JSON.parse(localStorage.getItem("c5_history_" + student.profileKey) || "[]");
     if (list.length === 0) {
       wrap.innerHTML = `<p style="color:var(--muted); font-size:0.9rem;">No tests completed yet. Finish any quiz to see your test-wise progress here.</p>`;
       return;
