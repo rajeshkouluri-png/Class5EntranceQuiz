@@ -109,6 +109,10 @@
       margin-bottom: 14px;
     }
 
+    #inpName, #inpSchool {
+      text-transform: uppercase;
+    }
+
     input:focus, select:focus {
       outline: none;
       border-color: var(--primary);
@@ -404,10 +408,10 @@
       Enter your name and school name once so every test score is saved under your profile.
     </p>
     <label for="inpName">Student Full Name</label>
-    <input id="inpName" type="text" placeholder="e.g., Kavya Reddy" />
+    <input id="inpName" type="text" placeholder="e.g., KAVYA REDDY" />
 
     <label for="inpSchool">School Name</label>
-    <input id="inpSchool" type="text" placeholder="e.g., MPPS Chinamallupeta" />
+    <input id="inpSchool" type="text" placeholder="e.g., MPPS CHINAMALLUPETA" />
 
     <button class="btn btn-primary" onclick="saveStudentProfile()">Continue to Quizzes</button>
   </section>
@@ -541,21 +545,19 @@
 </main>
 
 <script>
-  // ================= OPTIONAL: SILENT GOOGLE FORM SCORE LOGGER =================
-  // Set enabled: true and paste your Google Form URL + entry IDs to collect all
-  // student scores directly into your master Google Sheet without hitting rate limits.
+  // ================= SILENT GOOGLE FORM TRACKER (ENROLLMENTS + SCORES) =================
   const GOOGLE_FORM_CONFIG = {
-    enabled: false,
-    formResponseUrl: "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse",
+    enabled: true,
+    formResponseUrl: "https://docs.google.com/forms/d/e/1FAIpQLScG7Bzez2XDfwSeSBQkAsxNU8FJ9pyNACh2jlvDpbrf20heJA/formResponse",
     fields: {
-      studentName: "entry.111111111",
-      school: "entry.222222222",
-      mode: "entry.333333333",
-      testName: "entry.444444444",
-      score: "entry.555555555",
-      total: "entry.666666666",
-      subjectSplit: "entry.777777777",
-      timeTaken: "entry.888888888"
+      studentName: "entry.1635374830",
+      school: "entry.1399599710",
+      mode: "entry.1708181882",
+      testName: "entry.2032427000",
+      score: "entry.273867543",
+      total: "entry.1410423212",
+      subjectSplit: "entry.1310042884",
+      timeTaken: "entry.1399024943"
     }
   };
 
@@ -595,6 +597,10 @@
     }
   }
 
+  function normalizeText(str) {
+    return String(str || "").trim().replace(/\s+/g, " ").toUpperCase();
+  }
+
   function makeStudentKey(name, school) {
     return (name + "_" + school)
       .toLowerCase()
@@ -606,10 +612,10 @@
     const saved = localStorage.getItem("c5_student_profile");
     if (saved) {
       student = JSON.parse(saved);
-      if (!student.school || student.school === "-") student.school = "";
-      if (!student.profileKey) {
-        student.profileKey = makeStudentKey(student.name, student.school);
-      }
+      student.name = normalizeText(student.name);
+      student.school = student.school === "-" ? "" : normalizeText(student.school);
+      student.profileKey = makeStudentKey(student.name, student.school);
+      localStorage.setItem("c5_student_profile", JSON.stringify(student));
       showHomeView();
     } else {
       document.getElementById("loginView").classList.remove("hidden");
@@ -617,8 +623,8 @@
   }
 
   function saveStudentProfile() {
-    const name = document.getElementById("inpName").value.trim();
-    const school = document.getElementById("inpSchool").value.trim();
+    const name = normalizeText(document.getElementById("inpName").value);
+    const school = normalizeText(document.getElementById("inpSchool").value);
 
     if (!name || !school) {
       alert("Please enter both your Name and School Name.");
@@ -631,7 +637,28 @@
       profileKey: makeStudentKey(name, school)
     };
     localStorage.setItem("c5_student_profile", JSON.stringify(student));
+    logEnrollmentToGoogleForm(student);
     showHomeView();
+  }
+
+  function logEnrollmentToGoogleForm(studentObj) {
+    if (!GOOGLE_FORM_CONFIG.enabled) return;
+    const formData = new URLSearchParams();
+    const f = GOOGLE_FORM_CONFIG.fields;
+    formData.append(f.studentName, studentObj.name);
+    formData.append(f.school, studentObj.school);
+    formData.append(f.mode, "Enrolled");
+    formData.append(f.testName, "Student Registration");
+    formData.append(f.score, "0");
+    formData.append(f.total, "0");
+    formData.append(f.subjectSplit, "-");
+    formData.append(f.timeTaken, "-");
+
+    fetch(GOOGLE_FORM_CONFIG.formResponseUrl, {
+      method: "POST",
+      mode: "no-cors",
+      body: formData
+    }).catch(() => {});
   }
 
   function logoutStudent() {
@@ -643,6 +670,8 @@
     localStorage.removeItem("c5_student_profile");
     student = null;
     document.getElementById("studentPill").style.display = "none";
+    document.getElementById("inpName").value = "";
+    document.getElementById("inpSchool").value = "";
     hideAllViews();
     document.getElementById("loginView").classList.remove("hidden");
   }
