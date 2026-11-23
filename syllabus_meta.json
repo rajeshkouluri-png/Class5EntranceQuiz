@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-21T17:18:40.299Z",
+  "updated_at": "2026-11-23T14:31:52.869Z",
   "subjects": {
     "Maths": {
       "file": "maths.json",
-      "total_questions": 180,
+      "total_questions": 540,
       "lessons": [
         {
           "lesson_no": 1,
@@ -19,29 +19,176 @@
           "lesson_no": 3,
           "lesson_name": "Multiplication and Division",
           "count": 60
+        },
+        {
+          "lesson_no": 4,
+          "lesson_name": "Multiples and Factors",
+          "count": 60
+        },
+        {
+          "lesson_no": 5,
+          "lesson_name": "Fractions",
+          "count": 60
+        },
+        {
+          "lesson_no": 6,
+          "lesson_name": "Data Handling",
+          "count": 60
+        },
+        {
+          "lesson_no": 7,
+          "lesson_name": "Geometry",
+          "count": 60
+        },
+        {
+          "lesson_no": 8,
+          "lesson_name": "Measurements",
+          "count": 60
+        },
+        {
+          "lesson_no": 9,
+          "lesson_name": "Time",
+          "count": 60
         }
       ]
     },
     "EVS": {
       "file": "evs.json",
-      "total_questions": 60,
+      "total_questions": 660,
       "lessons": [
         {
           "lesson_no": 1,
           "lesson_name": "Migration of People",
+          "count": 60
+        },
+        {
+          "lesson_no": 2,
+          "lesson_name": "Climate Change",
+          "count": 60
+        },
+        {
+          "lesson_no": 3,
+          "lesson_name": "Clothes We Wear",
+          "count": 60
+        },
+        {
+          "lesson_no": 4,
+          "lesson_name": "Our Body Our Organ System",
+          "count": 60
+        },
+        {
+          "lesson_no": 5,
+          "lesson_name": "Food and Food Production",
+          "count": 60
+        },
+        {
+          "lesson_no": 6,
+          "lesson_name": "Our Rivers Our Life",
+          "count": 60
+        },
+        {
+          "lesson_no": 7,
+          "lesson_name": "Our Government",
+          "count": 60
+        },
+        {
+          "lesson_no": 8,
+          "lesson_name": "Let us Explore an Amazing World",
+          "count": 60
+        },
+        {
+          "lesson_no": 9,
+          "lesson_name": "Safety and Emergency Services",
+          "count": 60
+        },
+        {
+          "lesson_no": 10,
+          "lesson_name": "History of the Indain Freedom Movement",
+          "count": 60
+        },
+        {
+          "lesson_no": 11,
+          "lesson_name": "Earth to Space",
           "count": 60
         }
       ]
     },
     "English": {
       "file": "english.json",
-      "total_questions": 0,
-      "lessons": []
+      "total_questions": 480,
+      "lessons": [
+        {
+          "lesson_no": 1,
+          "lesson_name": "Mallika Goes to School",
+          "count": 60
+        },
+        {
+          "lesson_no": 2,
+          "lesson_name": "My Sweet Memories",
+          "count": 60
+        },
+        {
+          "lesson_no": 3,
+          "lesson_name": "The Necklace",
+          "count": 60
+        },
+        {
+          "lesson_no": 4,
+          "lesson_name": "Kalam with the Children",
+          "count": 60
+        },
+        {
+          "lesson_no": 5,
+          "lesson_name": "The Wondrous Women",
+          "count": 60
+        },
+        {
+          "lesson_no": 6,
+          "lesson_name": "The Wise Judgement",
+          "count": 60
+        },
+        {
+          "lesson_no": 7,
+          "lesson_name": "Kabaddi Kabaddi Kabaddi",
+          "count": 60
+        },
+        {
+          "lesson_no": 8,
+          "lesson_name": "A Birthday Letter",
+          "count": 60
+        }
+      ]
     },
     "Telugu": {
       "file": "telugu.json",
-      "total_questions": 0,
-      "lessons": []
+      "total_questions": 260,
+      "lessons": [
+        {
+          "lesson_no": 2,
+          "lesson_name": "సాయం",
+          "count": 60
+        },
+        {
+          "lesson_no": 3,
+          "lesson_name": "కొండవాగు",
+          "count": 60
+        },
+        {
+          "lesson_no": 4,
+          "lesson_name": "జయగీతం",
+          "count": 60
+        },
+        {
+          "lesson_no": 5,
+          "lesson_name": "తోలుబొమ్మలాట",
+          "count": 60
+        },
+        {
+          "lesson_no": 6,
+          "lesson_name": "పెన్నేటిపాట",
+          "count": 20
+        }
+      ]
     }
   }
 }
