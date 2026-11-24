@@ -1983,18 +1983,24 @@
 
   function triggerPrintPdf() {
     if (!currentPaper || !currentPaper.questions.length) return;
-    const origTitle = document.title;
     const setPart = document.getElementById("pSetLabel").value ? "_" + document.getElementById("pSetLabel").value : "";
     const safeName = ("Class5_" + currentPaper.subjectLabel + "_" + currentPaper.testName + setPart)
       .replace(/[^a-zA-Z0-9\u0C00-\u0C7F_-]+/g, "_")
       .replace(/_+/g, "_")
-      .substring(0, 65);
+      .substring(0, 60);
 
+    // Trigger Android native Print / Save as PDF inside Kodular CustomWebView
+    if (window.AppInventor && typeof window.AppInventor.setWebViewString === "function") {
+      window.AppInventor.setWebViewString("PRINT:" + safeName + "_" + String(Date.now()).slice(-4));
+      return;
+    }
+
+    // Normal browser fallback (Chrome / Desktop)
+    const origTitle = document.title;
     document.title = safeName;
     window.print();
     setTimeout(() => { document.title = origTitle; }, 1000);
   }
-
   function escapeHtml(str) {
     return String(str || "")
       .replace(/&/g, "&amp;")
