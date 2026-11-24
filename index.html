@@ -98,7 +98,7 @@
     h2 { font-size: 1.15rem; margin-bottom: 12px; color: var(--primary-dark); }
     label { display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 6px; color: var(--muted); }
 
-    input, select {
+    input[type="text"], select {
       width: 100%;
       padding: 11px 12px;
       border: 1.5px solid var(--border);
@@ -113,7 +113,7 @@
       text-transform: uppercase;
     }
 
-    input:focus, select:focus {
+    input[type="text"]:focus, select:focus {
       outline: none;
       border-color: var(--primary);
       box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.14);
@@ -139,7 +139,32 @@
     .btn-primary { background: var(--primary); color: #fff; width: 100%; }
     .btn-accent { background: var(--accent); color: #fff; }
     .btn-outline { background: #fff; color: var(--text); border: 1.5px solid var(--border); }
+    .btn-pdf {
+      background: #f8fafc;
+      color: var(--primary-dark);
+      border: 1.5px solid #93c5fd;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .btn-pdf:hover { background: #eff6ff; }
     .btn-danger { background: var(--danger); color: #fff; }
+
+    .divider-or {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 18px 0 14px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .divider-or::before, .divider-or::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #e2e8f0;
+    }
 
     .nav-tabs {
       display: grid;
@@ -183,9 +208,58 @@
       gap: 12px;
     }
 
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
     @media (max-width: 560px) {
       .nav-tabs { grid-template-columns: repeat(2, 1fr); }
-      .grid-2 { grid-template-columns: 1fr; }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    /* Language Switcher */
+    .lang-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      background: #f0fdfa;
+      border: 1px solid #99f6e4;
+      padding: 8px 12px;
+      border-radius: 10px;
+      margin-bottom: 14px;
+    }
+
+    .lang-bar-label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .lang-pills {
+      display: flex;
+      gap: 6px;
+    }
+
+    .lang-pill {
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1.5px solid #99f6e4;
+      background: #fff;
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .lang-pill.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
     }
 
     /* Quiz runner UI */
@@ -216,7 +290,7 @@
       background: #e2e8f0;
       border-radius: 999px;
       overflow: hidden;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .progress-fill {
@@ -227,10 +301,21 @@
     }
 
     .question-text {
-      font-size: 1.08rem;
+      font-size: 1.06rem;
       font-weight: 700;
       margin-bottom: 16px;
       white-space: pre-line;
+    }
+
+    .te-q {
+      display: block;
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed #cbd5e1;
+      color: #0f766e;
+      font-weight: 600;
+      font-size: 1.03rem;
+      line-height: 1.6;
     }
 
     .options-list {
@@ -261,6 +346,18 @@
       border-color: var(--primary);
       background: #eff6ff;
       font-weight: 700;
+    }
+
+    .opt-body {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .te-opt {
+      color: #0f766e;
+      font-size: 0.92rem;
+      font-weight: 600;
     }
 
     .opt-letter {
@@ -362,8 +459,9 @@
 
     .review-meta { font-size: 0.78rem; color: var(--muted); margin-bottom: 4px; }
     .review-q { font-weight: 700; margin-bottom: 6px; }
+    .review-te { color: #0f766e; font-size: 0.92rem; font-weight: 600; margin-top: 4px; }
     .review-ans { font-size: 0.88rem; margin-bottom: 4px; }
-    .review-exp { font-size: 0.84rem; color: #334155; background: rgba(255,255,255,0.7); padding: 8px; border-radius: 8px; margin-top: 6px; }
+    .review-exp { font-size: 0.84rem; color: #334155; background: rgba(255,255,255,0.75); padding: 8px; border-radius: 8px; margin-top: 6px; }
 
     table {
       width: 100%;
@@ -380,11 +478,286 @@
     th { background: #f8fafc; color: var(--muted); font-weight: 700; }
     .table-wrap { overflow-x: auto; }
     .status-msg { padding: 12px; border-radius: 10px; background: var(--warn-bg); color: var(--warn); font-size: 0.88rem; margin-bottom: 14px; }
+
+    /* ================= TEACHER PRINTABLE PAPER STYLES ================= */
+    .checkbox-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin: 4px 0 14px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .checkbox-row label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin: 0;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .checkbox-row input[type="checkbox"] {
+      width: 17px;
+      height: 17px;
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .paper-sheet {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      color: #0f172a;
+    }
+
+    .print-sheet-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .print-sheet-table > tbody > tr > td,
+    .print-sheet-table > tfoot > tr > td {
+      border: none;
+      padding: 0;
+      vertical-align: top;
+    }
+
+    .paper-header {
+      text-align: center;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+
+    .paper-header h3 {
+      font-size: 1.18rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #0f172a;
+    }
+
+    .paper-header p {
+      font-size: 0.85rem;
+      color: #334155;
+      margin-top: 2px;
+      font-weight: 600;
+    }
+
+    .student-meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+      font-size: 0.86rem;
+    }
+
+    .student-meta-table td {
+      border: 1px solid #334155;
+      padding: 7px 9px;
+      vertical-align: middle;
+    }
+
+    .meta-lbl {
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .paper-instructions {
+      font-size: 0.82rem;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin-bottom: 14px;
+      color: #1e293b;
+    }
+
+    .paper-q-item {
+      margin-bottom: 13px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #cbd5e1;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .paper-q-stem {
+      font-size: 0.94rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      white-space: pre-line;
+    }
+
+    .paper-q-te {
+      display: block;
+      font-weight: 600;
+      color: #1e293b;
+      margin-top: 3px;
+      font-size: 0.92rem;
+    }
+
+    .paper-opts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 16px;
+      padding-left: 16px;
+      font-size: 0.88rem;
+    }
+
+    .paper-opts.single-col {
+      grid-template-columns: 1fr;
+    }
+
+    .paper-opt-cell {
+      padding: 2px 0;
+    }
+
+    .paper-opt-te {
+      color: #334155;
+      font-size: 0.85rem;
+    }
+
+    .paper-key-section {
+      margin-top: 24px;
+      padding-top: 14px;
+      border-top: 2px solid #0f172a;
+      page-break-before: always;
+      break-before: page;
+    }
+
+    .paper-key-title {
+      text-align: center;
+      font-size: 1.05rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .paper-key-sub {
+      text-align: center;
+      font-size: 0.82rem;
+      color: #475569;
+      margin-bottom: 12px;
+    }
+
+    .key-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px 14px;
+      font-size: 0.83rem;
+    }
+
+    .key-grid.with-exp {
+      grid-template-columns: 1fr;
+    }
+
+    .key-cell {
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 9px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .key-exp-line {
+      margin-top: 3px;
+      font-size: 0.79rem;
+      color: #334155;
+    }
+
+    .screen-preview-footer {
+      margin-top: 18px;
+      padding-top: 8px;
+      border-top: 1.5px solid #334155;
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .print-fixed-footer {
+      display: none;
+    }
+
+    .print-footer-spacer {
+      height: 0;
+    }
+
+    /* ================= PRINT / SAVE AS PDF RULES ================= */
+    @page {
+      size: A4 portrait;
+      margin: 10mm 12mm 12mm 12mm;
+    }
+
+    @media print {
+      body {
+        background: #fff !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      header,
+      .no-print,
+      #loadBanner,
+      #loginView,
+      #homeView,
+      #quizView,
+      #resultView {
+        display: none !important;
+      }
+
+      .container {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      #printView {
+        display: block !important;
+      }
+
+      .paper-sheet {
+        border: none !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+      }
+
+      .screen-preview-footer {
+        display: none !important;
+      }
+
+      .print-footer-spacer {
+        height: 28px !important;
+      }
+
+      .print-fixed-footer {
+        display: block !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 8.5pt;
+        font-weight: 700;
+        color: #1e293b;
+        background: #fff;
+        border-top: 1px solid #64748b;
+        padding-top: 4px;
+      }
+    }
   </style>
 </head>
 <body>
 
-<header>
+<header class="no-print">
   <div class="header-inner">
     <div class="brand">
       <h1>Class 5 Entrance Quiz Hub</h1>
@@ -398,11 +771,10 @@
 </header>
 
 <main class="container">
-  <!-- Loading / Error Banner -->
-  <div id="loadBanner" class="status-msg">Loading Class 5 question bank...</div>
+  <div id="loadBanner" class="status-msg no-print">Loading Class 5 question bank...</div>
 
   <!-- 1. STUDENT REGISTRATION CARD (NAME & SCHOOL ONLY) -->
-  <section id="loginView" class="card hidden">
+  <section id="loginView" class="card hidden no-print">
     <h2>Student Registration</h2>
     <p style="font-size:0.88rem; color:var(--muted); margin-bottom:14px;">
       Enter your name and school name once so every test score is saved under your profile.
@@ -414,10 +786,15 @@
     <input id="inpSchool" type="text" placeholder="e.g., MPPS CHINAMALLUPETA" />
 
     <button class="btn btn-primary" onclick="saveStudentProfile()">Continue to Quizzes</button>
+
+    <div class="divider-or">For Teachers (Offline Exam)</div>
+    <button type="button" class="btn btn-pdf" onclick="openTeacherPdfCorner('loginView')">
+      🖨️ Teacher Corner: Download Printable PDF Question Paper
+    </button>
   </section>
 
   <!-- 2. DASHBOARD (3 MODES + MY SCORES) -->
-  <section id="homeView" class="hidden">
+  <section id="homeView" class="hidden no-print">
     <div class="nav-tabs">
       <button class="tab-btn active" id="tab-lesson" onclick="switchTab('lesson')">Lesson Practice</button>
       <button class="tab-btn" id="tab-subject" onclick="switchTab('subject')">Subject Grand</button>
@@ -429,7 +806,7 @@
     <div id="panel-lesson" class="card">
       <h2>Lesson-Wise Practice</h2>
       <div class="mode-desc">
-        Pick any subject and lesson. Every new attempt automatically serves fresh questions you have not practiced recently.
+        Pick any subject and lesson. Every new attempt automatically serves fresh questions you have not practiced recently. Maths & EVS include Telugu translation!
       </div>
       <div class="grid-2">
         <div>
@@ -448,6 +825,7 @@
         <option value="30" selected>30 Questions (Full Lesson Drill — 30 mins)</option>
       </select>
       <button class="btn btn-primary" onclick="startLessonQuiz()">Start Lesson Quiz</button>
+      <button type="button" class="btn btn-pdf" onclick="openPdfFromDashboard('lesson')">🖨️ Download Printable PDF Paper (Teachers)</button>
     </div>
 
     <!-- MODE 2: SUBJECT GRAND TEST -->
@@ -470,6 +848,7 @@
         </div>
       </div>
       <button class="btn btn-primary" onclick="startSubjectGrand()">Start Subject Grand Test</button>
+      <button type="button" class="btn btn-pdf" onclick="openPdfFromDashboard('subject')">🖨️ Download Printable PDF Paper (Teachers)</button>
     </div>
 
     <!-- MODE 3: ALL-SUBJECTS MEGA MOCK -->
@@ -486,6 +865,7 @@
         <option value="100">100 Questions Full Exam (90 mins)</option>
       </select>
       <button class="btn btn-primary" onclick="startMegaMock()">Start Mega Mock Test</button>
+      <button type="button" class="btn btn-pdf" onclick="openPdfFromDashboard('mega')">🖨️ Download Printable PDF Paper (Teachers)</button>
     </div>
 
     <!-- MY SCORES HISTORY -->
@@ -496,7 +876,7 @@
   </section>
 
   <!-- 3. ACTIVE QUIZ RUNNER -->
-  <section id="quizView" class="card hidden">
+  <section id="quizView" class="card hidden no-print">
     <div class="quiz-topbar">
       <div>
         <span id="qCounter" class="badge">Q 1 / 30</span>
@@ -507,6 +887,16 @@
 
     <div class="progress-track">
       <div id="progressFill" class="progress-fill"></div>
+    </div>
+
+    <!-- Language Toggle (shown automatically when Telugu translation exists) -->
+    <div id="quizLangBar" class="lang-bar hidden">
+      <span class="lang-bar-label">Language / భాష:</span>
+      <div class="lang-pills">
+        <button type="button" class="lang-pill" data-lang="both" onclick="setLangMode('both')">EN + తెలుగు</button>
+        <button type="button" class="lang-pill" data-lang="te" onclick="setLangMode('te')">తెలుగు</button>
+        <button type="button" class="lang-pill" data-lang="en" onclick="setLangMode('en')">English</button>
+      </div>
     </div>
 
     <div id="questionText" class="question-text"></div>
@@ -525,7 +915,7 @@
   </section>
 
   <!-- 4. RESULT & EXPLANATION REVIEW -->
-  <section id="resultView" class="card hidden">
+  <section id="resultView" class="card hidden no-print">
     <div class="score-hero">
       <div id="resTitle" style="font-weight:700; color:var(--muted); font-size:0.9rem;"></div>
       <div id="resScore" class="score-big">0 / 30</div>
@@ -541,6 +931,83 @@
 
     <h2>Answer Key & Explanations</h2>
     <div id="reviewList"></div>
+  </section>
+
+  <!-- 5. TEACHER PRINTABLE QUESTION PAPER GENERATOR & PREVIEW -->
+  <section id="printView" class="hidden">
+    <div class="card no-print">
+      <div class="quiz-topbar" style="margin-bottom:10px;">
+        <h2 style="margin:0;">Teacher Printable Question Paper (PDF)</h2>
+        <button type="button" class="btn btn-outline" style="padding:7px 14px; font-size:0.84rem;" onclick="exitPrintView()">← Back</button>
+      </div>
+      <div class="mode-desc">
+        Configure your offline classroom test paper below, then click <strong>Print / Save as PDF</strong> (choose <em>"Save as PDF"</em> in the print dialog). Telugu script renders crisply on A4 paper.
+      </div>
+
+      <div class="grid-3">
+        <div>
+          <label for="pMode">Test Pattern</label>
+          <select id="pMode" onchange="onPrintModeChange()">
+            <option value="lesson">Lesson-Wise Test</option>
+            <option value="subject">Subject Grand Test</option>
+            <option value="mega">All-Subjects Mega Mock</option>
+          </select>
+        </div>
+        <div id="pSubjectWrap">
+          <label for="pSubject">Subject</label>
+          <select id="pSubject" onchange="populatePrintLessons(); generatePrintablePaper();"></select>
+        </div>
+        <div id="pLessonWrap">
+          <label for="pLesson">Lesson</label>
+          <select id="pLesson" onchange="generatePrintablePaper()"></select>
+        </div>
+      </div>
+
+      <div class="grid-3">
+        <div>
+          <label for="pCount">Number of Questions</label>
+          <select id="pCount" onchange="generatePrintablePaper()">
+            <option value="15">15 Questions (15 mins)</option>
+            <option value="20" selected>20 Questions (20 mins)</option>
+            <option value="30">30 Questions (30 mins)</option>
+            <option value="50">50 Questions (50 mins)</option>
+            <option value="60">60 Questions (60 mins)</option>
+            <option value="100">100 Questions (90 mins)</option>
+          </select>
+        </div>
+        <div id="pLangWrap">
+          <label for="pLang">Paper Language (Maths / EVS)</label>
+          <select id="pLang" onchange="renderPrintablePaper()">
+            <option value="both" selected>Bilingual (EN + తెలుగు)</option>
+            <option value="te">Telugu Only (తెలుగు)</option>
+            <option value="en">English Only</option>
+          </select>
+        </div>
+        <div>
+          <label for="pSetLabel">Paper Set Label (Optional)</label>
+          <select id="pSetLabel" onchange="renderPrintablePaper()">
+            <option value="">None</option>
+            <option value="SET - A">SET - A</option>
+            <option value="SET - B">SET - B</option>
+            <option value="SET - C">SET - C</option>
+            <option value="MODEL PAPER">MODEL PAPER</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="checkbox-row">
+        <label><input type="checkbox" id="pIncludeKey" checked onchange="renderPrintablePaper()" /> Include Answer Key on separate last page</label>
+        <label><input type="checkbox" id="pIncludeExp" onchange="renderPrintablePaper()" /> Include Explanations in Answer Key</label>
+      </div>
+
+      <div class="quiz-actions">
+        <button type="button" class="btn btn-outline" onclick="generatePrintablePaper()">🔀 Shuffle / New Question Set</button>
+        <button type="button" class="btn btn-primary" onclick="triggerPrintPdf()">🖨️ Print / Save as PDF</button>
+      </div>
+    </div>
+
+    <!-- Live A4 Paper Preview & Print Output -->
+    <div id="paperPreviewContainer" class="paper-sheet"></div>
   </section>
 </main>
 
@@ -561,10 +1028,15 @@
     }
   };
 
+  const PAPER_FOOTER_TEXT = "Developed by Rajesh Kouluri, National Teachers' Awardee 2026  •  www.rajclassroom.com";
+
   // ================= GLOBAL STATE =================
   let syllabusMeta = null;
   const subjectCache = {};
   let student = null;
+  let langMode = localStorage.getItem("c5_lang_mode") || "both"; // "both" | "te" | "en"
+  let printReturnView = "homeView";
+  let currentPaper = null;
 
   let activeQuiz = {
     mode: "",
@@ -581,7 +1053,23 @@
   window.addEventListener("DOMContentLoaded", async () => {
     await loadSyllabusMeta();
     loadStudentFromStorage();
+    updateLangButtons();
   });
+
+  function setLangMode(mode) {
+    langMode = mode;
+    localStorage.setItem("c5_lang_mode", mode);
+    updateLangButtons();
+    if (!document.getElementById("quizView").classList.contains("hidden")) {
+      renderCurrentQuestion();
+    }
+  }
+
+  function updateLangButtons() {
+    document.querySelectorAll(".lang-pill").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.lang === langMode);
+    });
+  }
 
   async function loadSyllabusMeta() {
     const banner = document.getElementById("loadBanner");
@@ -677,7 +1165,7 @@
   }
 
   function hideAllViews() {
-    ["loginView", "homeView", "quizView", "resultView"].forEach(id => {
+    ["loginView", "homeView", "quizView", "resultView", "printView"].forEach(id => {
       document.getElementById(id).classList.add("hidden");
     });
   }
@@ -706,35 +1194,41 @@
     if (!syllabusMeta || !syllabusMeta.subjects) return;
     const subLesson = document.getElementById("selLessonSub");
     const subGrand = document.getElementById("selGrandSub");
+    const subPrint = document.getElementById("pSubject");
     subLesson.innerHTML = "";
     subGrand.innerHTML = "";
+    subPrint.innerHTML = "";
 
     const activeSubjects = [];
     Object.entries(syllabusMeta.subjects).forEach(([subName, info]) => {
       const opt1 = document.createElement("option");
       const opt2 = document.createElement("option");
+      const opt3 = document.createElement("option");
       if (info.total_questions > 0) {
         activeSubjects.push(`${subName} (${info.total_questions} Qs)`);
         opt1.value = subName;
         opt1.textContent = `${subName} (${info.total_questions} Qs)`;
         opt2.value = subName;
         opt2.textContent = `${subName} — ${info.lessons.length} Lesson(s), ${info.total_questions} Qs`;
+        opt3.value = subName;
+        opt3.textContent = `${subName} (${info.total_questions} Qs)`;
       } else {
-        opt1.value = "";
-        opt1.disabled = true;
-        opt1.textContent = `${subName} (Coming Soon)`;
-        opt2.value = "";
-        opt2.disabled = true;
-        opt2.textContent = `${subName} (Coming Soon)`;
+        [opt1, opt2, opt3].forEach(o => {
+          o.value = "";
+          o.disabled = true;
+          o.textContent = `${subName} (Coming Soon)`;
+        });
       }
       subLesson.appendChild(opt1);
       subGrand.appendChild(opt2);
+      subPrint.appendChild(opt3);
     });
 
     const firstValid = Array.from(subLesson.options).find(o => !o.disabled);
     if (firstValid) {
       subLesson.value = firstValid.value;
       subGrand.value = firstValid.value;
+      subPrint.value = firstValid.value;
     }
 
     document.getElementById("megaSummary").textContent = activeSubjects.length
@@ -742,6 +1236,7 @@
       : "No questions found yet. Export JSON files from your Sheet first.";
 
     populateLessonsDropdown();
+    populatePrintLessons();
   }
 
   function populateLessonsDropdown() {
@@ -750,6 +1245,20 @@
     selLesson.innerHTML = "";
 
     if (!subName || !syllabusMeta.subjects[subName]) return;
+    syllabusMeta.subjects[subName].lessons.forEach(ls => {
+      const opt = document.createElement("option");
+      opt.value = ls.lesson_no;
+      opt.textContent = `Lesson ${ls.lesson_no}: ${ls.lesson_name} (${ls.count} Qs)`;
+      selLesson.appendChild(opt);
+    });
+  }
+
+  function populatePrintLessons() {
+    const subName = document.getElementById("pSubject").value;
+    const selLesson = document.getElementById("pLesson");
+    selLesson.innerHTML = "";
+
+    if (!subName || !syllabusMeta || !syllabusMeta.subjects[subName]) return;
     syllabusMeta.subjects[subName].lessons.forEach(ls => {
       const opt = document.createElement("option");
       opt.value = ls.lesson_no;
@@ -770,7 +1279,7 @@
     return data;
   }
 
-  // ================= SMART NON-REPEATING SAMPLERS =================
+  // ================= SMART NON-REPEATING SAMPLERS + BILINGUAL OPTION PAIRING =================
   function shuffleArray(arr) {
     const copy = [...arr];
     for (let i = copy.length - 1; i > 0; i--) {
@@ -778,6 +1287,24 @@
       [copy[i], copy[j]] = [copy[j], copy[i]];
     }
     return copy;
+  }
+
+  function prepareQuestionForQuiz(q) {
+    const hasTe = Boolean(q.question_te && q.question_te.trim());
+    const teArr = Array.isArray(q.options_te) ? q.options_te : [];
+    const pairedOptions = q.options.map((enText, idx) => ({
+      en: enText,
+      te: hasTe ? String(teArr[idx] || "").trim() : ""
+    }));
+    const answerIdx = q.options.indexOf(q.answer);
+    const answerTe = (hasTe && answerIdx >= 0) ? String(teArr[answerIdx] || "").trim() : "";
+
+    return {
+      ...q,
+      hasTe,
+      answer_te: answerTe,
+      optionPairs: shuffleArray(pairedOptions)
+    };
   }
 
   function pickNonRepeating(pool, targetCount, storageKey) {
@@ -796,12 +1323,12 @@
     }
 
     localStorage.setItem(storageKey, JSON.stringify(seenIds));
-    return picked.map(q => ({ ...q, options: shuffleArray(q.options) }));
+    return picked.map(prepareQuestionForQuiz);
   }
 
   function pickStratified(pool, targetCount, groupKey, storageKey) {
     const count = Math.min(targetCount, pool.length);
-    let seenIds = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    let seenIds = storageKey ? JSON.parse(localStorage.getItem(storageKey) || "[]") : [];
 
     const groups = {};
     pool.forEach(q => {
@@ -837,13 +1364,15 @@
       }
     }
 
-    const updatedSeen = [...new Set([...seenIds, ...picked.map(q => q.id)])];
-    localStorage.setItem(storageKey, JSON.stringify(updatedSeen.length >= pool.length ? picked.map(q => q.id) : updatedSeen));
+    if (storageKey) {
+      const updatedSeen = [...new Set([...seenIds, ...picked.map(q => q.id)])];
+      localStorage.setItem(storageKey, JSON.stringify(updatedSeen.length >= pool.length ? picked.map(q => q.id) : updatedSeen));
+    }
 
-    return shuffleArray(picked).map(q => ({ ...q, options: shuffleArray(q.options) }));
+    return shuffleArray(picked).map(prepareQuestionForQuiz);
   }
 
-  // ================= START MODES =================
+  // ================= START ONLINE QUIZ MODES =================
   async function startLessonQuiz() {
     const subName = document.getElementById("selLessonSub").value;
     const lessonNo = Number(document.getElementById("selLessonNum").value);
@@ -901,6 +1430,7 @@
 
     hideAllViews();
     document.getElementById("quizView").classList.remove("hidden");
+    updateLangButtons();
     renderCurrentQuestion();
     startTimer();
   }
@@ -935,19 +1465,40 @@
     document.getElementById("qCounter").textContent = `Q ${i + 1} / ${total}`;
     document.getElementById("qMetaBadge").textContent = `${q.subject} • L${q.lesson_no} • ${q.exam_style}`;
     document.getElementById("progressFill").style.width = `${((i + 1) / total) * 100}%`;
-    document.getElementById("questionText").textContent = q.question;
+
+    document.getElementById("quizLangBar").classList.toggle("hidden", !q.hasTe);
+
+    const qEl = document.getElementById("questionText");
+    if (q.hasTe && langMode === "both") {
+      qEl.innerHTML = `${escapeHtml(q.question)}<span class="te-q">${escapeHtml(q.question_te)}</span>`;
+    } else if (q.hasTe && langMode === "te") {
+      qEl.textContent = q.question_te;
+    } else {
+      qEl.textContent = q.question;
+    }
 
     const list = document.getElementById("optionsList");
     list.innerHTML = "";
     const letters = ["A", "B", "C", "D"];
 
-    q.options.forEach((opt, idx) => {
+    q.optionPairs.forEach((pair, idx) => {
       const btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "option-btn" + (activeQuiz.answers[i] === opt ? " selected" : "");
-      btn.innerHTML = `<span class="opt-letter">${letters[idx]}</span><span>${escapeHtml(opt)}</span>`;
+      btn.className = "option-btn" + (activeQuiz.answers[i] === pair.en ? " selected" : "");
+
+      let bodyHtml = "";
+      if (q.hasTe && langMode === "both") {
+        const showSubTe = pair.te && pair.te !== pair.en;
+        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.en)}</span>${showSubTe ? `<span class="te-opt">${escapeHtml(pair.te)}</span>` : ""}</span>`;
+      } else if (q.hasTe && langMode === "te") {
+        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.te || pair.en)}</span></span>`;
+      } else {
+        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.en)}</span></span>`;
+      }
+
+      btn.innerHTML = `<span class="opt-letter">${letters[idx]}</span>${bodyHtml}`;
       btn.onclick = () => {
-        activeQuiz.answers[i] = opt;
+        activeQuiz.answers[i] = pair.en;
         renderCurrentQuestion();
       };
       list.appendChild(btn);
@@ -1046,6 +1597,14 @@
     localStorage.setItem(key, JSON.stringify(list.slice(0, 100)));
   }
 
+  function formatBilingualVal(enVal, teVal) {
+    if (!enVal) return "Not Answered";
+    if (teVal && teVal !== enVal) {
+      return `${escapeHtml(enVal)} <span style="color:#0f766e;">(${escapeHtml(teVal)})</span>`;
+    }
+    return escapeHtml(enVal);
+  }
+
   function renderResultScreen(record, split) {
     hideAllViews();
     document.getElementById("resultView").classList.remove("hidden");
@@ -1063,17 +1622,29 @@
     reviewList.innerHTML = "";
     activeQuiz.questions.forEach((q, idx) => {
       const chosen = activeQuiz.answers[idx];
+      const chosenPair = q.optionPairs.find(p => p.en === chosen);
+      const chosenTe = chosenPair ? chosenPair.te : "";
       const status = chosen === null ? "skipped" : (chosen === q.answer ? "correct" : "wrong");
       const label = status === "correct" ? "Correct" : (status === "skipped" ? "Skipped" : "Incorrect");
+
+      const expHtml = (q.explanation || q.explanation_te)
+        ? `<div class="review-exp">
+            ${q.explanation ? `<div><strong>Explanation:</strong> ${escapeHtml(q.explanation)}</div>` : ""}
+            ${q.explanation_te ? `<div class="review-te"><strong>వివరణ:</strong> ${escapeHtml(q.explanation_te)}</div>` : ""}
+           </div>`
+        : "";
 
       const div = document.createElement("div");
       div.className = `review-item ${status}`;
       div.innerHTML = `
         <div class="review-meta">Q${idx + 1} • ${escapeHtml(q.subject)} L${q.lesson_no} (${escapeHtml(q.exam_style)}) • <strong>${label}</strong></div>
-        <div class="review-q">${escapeHtml(q.question)}</div>
-        <div class="review-ans">Your Answer: <strong>${chosen ? escapeHtml(chosen) : "Not Answered"}</strong></div>
-        <div class="review-ans">Correct Answer: <strong>${escapeHtml(q.answer)}</strong></div>
-        ${q.explanation ? `<div class="review-exp"><strong>Explanation:</strong> ${escapeHtml(q.explanation)}</div>` : ""}
+        <div class="review-q">
+          ${escapeHtml(q.question)}
+          ${q.hasTe ? `<div class="review-te">${escapeHtml(q.question_te)}</div>` : ""}
+        </div>
+        <div class="review-ans">Your Answer: <strong>${chosen ? formatBilingualVal(chosen, chosenTe) : "Not Answered"}</strong></div>
+        <div class="review-ans">Correct Answer: <strong>${formatBilingualVal(q.answer, q.answer_te)}</strong></div>
+        ${expHtml}
       `;
       reviewList.appendChild(div);
     });
@@ -1148,6 +1719,281 @@
 
   function backToHome() { showHomeView(); }
   function openScoresTab() { showHomeView(); switchTab("scores"); }
+
+  // ================= TEACHER PRINTABLE PDF GENERATOR =================
+  function openTeacherPdfCorner(returnTo) {
+    if (!syllabusMeta) return alert("Question bank is still loading. Please wait a second.");
+    printReturnView = returnTo || (student ? "homeView" : "loginView");
+    hideAllViews();
+    document.getElementById("printView").classList.remove("hidden");
+    onPrintModeChange();
+  }
+
+  function openPdfFromDashboard(mode) {
+    if (!syllabusMeta) return alert("Question bank is still loading. Please wait a second.");
+    printReturnView = "homeView";
+    document.getElementById("pMode").value = mode;
+
+    if (mode === "lesson") {
+      document.getElementById("pSubject").value = document.getElementById("selLessonSub").value;
+      populatePrintLessons();
+      document.getElementById("pLesson").value = document.getElementById("selLessonNum").value;
+      document.getElementById("pCount").value = document.getElementById("selLessonCount").value;
+    } else if (mode === "subject") {
+      document.getElementById("pSubject").value = document.getElementById("selGrandSub").value;
+      populatePrintLessons();
+      document.getElementById("pCount").value = document.getElementById("selGrandCount").value;
+    } else {
+      document.getElementById("pCount").value = document.getElementById("selMegaCount").value;
+    }
+
+    hideAllViews();
+    document.getElementById("printView").classList.remove("hidden");
+    onPrintModeChange();
+  }
+
+  function exitPrintView() {
+    hideAllViews();
+    if (printReturnView === "homeView" && student) {
+      showHomeView();
+    } else {
+      document.getElementById("loginView").classList.remove("hidden");
+    }
+  }
+
+  function onPrintModeChange() {
+    const mode = document.getElementById("pMode").value;
+    document.getElementById("pSubjectWrap").classList.toggle("hidden", mode === "mega");
+    document.getElementById("pLessonWrap").classList.toggle("hidden", mode !== "lesson");
+    if (mode === "lesson") populatePrintLessons();
+    generatePrintablePaper();
+  }
+
+  async function generatePrintablePaper() {
+    const container = document.getElementById("paperPreviewContainer");
+    container.innerHTML = `<p style="color:var(--muted); text-align:center; padding:24px;">Preparing question paper...</p>`;
+
+    const mode = document.getElementById("pMode").value;
+    const count = Number(document.getElementById("pCount").value);
+    let questions = [];
+    let testName = "";
+    let subjectLabel = "";
+
+    try {
+      if (mode === "lesson") {
+        const subName = document.getElementById("pSubject").value;
+        const lessonNo = Number(document.getElementById("pLesson").value);
+        const bank = await fetchSubjectQuestions(subName);
+        const lessonPool = bank.filter(q => Number(q.lesson_no) === lessonNo);
+        if (lessonPool.length === 0) {
+          container.innerHTML = `<p style="color:var(--danger); text-align:center;">No questions found for this lesson yet.</p>`;
+          return;
+        }
+        const lessonName = lessonPool[0].lesson_name;
+        questions = shuffleArray(lessonPool).slice(0, Math.min(count, lessonPool.length)).map(prepareQuestionForQuiz);
+        subjectLabel = subName;
+        testName = `Lesson ${lessonNo}: ${lessonName}`;
+      } else if (mode === "subject") {
+        const subName = document.getElementById("pSubject").value;
+        const bank = await fetchSubjectQuestions(subName);
+        if (bank.length === 0) {
+          container.innerHTML = `<p style="color:var(--danger); text-align:center;">No questions found for this subject yet.</p>`;
+          return;
+        }
+        questions = pickStratified(bank, count, "lesson_no", null);
+        subjectLabel = subName;
+        testName = `${subName} — Subject Grand Test`;
+      } else {
+        const availableSubjects = Object.entries(syllabusMeta.subjects)
+          .filter(([, info]) => info.total_questions > 0)
+          .map(([name]) => name);
+        if (availableSubjects.length === 0) {
+          container.innerHTML = `<p style="color:var(--danger); text-align:center;">No questions available yet.</p>`;
+          return;
+        }
+        const banks = await Promise.all(availableSubjects.map(s => fetchSubjectQuestions(s)));
+        const combined = banks.flat();
+        questions = pickStratified(combined, count, "subject", null);
+        subjectLabel = availableSubjects.join(", ");
+        testName = `All-Subjects Mega Mock Test (${questions.length} Qs)`;
+      }
+
+      const timeMins = questions.length >= 90 ? 90 : questions.length;
+      currentPaper = {
+        mode,
+        subjectLabel,
+        testName,
+        questions,
+        timeMins
+      };
+
+      const anyBilingual = questions.some(q => q.hasTe);
+      document.getElementById("pLangWrap").classList.toggle("hidden", !anyBilingual);
+
+      renderPrintablePaper();
+    } catch (err) {
+      container.innerHTML = `<p style="color:var(--danger); text-align:center;">Error loading questions: ${escapeHtml(err.message)}</p>`;
+    }
+  }
+
+  function renderPrintablePaper() {
+    if (!currentPaper) return;
+    const container = document.getElementById("paperPreviewContainer");
+    const pLang = document.getElementById("pLang").value;
+    const setLabel = document.getElementById("pSetLabel").value;
+    const includeKey = document.getElementById("pIncludeKey").checked;
+    const includeExp = document.getElementById("pIncludeExp").checked;
+    const letters = ["A", "B", "C", "D"];
+    const total = currentPaper.questions.length;
+
+    // Build numbered questions HTML
+    const questionsHtml = currentPaper.questions.map((q, idx) => {
+      let stemHtml = "";
+      if (q.hasTe && pLang === "both") {
+        stemHtml = `${idx + 1}. ${escapeHtml(q.question)}<span class="paper-q-te">${escapeHtml(q.question_te)}</span>`;
+      } else if (q.hasTe && pLang === "te") {
+        stemHtml = `${idx + 1}. ${escapeHtml(q.question_te)}`;
+      } else {
+        stemHtml = `${idx + 1}. ${escapeHtml(q.question)}`;
+      }
+
+      const isLongOpt = q.optionPairs.some(p => {
+        const lenEn = (p.en || "").length;
+        const lenTe = (p.te || "").length;
+        return lenEn > 34 || lenTe > 34 || (q.hasTe && pLang === "both" && (lenEn + lenTe) > 48);
+      });
+
+      const optsHtml = q.optionPairs.map((pair, oIdx) => {
+        let optText = "";
+        if (q.hasTe && pLang === "both") {
+          const showTe = pair.te && pair.te !== pair.en;
+          optText = `${escapeHtml(pair.en)}${showTe ? ` <span class="paper-opt-te">/ ${escapeHtml(pair.te)}</span>` : ""}`;
+        } else if (q.hasTe && pLang === "te") {
+          optText = escapeHtml(pair.te || pair.en);
+        } else {
+          optText = escapeHtml(pair.en);
+        }
+        return `<div class="paper-opt-cell"><strong>(${letters[oIdx]})</strong> ${optText}</div>`;
+      }).join("");
+
+      const subTag = currentPaper.mode === "mega" ? `<span style="font-size:0.76rem; color:#475569; font-weight:600;"> [${escapeHtml(q.subject)}]</span>` : "";
+
+      return `
+        <div class="paper-q-item">
+          <div class="paper-q-stem">${stemHtml}${subTag}</div>
+          <div class="paper-opts ${isLongOpt ? "single-col" : ""}">${optsHtml}</div>
+        </div>
+      `;
+    }).join("");
+
+    // Build optional Answer Key page
+    let keyHtml = "";
+    if (includeKey) {
+      const keyCells = currentPaper.questions.map((q, idx) => {
+        const ansIdx = q.optionPairs.findIndex(p => p.en === q.answer);
+        const ansLetter = ansIdx >= 0 ? letters[ansIdx] : "-";
+        const ansPair = ansIdx >= 0 ? q.optionPairs[ansIdx] : { en: q.answer, te: q.answer_te };
+
+        let ansDisplay = "";
+        if (q.hasTe && pLang === "both") {
+          const showTe = ansPair.te && ansPair.te !== ansPair.en;
+          ansDisplay = `${escapeHtml(ansPair.en)}${showTe ? ` (${escapeHtml(ansPair.te)})` : ""}`;
+        } else if (q.hasTe && pLang === "te") {
+          ansDisplay = escapeHtml(ansPair.te || ansPair.en);
+        } else {
+          ansDisplay = escapeHtml(ansPair.en);
+        }
+
+        let expBlock = "";
+        if (includeExp && (q.explanation || q.explanation_te)) {
+          if (q.hasTe && pLang === "both") {
+            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation)}${q.explanation_te ? `<br/>${escapeHtml(q.explanation_te)}` : ""}</div>`;
+          } else if (q.hasTe && pLang === "te") {
+            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation_te || q.explanation)}</div>`;
+          } else {
+            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation)}</div>`;
+          }
+        }
+
+        return `
+          <div class="key-cell">
+            <strong>Q${idx + 1}. (${ansLetter})</strong> ${ansDisplay}
+            ${expBlock}
+          </div>
+        `;
+      }).join("");
+
+      keyHtml = `
+        <div class="paper-key-section">
+          <div class="paper-key-title">Answer Key — For Teacher Use Only ${setLabel ? `(${escapeHtml(setLabel)})` : ""}</div>
+          <div class="paper-key-sub">${escapeHtml(currentPaper.testName)} • Subject: ${escapeHtml(currentPaper.subjectLabel)} • Total: ${total} Marks</div>
+          <div class="key-grid ${includeExp ? "with-exp" : ""}">${keyCells}</div>
+        </div>
+      `;
+    }
+
+    container.innerHTML = `
+      <table class="print-sheet-table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="paper-header">
+                <h3>Class 5 Entrance Practice Examination ${setLabel ? `— ${escapeHtml(setLabel)}` : ""}</h3>
+                <p>Sainik School (AISSEE) & Jawahar Navodaya Vidyalaya (JNVST) • AP SCERT Syllabus</p>
+              </div>
+
+              <table class="student-meta-table">
+                <tr>
+                  <td colspan="2"><span class="meta-lbl">Test Name:</span> ${escapeHtml(currentPaper.testName)}</td>
+                  <td><span class="meta-lbl">Subject:</span> ${escapeHtml(currentPaper.subjectLabel)}</td>
+                </tr>
+                <tr>
+                  <td><span class="meta-lbl">Date:</span> _____ / _____ / 202___</td>
+                  <td><span class="meta-lbl">Time Allowed:</span> ${currentPaper.timeMins} Mins</td>
+                  <td><span class="meta-lbl">Max Marks:</span> ${total}</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><span class="meta-lbl">Student Name:</span> ___________________________________________</td>
+                  <td><span class="meta-lbl">Marks Obtained:</span> _____ / ${total}</td>
+                </tr>
+                <tr>
+                  <td colspan="3"><span class="meta-lbl">School Name:</span> ______________________________________________________________________</td>
+                </tr>
+              </table>
+
+              <div class="paper-instructions">
+                <strong>Instructions:</strong> Answer all ${total} questions. Each question carries 1 mark. Tick (✓) or circle the correct option (A, B, C, or D).
+              </div>
+
+              <div>${questionsHtml}</div>
+              ${keyHtml}
+              <div class="screen-preview-footer">${escapeHtml(PAPER_FOOTER_TEXT)}</div>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><div class="print-footer-spacer"></div></td>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="print-fixed-footer">${escapeHtml(PAPER_FOOTER_TEXT)}</div>
+    `;
+  }
+
+  function triggerPrintPdf() {
+    if (!currentPaper || !currentPaper.questions.length) return;
+    const origTitle = document.title;
+    const setPart = document.getElementById("pSetLabel").value ? "_" + document.getElementById("pSetLabel").value : "";
+    const safeName = ("Class5_" + currentPaper.subjectLabel + "_" + currentPaper.testName + setPart)
+      .replace(/[^a-zA-Z0-9\u0C00-\u0C7F_-]+/g, "_")
+      .replace(/_+/g, "_")
+      .substring(0, 65);
+
+    document.title = safeName;
+    window.print();
+    setTimeout(() => { document.title = origTitle; }, 1000);
+  }
 
   function escapeHtml(str) {
     return String(str || "")
