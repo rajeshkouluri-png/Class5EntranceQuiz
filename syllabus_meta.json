@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T14:31:52.869Z",
+  "updated_at": "2026-11-24T05:53:57.048Z",
   "subjects": {
     "Maths": {
       "file": "maths.json",
@@ -161,8 +161,13 @@
     },
     "Telugu": {
       "file": "telugu.json",
-      "total_questions": 260,
+      "total_questions": 600,
       "lessons": [
+        {
+          "lesson_no": 1,
+          "lesson_name": "ఏ దేశమేగిన",
+          "count": 60
+        },
         {
           "lesson_no": 2,
           "lesson_name": "సాయం",
@@ -186,7 +191,27 @@
         {
           "lesson_no": 6,
           "lesson_name": "పెన్నేటిపాట",
-          "count": 20
+          "count": 60
+        },
+        {
+          "lesson_no": 7,
+          "lesson_name": "పద్యరత్నాలు",
+          "count": 60
+        },
+        {
+          "lesson_no": 8,
+          "lesson_name": "ఇటిజ్ పండుగ",
+          "count": 60
+        },
+        {
+          "lesson_no": 9,
+          "lesson_name": "తరిగోండ వేంగమాంబ",
+          "count": 60
+        },
+        {
+          "lesson_no": 10,
+          "lesson_name": "మంచిబహుమతి",
+          "count": 60
         }
       ]
     }
