@@ -2160,7 +2160,7 @@
     "options": [
       "27543",
       "56409",
-      "0",
+      "",
       "1"
     ],
     "answer": "27543",
@@ -2186,7 +2186,7 @@
       "67894",
       "34178",
       "1",
-      "0"
+      ""
     ],
     "answer": "67894",
     "explanation": "The order of addends is reversed, meaning 67,894 must fill the blank.",
@@ -2209,7 +2209,7 @@
     "question": "Evaluate: 0 + ____ = 65,912",
     "options": [
       "65912",
-      "0",
+      "",
       "1",
       "65913"
     ],
@@ -2608,7 +2608,7 @@
     "exam_style": "Sainik",
     "question": "If 88,998 + 0 = _____, what is the missing value?",
     "options": [
-      "0",
+      "",
       "88999",
       "88998",
       "1"
@@ -3008,7 +3008,7 @@
     "exam_style": "Foundation",
     "question": "What is the product of 4589 and 1?",
     "options": [
-      "0",
+      "",
       "1",
       "4589",
       "4590"
@@ -3033,12 +3033,12 @@
     "exam_style": "Foundation",
     "question": "What is the product of 5817 and 0?",
     "options": [
-      "0",
+      "",
       "1",
       "5817",
       "58170"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "The product of any number and zero is always zero, known as the zero property of multiplication.",
     "question_te": "5817 మరియు 0 ల లబ్ధం ఎంత?",
     "options_te": [
@@ -3108,7 +3108,7 @@
     "exam_style": "Foundation",
     "question": "Find the missing number in the division relation: Dividend = (Divisor × Quotient) + Remainder. If Dividend = 19895, Divisor = 21, and Quotient = 947, what is the Remainder?",
     "options": [
-      "0",
+      "",
       "8",
       "12",
       "15"
@@ -3658,7 +3658,7 @@
     "exam_style": "Navodaya",
     "question": "What is the result of 950 × 0 + 1?",
     "options": [
-      "0",
+      "",
       "951",
       "1",
       "950"
@@ -3711,7 +3711,7 @@
       "576",
       "48",
       "12",
-      "0"
+      ""
     ],
     "answer": "12",
     "explanation": "The divisor is the number by which the dividend is divided.",
@@ -3733,7 +3733,7 @@
     "exam_style": "Navodaya",
     "question": "Which number is the multiplicative identity?",
     "options": [
-      "0",
+      "",
       "1",
       "10",
       "None of these"
@@ -3936,7 +3936,7 @@
       "9",
       "12",
       "108",
-      "0"
+      ""
     ],
     "answer": "9",
     "explanation": "Division is the inverse operation of multiplication; if a × b = c, then c ÷ a = b.",
@@ -3986,7 +3986,7 @@
       "5",
       "8",
       "10",
-      "0"
+      ""
     ],
     "answer": "8",
     "explanation": "Performing the division of 19895 by 21, the quotient is 947 and the remainder is 8.",
@@ -4385,10 +4385,10 @@
     "options": [
       "5000",
       "500",
-      "0",
+      "",
       "100"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "Any expression multiplied by zero results in zero.",
     "question_te": "100 × 10 × 0 × 5 యొక్క ఫలితం ఎంత?",
     "options_te": [
@@ -4583,7 +4583,7 @@
     "exam_style": "Foundation",
     "question": "Which is the only even prime number?",
     "options": [
-      "0",
+      "",
       "2",
       "4",
       "6"
@@ -5283,7 +5283,7 @@
     "exam_style": "Navodaya",
     "question": "Every number is a multiple of which number?",
     "options": [
-      "0",
+      "",
       "1",
       "Itsself",
       "Both 1 and itself"
@@ -5358,7 +5358,7 @@
     "exam_style": "Navodaya",
     "question": "Which number is a factor of every number?",
     "options": [
-      "0",
+      "",
       "1",
       "2",
       "10"
@@ -5433,12 +5433,12 @@
     "exam_style": "Navodaya",
     "question": "Find the missing digit in 54_2 to make it divisible by 6.",
     "options": [
-      "0",
+      "",
       "3",
       "6",
       "9"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "For a number to be divisible by 6, it must be divisible by both 2 and 3. Testing 0 gives 5402 (sum = 11, not divisible by 3). Wait, let us check digit sum for 5 + 4 + 0 + 2 = 11. Let's pick option 3: 5432 sum is 14. Option 6: 5462 sum is 17. Option 9: 5492 sum is 20. Let's use 5412: 5+4+1+2 = 12 (divisible by 3) and ends in 2 (divisible by 2). Let's replace the question option to match: Let's use 1 as an option instead of 0.",
     "question_te": "54_2 సంఖ్య 6 చే నిశ్శేషంగా భాగింపబడాలంటే ఖాళీ స్థానంలో ఉండవలసిన అంకె ఎంత?",
     "options_te": [
@@ -5558,12 +5558,12 @@
     "exam_style": "Sainik",
     "question": "What is the difference between the 4th multiple of 9 and the 6th multiple of 6?",
     "options": [
-      "0",
+      "",
       "18",
       "36",
       "54"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "The 4th multiple of 9 is 9 × 4 = 36. The 6th multiple of 6 is 6 × 6 = 36. Their difference is 36 - 36 = 0.",
     "question_te": "9 యొక్క 4వ గుణిజానికి మరియు 6 యొక్క 6వ గుణిజానికి మధ్య గల భేదం ఎంత?",
     "options_te": [
@@ -5708,12 +5708,12 @@
     "exam_style": "Sainik",
     "question": "What is the unit digit of the LCM of 15, 20, and 25?",
     "options": [
-      "0",
+      "",
       "5",
       "2",
       "8"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "The LCM of 15, 20, and 25 is 300. The unit digit of 300 is 0.",
     "question_te": "15, 20 మరియు 25 ల కసాగు (LCM) యొక్క ఒకట్ల స్థానంలోని అంకె ఎంత?",
     "options_te": [
@@ -5933,7 +5933,7 @@
     "exam_style": "Sainik",
     "question": "What is the HCF of two co-prime numbers?",
     "options": [
-      "0",
+      "",
       "1",
       "The smaller number",
       "The product of the numbers"
@@ -6033,19 +6033,19 @@
     "exam_style": "Foundation",
     "question": "Which of the following is a proper fraction?",
     "options": [
-      "Sun May 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Jul 07 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Apr 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Dec 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/3",
+      "7/7",
+      "4/9",
+      "12/5"
     ],
-    "answer": "Thu Apr 09 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "4/9",
     "explanation": "A proper fraction always has a numerator less than its denominator. In 4/9, 4 is less than 9.",
     "question_te": "కింది వాటిలో క్రమ భిన్నం (Proper fraction) ఏది?",
     "options_te": [
-      "Thu Apr 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Sep 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue May 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Jul 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/3",
+      "7/7",
+      "4/9",
+      "12/5"
     ],
     "explanation_te": "క్రమ భిన్నంలో లవము ఎప్పుడూ హారము కంటే తక్కువగా ఉంటుంది. 4/9 లో 4 అనేది 9 కంటే తక్కువ."
   },
@@ -6108,19 +6108,19 @@
     "exam_style": "Foundation",
     "question": "Convert the mixed fraction 3 1/4 into an improper fraction.",
     "options": [
-      "Wed Nov 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "11/4",
       "13/4",
-      "Fri Dec 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Jul 04 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "12/4",
+      "7/4"
     ],
     "answer": "13/4",
     "explanation": "Multiply the denominator (4) by the whole number (3) and add the numerator (1): (3 x 4) + 1 = 13. Place it over the denominator 4 to get 13/4.",
     "question_te": "మిశ్రమ భిన్నం 3 1/4 ని అపక్రమ భిన్నంగా మార్చండి.",
     "options_te": [
-      "Wed Nov 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "11/4",
       "13/4",
-      "15/4",
-      "Fri Dec 04 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "12/4",
+      "7/4"
     ],
     "explanation_te": "హారము (4) తో పూర్ణ సంఖ్యను (3) గుణించి లవము (1) ని కలపాలి: (3 x 4) + 1 = 13. దీనిని హారము 4 కింద వ్రాస్తే 13/4 వస్తుంది."
   },
@@ -6158,19 +6158,19 @@
     "exam_style": "Foundation",
     "question": "Add the like fractions: 3/8 + 2/8 + 1/8",
     "options": [
-      "Fri May 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Jun 24 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jun 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jan 08 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/8",
+      "6/24",
+      "6/8",
+      "1/8"
     ],
-    "answer": "Mon Jun 08 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "6/8",
     "explanation": "To add like fractions, add only the numerators and keep the common denominator: 3 + 2 + 1 = 6, so the sum is 6/8.",
     "question_te": "సజాతీయ భిన్నాలను కలపండి: 3/8 + 2/8 + 1/8",
     "options_te": [
-      "Fri May 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jun 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Jul 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Aug 08 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/8",
+      "6/24",
+      "6/8",
+      "1/8"
     ],
     "explanation_te": "సజాతీయ భిన్నాలను కూడేటప్పుడు లవాలను మాత్రమే కూడి ఉమ్మడి హారమును రాయాలి: 3 + 2 + 1 = 6, కాబట్టి మొత్తం 6/8."
   },
@@ -6184,18 +6184,18 @@
     "question": "Subtract: 7/5 - 3/5",
     "options": [
       "4/0",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Oct 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "4/5",
+      "10/5",
+      "3/5"
     ],
-    "answer": "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "4/5",
     "explanation": "When subtracting like fractions, subtract the numerators while the denominator remains the same: 7 - 3 = 4, giving 4/5.",
     "question_te": "తీసివేయండి: 7/5 - 3/5",
     "options_te": [
       "4/0",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "4/5",
+      "10/5",
+      "3/5"
     ],
     "explanation_te": "సజాతీయ భిన్నాలను తీసివేసేటప్పుడు హారము అలాగే ఉంచి లవాలను తీసివేయాలి: 7 - 3 = 4, కాబట్టి సమాధానం 4/5."
   },
@@ -6208,19 +6208,19 @@
     "exam_style": "Foundation",
     "question": "What is 1 - 1/4?",
     "options": [
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Feb 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Apr 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/4",
+      "2/4",
+      "3/4",
+      "4/3"
     ],
-    "answer": "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "3/4",
     "explanation": "Write whole number 1 as 4/4. Then subtract: 4/4 - 1/4 = 3/4.",
     "question_te": "1 - 1/4 విలువ ఎంత?",
     "options_te": [
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Feb 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Apr 04 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/4",
+      "2/4",
+      "3/4",
+      "4/3"
     ],
     "explanation_te": "పూర్ణ సంఖ్య 1 ని 4/4 గా వ్రాయవచ్చు. అప్పుడు తీసివేస్తే: 4/4 - 1/4 = 3/4."
   },
@@ -6233,19 +6233,19 @@
     "exam_style": "Foundation",
     "question": "Which of the following is an equivalent fraction of 1/3?",
     "options": [
-      "Fri Feb 06 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Mar 06 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Jan 06 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "2/6",
+      "2/3",
+      "3/6",
+      "1/6"
     ],
-    "answer": "Fri Feb 06 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "2/6",
     "explanation": "Multiplying both the numerator and denominator of 1/3 by 2 gives (1 x 2) / (3 x 2) = 2/6.",
     "question_te": "కింది వాటిలో 1/3 యొక్క సమాన భిన్నం (Equivalent fraction) ఏది?",
     "options_te": [
-      "Fri Feb 06 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Jan 06 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "2/6",
+      "2/3",
+      "3/6",
+      "1/6"
     ],
     "explanation_te": "1/3 యొక్క లవహారాలను రెండింటిని 2 తో గుణిస్తే (1 x 2) / (3 x 2) = 2/6 వస్తుంది."
   },
@@ -6258,19 +6258,19 @@
     "exam_style": "Foundation",
     "question": "Find the simplest form of the fraction 12/18.",
     "options": [
-      "Tue Jun 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Mar 02 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Apr 06 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "6/9",
+      "3/2",
+      "2/3",
+      "4/6"
     ],
-    "answer": "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "2/3",
     "explanation": "Dividing both numerator and denominator of 12/18 by their HCF (which is 6) gives 2/3.",
     "question_te": "12/18 భిన్నం యొక్క కనిష్ఠ రూపం (సರಳ రూపం) కనుగొనండి.",
     "options_te": [
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "6/9",
+      "3/2",
+      "2/3",
+      "4/6"
     ],
     "explanation_te": "12/18 లవ హారాలను వాటి గరిష్ట సామాన్య భాజకం (గసాభా 6) తో భాగించగా 2/3 వస్తుంది."
   },
@@ -6334,18 +6334,18 @@
     "question": "In the decimal number 285.143, what is the place value of the digit 4?",
     "options": [
       "4",
-      "Fri Apr 10 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "4/10",
       "4/100",
-      "Tue Apr 01 1000 00:00:00 GMT+0553 (India Standard Time)"
+      "4/1000"
     ],
     "answer": "4/100",
     "explanation": "The digit 4 is in the hundredths place, which represents 4/100 or 0.04.",
     "question_te": "285.143 అనే దశాంశ సంఖ్యలో 4 అంకె యొక్క స్థాన విలువ ఎంత?",
     "options_te": [
       "4",
-      "Fri Apr 10 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "4/10",
       "4/100",
-      "Tue Apr 01 1000 00:00:00 GMT+0553 (India Standard Time)"
+      "4/1000"
     ],
     "explanation_te": "4 అంకె నూటవ స్థానంలో ఉంది, ఇది 4/100 లేదా 0.04 ను సూచిస్తుంది."
   },
@@ -6383,19 +6383,19 @@
     "exam_style": "Foundation",
     "question": "Subtract 12/4 from the sum of 7/4 and 8/4.",
     "options": [
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "3/4",
       "15/4",
       "27/4",
-      "Wed Feb 04 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "2/4"
     ],
-    "answer": "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "3/4",
     "explanation": "Sum of 7/4 and 8/4 is 15/4. Subtracting 12/4 from 15/4 gives (15 - 12) / 4 = 3/4.",
     "question_te": "7/4 మరియు 8/4 ల మొత్తం నుండి 12/4 ని తీసివేయండి.",
     "options_te": [
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "3/4",
       "15/4",
       "27/4",
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "2/4"
     ],
     "explanation_te": "7/4 మరియు 8/4 ల మొత్తం 15/4. 15/4 నుండి 12/4 ని తీసివేస్తే (15 - 12) / 4 = 3/4 వస్తుంది."
   },
@@ -6458,18 +6458,18 @@
     "exam_style": "Foundation",
     "question": "What is the value of the expression 1/2 + 1/2?",
     "options": [
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "1/4",
       "1",
-      "Wed Feb 04 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "2/4",
       "2"
     ],
     "answer": "1",
     "explanation": "Adding the like fractions: 1/2 + 1/2 = 2/2, which simplifies to the whole number 1.",
     "question_te": "1/2 + 1/2 సమాసం యొక్క విలువ ఎంత?",
     "options_te": [
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "1/4",
       "1",
-      "Mon Mar 02 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "2/4",
       "2"
     ],
     "explanation_te": "సజాతీయ భిన్నాలను కూడగా: 1/2 + 1/2 = 2/2, ఇది సూక్ష్మీకరించగా పూర్ణాంకం 1 అవుతుంది."
@@ -6508,19 +6508,19 @@
     "exam_style": "Navodaya",
     "question": "Which of the following fractions has a numerator greater than or equal to its denominator?",
     "options": [
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jul 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Aug 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "3/5",
+      "7/9",
+      "8/8",
+      "1/2"
     ],
-    "answer": "Sat Aug 08 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "8/8",
     "explanation": "An improper fraction has a numerator greater than or equal to the denominator, such as 8/8.",
     "question_te": "కింది వాటిలో ఏ భిన్నం యొక్క లవము దాని హారానికంటే ఎక్కువగా లేదా సమానంగా ఉంటుంది?",
     "options_te": [
-      "అపక్రమ భిన్నం",
-      "క్రమ భిన్నం",
-      "సజాతీయ భిన్నం",
-      "విజాాతీయ భిన్నం"
+      "3/5",
+      "7/9",
+      "8/8",
+      "1/2"
     ],
     "explanation_te": "అపక్రమ భిన్నంలో లవము హారము కంటే ఎక్కువగా లేదా సమానంగా ఉంటుంది, ఉదాహరణకు 8/8."
   },
@@ -6583,19 +6583,19 @@
     "exam_style": "Navodaya",
     "question": "What is the simplest form of the fraction 20/24?",
     "options": [
-      "Mon Oct 12 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed May 06 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "10/12",
+      "5/6",
+      "4/5",
+      "2/3"
     ],
-    "answer": "Wed May 06 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "5/6",
     "explanation": "Divide both numerator and denominator by their HCF, which is 4: 20 ÷ 4 = 5 and 24 ÷ 4 = 6.",
     "question_te": "20/24 భిన్నం యొక్క కనిష్ఠ రూపం ఏమిటి?",
     "options_te": [
-      "Wed May 06 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Mar 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Feb 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "10/12",
+      "5/6",
+      "4/5",
+      "2/3"
     ],
     "explanation_te": "లవ హారాలను వాటి గసాభా (4) చే భాగించండి: 20 ÷ 4 = 5 మరియు 24 ÷ 4 = 6."
   },
@@ -6733,19 +6733,19 @@
     "exam_style": "Navodaya",
     "question": "Subtract 3/15 from 8/15:",
     "options": [
-      "Fri May 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Nov 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat May 30 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Mar 15 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/15",
+      "11/15",
+      "5/30",
+      "3/15"
     ],
-    "answer": "Fri May 15 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "5/15",
     "explanation": "Subtract the numerators while keeping the denominator the same: (8 - 3) / 15 = 5/15.",
     "question_te": "8/15 నుండి 3/15 ని తీసివేయండి:",
     "options_te": [
-      "Fri May 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Nov 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Mar 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Aug 15 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/15",
+      "11/15",
+      "5/30",
+      "3/15"
     ],
     "explanation_te": "హారమును అలాగే ఉంచుతూ లవాలను తీసివేయండి: (8 - 3) / 15 = 5/15."
   },
@@ -6886,7 +6886,7 @@
       "1",
       "3",
       "2",
-      "Sat Jan 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/3"
     ],
     "answer": "2",
     "explanation": "A mixed fraction consists of a whole number part (2) and a proper fraction part (1/3).",
@@ -6895,7 +6895,7 @@
       "1",
       "3",
       "2",
-      "Sat Jan 03 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/3"
     ],
     "explanation_te": "మిశ్రమ భిన్నం ఒక పూర్తి సంఖ్య భాగం (2) మరియు క్రమ భిన్నం భాగం (1/3) కలిగి ఉంటుంది."
   },
@@ -6908,19 +6908,19 @@
     "exam_style": "Navodaya",
     "question": "What is the result when you add 2/10 and 4/10 and express it as a single fraction?",
     "options": [
-      "Wed Jun 10 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Jun 20 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Aug 10 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "6/10",
+      "6/20",
+      "8/10",
+      "1/2"
     ],
-    "answer": "Wed Jun 10 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "6/10",
     "explanation": "For like fractions, add the numerators and keep the denominator: 2 + 4 = 6, so 6/10.",
     "question_te": "2/10 మరియు 4/10 లను కూడి, ఒకే భిన్నంగా వ్యక్తపరిస్తే వచ్చే ఫలితం ఏమిటి?",
     "options_te": [
-      "Wed Jun 10 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Jun 20 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Aug 10 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "6/10",
+      "6/20",
+      "8/10",
+      "1/2"
     ],
     "explanation_te": "సజాతి భిన్నాల విషయంలో, లవాలను కూడి హారాన్ని అలాగే ఉంచాలి: 2 + 4 = 6, కాబట్టి 6/10."
   },
@@ -7008,19 +7008,19 @@
     "exam_style": "Sainik",
     "question": "If you multiply both the numerator and the denominator of the fraction 3/5 by 4, what new fraction do you get?",
     "options": [
-      "Thu Jul 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Dec 20 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Dec 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Mar 20 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "7/9",
+      "12/20",
+      "12/5",
+      "3/20"
     ],
-    "answer": "Sun Dec 20 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "12/20",
     "explanation": "To find an equivalent fraction, we multiply both the numerator and denominator by the same number: (3 × 4) / (5 × 4) = 12/20.",
     "question_te": "3/5 భిన్నం యొక్క లవము మరియు హారము రెండింటినీ 4 తో గుణిస్తే, మీకు ఏ కొత్త భిన్నం వస్తుంది?",
     "options_te": [
-      "Thu Jul 09 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Dec 20 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Dec 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Mar 20 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "7/9",
+      "12/20",
+      "12/5",
+      "3/20"
     ],
     "explanation_te": "సమాన భిన్నాన్ని కనుగొనడానికి, లవము మరియు హారము రెండింటినీ ఒకే సంఖ్యతో గుణిస్తాము: (3 × 4) / (5 × 4) = 12/20."
   },
@@ -7033,19 +7033,19 @@
     "exam_style": "Sainik",
     "question": "Which of the following fractions is in its lowest (simplest) form?",
     "options": [
-      "Tue Jun 09 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "6/9",
       "14/35",
-      "Mon May 11 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Oct 20 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/11",
+      "10/20"
     ],
-    "answer": "Mon May 11 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "5/11",
     "explanation": "5 and 11 have no common factors other than 1, so 5/11 cannot be reduced further and is in its simplest form.",
     "question_te": "క్రింది భిన్నాలలో ఏది కనిష్ట (సరళమైన) రూపంలో ఉంది?",
     "options_te": [
-      "Tue Jun 09 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "6/9",
       "14/35",
-      "Mon May 11 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Oct 20 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "5/11",
+      "10/20"
     ],
     "explanation_te": "5 మరియు 11 లకు 1 కాకుండా వేరే సామాన్య కారణాంకాలు లేవు, కాబట్టి 5/11 ని మరింత తగ్గించలేము మరియు అది సరళ రూపంలో ఉంది."
   },
@@ -7158,19 +7158,19 @@
     "exam_style": "Sainik",
     "question": "If 5/8 of a tank is filled with water, how much more water is needed to fill the tank completely (1 whole)?",
     "options": [
-      "Sun Mar 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri May 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jan 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Aug 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "3/8",
+      "5/8",
+      "1/8",
+      "8/5"
     ],
-    "answer": "Sun Mar 08 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "3/8",
     "explanation": "Subtract the filled part from 1: 1 - 5/8 = 8/8 - 5/8 = 3/8.",
     "question_te": "ఒక ట్యాంక్ లో 5/8 వ వంతు నీరు నిండి ఉంది, ట్యాంక్ పూర్తిగా (1 పూర్తి భాగం) నిండడానికి ఇంకెంత నీరు అవసరం?",
     "options_te": [
-      "Sun Mar 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri May 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jan 08 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Wed Aug 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "3/8",
+      "5/8",
+      "1/8",
+      "8/5"
     ],
     "explanation_te": "నిండిన భాగాన్ని 1 నుండి తీసివేయాలి: 1 - 5/8 = 8/8 - 5/8 = 3/8."
   },
@@ -7208,19 +7208,19 @@
     "exam_style": "Sainik",
     "question": "What is the difference between the greatest and smallest fractions among: 2/5, 4/5, 1/5, 3/5?",
     "options": [
-      "Mon Jan 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5"
     ],
-    "answer": "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "3/5",
     "explanation": "The greatest fraction is 4/5 and the smallest is 1/5. Their difference is 4/5 - 1/5 = 3/5.",
     "question_te": "2/5, 4/5, 1/5, 3/5 లలో అతి పెద్ద మరియు అతి చిన్న భిన్నాల మధ్య తేడా ఎంత?",
     "options_te": [
-      "Mon Jan 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5"
     ],
     "explanation_te": "అతి పెద్ద భిన్నం 4/5 మరియు అతి చిన్నది 1/5. వాటి భేదం 4/5 - 1/5 = 3/5."
   },
@@ -7358,19 +7358,19 @@
     "exam_style": "Sainik",
     "question": "Simplify the following expression: (7/12 + 2/12) - 3/12",
     "options": [
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Jan 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue May 12 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/2",
+      "1/3",
+      "1/4",
+      "5/12"
     ],
-    "answer": "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "1/2",
     "explanation": "(7 + 2 - 3) / 12 = 6/12. Simplifying 6/12 by dividing numerator and denominator by 6 gives 1/2.",
     "question_te": "క్రింది సమాసాన్ని సరళీకరించండి: (7/12 + 2/12) - 3/12",
     "options_te": [
-      "Fri Jan 02 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Jan 03 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Jan 04 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue May 12 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "1/2",
+      "1/3",
+      "1/4",
+      "5/12"
     ],
     "explanation_te": "(7 + 2 - 3) / 12 = 6/12. 6/12 లో లవము మరియు హారమును 6 తో భాగిస్తే 1/2 వస్తుంది."
   },
@@ -7383,7 +7383,7 @@
     "exam_style": "Sainik",
     "question": "Which of the following fractions is equivalent to 5/6?",
     "options": [
-      "Sun Oct 18 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "10/18",
       "15/24",
       "25/30",
       "20/30"
@@ -7392,7 +7392,7 @@
     "explanation": "Multiplying both numerator and denominator of 5/6 by 5 gives (5 × 5) / (6 × 5) = 25/30.",
     "question_te": "క్రింది భిన్నాలలో ఏది 5/6 కి సమానమైన భిన్నం?",
     "options_te": [
-      "Sun Oct 18 2026 00:00:00 GMT+0530 (India Standard Time)",
+      "10/18",
       "15/24",
       "25/30",
       "20/30"
@@ -7408,19 +7408,19 @@
     "exam_style": "Sainik",
     "question": "Ajay read 2/5 of a book on Saturday and 1/5 of the book on Sunday. What fraction of the book is still left unread?",
     "options": [
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jan 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "3/5",
+      "2/5",
+      "4/5",
+      "1/5"
     ],
-    "answer": "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "2/5",
     "explanation": "Total read = 2/5 + 1/5 = 3/5. Left unread = 1 - 3/5 = 5/5 - 3/5 = 2/5.",
     "question_te": "అజయ్ శనివారం రోజు ఒక పుస్తకంలో 2/5 వ వంతు మరియు ఆదివారం రోజు 1/5 వ వంతు చదివాడు. ఇంకా చదవవలసిన పుస్తకం ఎంత భాగం మిగిలి ఉంది?",
     "options_te": [
-      "Thu Mar 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Feb 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Apr 05 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jan 05 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "3/5",
+      "2/5",
+      "4/5",
+      "1/5"
     ],
     "explanation_te": "మొత్తం చదివిన భాగం = 2/5 + 1/5 = 3/5. చదవవలసిన మిగిలిన భాగం = 1 - 3/5 = 5/5 - 3/5 = 2/5."
   },
@@ -7535,17 +7535,17 @@
     "options": [
       "|||||",
       "||||",
-      "||||/",
-      "||||| (with a diagonal line across four lines)"
+      "||/",
+      "||||/"
     ],
-    "answer": "|||| (with a diagonal line across four lines)",
+    "answer": "||||/",
     "explanation": "A group of 5 in tally marks is represented by four vertical lines with a diagonal line crossing them.",
     "question_te": "5 సంఖ్యను టల్లీ మార్కుల రూపంలో ఎలా సూచిస్తారు?",
     "options_te": [
       "|||||",
       "||||",
-      "||||/",
-      "||||| (నాలుగు నిలువు గీతల మీద అడ్డంగా ఒక గీత)"
+      "||/",
+      "||||/"
     ],
     "explanation_te": "టల్లీ మార్కులలో 5 సమూహాన్ని నాలుగు నిలువు గీతలు వాటిని క్రాస్ చేసే ఒక కర్ణ రేఖతో సూచిస్తారు."
   },
@@ -8308,12 +8308,12 @@
     "exam_style": "Navodaya",
     "question": "If 1 symbol in a pictograph represents 9 apples, how many apples are represented by 0 symbols?",
     "options": [
-      "0",
+      "",
       "1",
       "9",
       "Cannot be determined"
     ],
-    "answer": "0",
+    "answer": "",
     "explanation": "Any number multiplied by zero is zero; therefore, zero symbols represent zero apples.",
     "question_te": "ఒక బొమ్మచిత్రంలో 1 చిహ్నం 9 ఆపిల్లలను సూచిస్తే, 0 చిహ్నాలు ఎన్ని ఆపిల్లలను సూచిస్తాయి?",
     "options_te": [
@@ -12158,19 +12158,19 @@
     "exam_style": "Foundation",
     "question": "What is 21:30 hours in 12-hour clock format (AM/PM)?",
     "options": [
-      "Sat Dec 30 1899 09:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 23:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtract 12 from 21 to get 9, making it 9:30 PM.",
     "question_te": "21:30 గంటలు అనగా 12 గంటల గడియార విధానంలో (AM/PM) ఎంత?",
     "options_te": [
-      "ఉదయం 09:30 AM",
-      "రాత్రి 09:30 PM",
-      "రాత్రి 08:30 PM",
-      "రాత్రి 11:30 PM"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "21 నుండి 12 ని తీసివేస్తే 9 వస్తుంది, కాబట్టి ఇది 9:30 PM అవుతుంది."
   },
@@ -12308,19 +12308,19 @@
     "exam_style": "Foundation",
     "question": "A movie starts at 7:00 PM and its length is 135 minutes. At what time will the movie end?",
     "options": [
-      "Sat Dec 30 1899 20:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:15:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 21:15:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "135 minutes equals 2 hours and 15 minutes. Adding 2 hours 15 minutes to 7:00 PM gives 9:15 PM.",
     "question_te": "ఒక సినిమా సాయంత్రం 7:00 PM కి ప్రారంభమైంది మరియు దాని నిడివి 135 నిమిషాలు. అయితే ఆ సినిమా ఏ సమయానికి ముగుస్తుంది?",
     "options_te": [
-      "రాత్రి 08:45 PM",
-      "రాత్రి 09:00 PM",
-      "రాత్రి 09:15 PM",
-      "రాత్రి 09:30 PM"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "135 నిమిషాలు అనగా 2 గంటల 15 నిమిషాలు. సాయంత్రం 7:00 PM కి 2 గంటల 15 నిమిషాలు కలిపితే 9:15 PM అవుతుంది."
   },
@@ -12333,19 +12333,19 @@
     "exam_style": "Foundation",
     "question": "If a bus departed from Vijayawada and arrived in Hyderabad at 13:40, taking 5 hours 30 minutes, at what time did it leave Vijayawada?",
     "options": [
-      "Sat Dec 30 1899 07:40:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:10:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtracting journey time: 13 hours 40 minutes minus 5 hours 30 minutes equals 08:10 hours.",
     "question_te": "ఒక బస్సు విజయవాడలో బయలుదేరి హైదరాబాద్‌కు 13:40 గంటలకు చేరుకుంది. ప్రయాణానికి 5 గంటల 30 నిమిషాలు పడితే, అది విజయవాడలో ఏ సమయానికి బయలుదేరింది?",
     "options_te": [
-      "ఉదయం 07:40 గంటలు",
-      "ఉదయం 08:10 గంటలు",
-      "ఉదయం 08:30 గంటలు",
-      "ఉదయం 09:10 గంటలు"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ప్రయాణ సమయాన్ని తీసివేయాలి: 13 గంటల 40 నిమిషాల నుండి 5 గంటల 30 నిమిషాలు తీసివేస్తే 08:10 గంటలు వస్తుంది."
   },
@@ -12408,19 +12408,19 @@
     "exam_style": "Foundation",
     "question": "A train was scheduled to arrive at 7:55 AM but was 55 minutes late. What was its actual arrival time?",
     "options": [
-      "Sat Dec 30 1899 08:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:50:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 08:50:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Adding 55 minutes to 7:55 AM: 7:55 + 5 minutes = 8:00 AM, plus remaining 50 minutes = 8:50 AM.",
     "question_te": "ఒక రైలు ఉదయం 7:55 AM కి రావాల్సి ఉంది కానీ 55 నిమిషాలు ఆలస్యంగా వచ్చింది. అయితే అది వచ్చిన అసలు సమయం ఎంత?",
     "options_te": [
-      "ఉదయం 08:45 AM",
-      "ఉదయం 08:50 AM",
-      "ఉదయం 09:00 AM",
-      "ఉదయం 08:10 AM"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ఉదయం 7:55 AM కి 55 నిమిషాలు కలపాలి: 7:55 + 5 నిమిషాలు = 8:00 AM, మిగిలిన 50 నిమిషాలు కలిపితే = 8:50 AM."
   },
@@ -12458,19 +12458,19 @@
     "exam_style": "Foundation",
     "question": "A football match begins at 3:25 PM, plays for 90 minutes, and has a 15-minute half-time break. At what time will the match end?",
     "options": [
-      "Sat Dec 30 1899 17:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:25:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 16:55:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Total time = 90 min (play) + 15 min (break) = 105 min = 1 hour 45 minutes. Adding 1 hour 45 minutes to 3:25 PM gives 5:10 PM.",
     "question_te": "ఒక ఫుట్‌బాల్ మ్యాచ్ మధ్యాహ్నం 3:25 PM కి ప్రారంభమై, 90 నిమిషాలు ఆట సాగి, 15 నిమిషాల అర్ధకాల విరామం (హాఫ్ టైమ్ బ్రేక్) ఉంది. అయితే మ్యాచ్ ఏ సమయానికి ముగుస్తుంది?",
     "options_te": [
-      "సమయం 17:00 PM",
-      "సాయంత్రం 05:10 PM",
-      "సాయంత్రం 05:25 PM",
-      "సాయంత్రం 04:55 PM"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "మొత్తం సమయం = 90 నిమిషాలు (ఆట) + 15 నిమిషాలు (విరామం) = 105 నిమిషాలు = 1 గంట 45 నిమిషాలు. 3:25 PM కి 1 గంట 45 నిమిషాలు కలిపితే 5:10 PM అవుతుంది."
   },
@@ -12483,19 +12483,19 @@
     "exam_style": "Foundation",
     "question": "Sneha began her homework at 4:30 PM and worked for 80 minutes. At what time did she finish?",
     "options": [
-      "Sat Dec 30 1899 17:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:50:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 18:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 17:50:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "80 minutes equals 1 hour and 20 minutes. Adding 1 hour 20 minutes to 4:30 PM gives 5:50 PM.",
     "question_te": "స్నేహ సాయంత్రం 4:30 PM కి హోమ్‌వర్క్ చేయడం ప్రారంభించి 80 నిమిషాలు పనిచేసింది. ఆమె ఏ సమయానికి పూర్తి చేసింది?",
     "options_te": [
-      "సాయంత్రం 05:30 PM",
-      "సాయంత్రం 05:50 PM",
-      "సాయంత్రం 06:00 PM",
-      "సాయంత్రం 05:10 PM"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "80 నిమిషాలు అనగా 1 గంట 20 నిమిషాలు. సాయంత్రం 4:30 PM కి 1 గంట 20 నిమిషాలు కలిపితే 5:50 PM అవుతుంది."
   },
@@ -12658,19 +12658,19 @@
     "exam_style": "Navodaya",
     "question": "Robert is boarding a flight from Vijayawada airport at 22:00 hours. What is this time in the 12-hour clock format?",
     "options": [
-      "Sat Dec 30 1899 10:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 22:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 23:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 22:00:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtract 12 from 22:00 hours to convert to 12-hour format. 22 - 12 = 10, so it is 10:00 PM.",
     "question_te": "రాబర్ట్ విజయవాడ విమానాశ్రయం నుండి 22:00 గంటలకు విమానం ఎక్కుతున్నాడు. 12-గంటల గడియారపు ఆకృతిలో ఈ సమయం ఎంత?",
     "options_te": [
-      "Sat Dec 30 1899 10:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 22:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 23:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "12-గంటల ఆకృతిలోకి మార్చడానికి 22:00 గంటల నుండి 12 ని తీసివేయండి. 22 - 12 = 10, కాబట్టి ఇది రాత్రి 10:00 అవుతుంది."
   },
@@ -12758,19 +12758,19 @@
     "exam_style": "Navodaya",
     "question": "If Nikhitha started her journey by bus at 6 hours 30 minutes in the morning and travelled for 2 hours, at what time did she reach her destination?",
     "options": [
-      "Sat Dec 30 1899 08:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 08:30:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Adding 2 hours to 6 hours 30 minutes gives 8 hours 30 minutes in the morning (AM).",
     "question_te": "నిఖిత ఉదయం 6 గంటల 30 నిమిషాలకు బస్సులో ప్రయాణం ప్రారంభించి 2 గంటలు ప్రయాణిస్తే, ఆమె తన గమ్యస్థానానికి ఏ సమయంలో చేరుకుంది?",
     "options_te": [
-      "Sat Dec 30 1899 08:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ఉదయం 6 గంటల 30 నిమిషాలకు 2 గంటలు కలిపితే ఉదయం 8 గంటల 30 నిమిషాలు వస్తుంది."
   },
@@ -12783,19 +12783,19 @@
     "exam_style": "Navodaya",
     "question": "Sony TV telecasts a movie at 8:00 PM. John's watch is running 20 minutes slow. At what time by his watch should he switch on the TV to watch it from the beginning?",
     "options": [
-      "Sat Dec 30 1899 19:40:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 19:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:40:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 19:40:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Since the watch is running slow by 20 minutes, John needs to look at his watch when it shows 20 minutes before 8:00 PM, which is 07:40 PM.",
     "question_te": "సోనీ టీవీ రాత్రి 8:00 గంటలకు సినిమా ప్రసారం చేస్తుంది. జాన్ వాచ్ 20 నిమిషాలు వెనుకబడి ఉంది. మొదటి నుండి సినిమా చూడటానికి అతను తన వాచ్‌లో ఏ సమయంలో టీవీని ఆన్ చేయాలి?",
     "options_te": [
-      "Sat Dec 30 1899 19:40:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 19:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:40:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "వాచ్ 20 నిమిషాలు వెనుకబడి నడుస్తున్నందున, జాన్ రాత్రి 8:00 గంటలకు 20 నిమిషాల ముందు సమయాన్ని చూపేటప్పుడు టీవీని ఆన్ చేయాలి, అంటే రాత్రి 07:40."
   },
@@ -12883,19 +12883,19 @@
     "exam_style": "Navodaya",
     "question": "A football match begins at 3:25 PM. It is played for 90 minutes with a 15-minute half-time break included. At what time will the match end?",
     "options": [
-      "Sat Dec 30 1899 16:55:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 16:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Total duration is 90 minutes (1 hour 30 mins) + 15 minutes break = 105 minutes (1 hour 45 minutes). Adding 1 hour 45 minutes to 3:25 PM gives 5:10 PM.",
     "question_te": "ఒక ఫుట్‌బాల్ మ్యాచ్ మధ్యాహ్నం 3:25 కి ప్రారంభమవుతుంది. 15 నిమిషాల హాఫ్-టైమ్ విరామంతో కూడిన 90 నిమిషాల పాటు ఈ ఆట ఆడబడుతుంది. మ్యాచ్ ఏ సమయంలో ముగుస్తుంది?",
     "options_te": [
-      "Sat Dec 30 1899 16:55:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 17:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 16:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "మొత్తం వ్యవధి 90 నిమిషాలు (1 గంట 30 నిమిషాలు) + 15 నిమిషాల విరామం = 105 నిమిషాలు (1 గంట 45 నిమిషాలు). మధ్యాహ్నం 3:25 కి 1 గంట 45 నిమిషాలు కలిపితే సాయంత్రం 5:10 అవుతుంది."
   },
@@ -12958,19 +12958,19 @@
     "exam_style": "Navodaya",
     "question": "A flower shop opened at 8:15 AM and stayed open for 4 hours and 15 minutes. At what time did the shop close?",
     "options": [
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 13:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 00:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Adding 4 hours to 8:15 AM gives 12:15 PM, and adding the remaining 15 minutes gives 12:30 PM.",
     "question_te": "ఒక పూల దుకాణం ఉదయం 8:15 కి తెరవబడింది మరియు 4 గంటల 15 నిమిషాల పాటు తెరిచి ఉంది. దుకాణం ఏ సమయంలో మూసివేయబడింది?",
     "options_te": [
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 13:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 00:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ఉదయం 8:15 కి 4 గంటలు కలిపితే మధ్యాహ్నం 12:15 వస్తుంది, మరియు మిగిలిన 15 నిమిషాలు కలిపితే మధ్యాహ్నం 12:30 అవుతుంది."
   },
@@ -12983,19 +12983,19 @@
     "exam_style": "Navodaya",
     "question": "A train departed from Vijayawada and arrived in Hyderabad at 13:40 hours. If the journey took 5 hours and 30 minutes, at what time did the train leave Vijayawada?",
     "options": [
-      "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 07:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:40:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:10:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtract 5 hours 30 minutes from 13:40 hours. 13:40 - 5:30 = 08:10 hours.",
     "question_te": "విజయవాడ నుండి బయలుదేరిన ఒక రైలు హైదరాబాదుకు 13:40 గంటలకు చేరుకుంది. ప్రయాణానికి 5 గంటల 30 నిమిషాలు పడితే, విజయవాడలో రైలు ఏ సమయంలో బయలుదేరింది?",
     "options_te": [
-      "Sat Dec 30 1899 08:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 07:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 08:40:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:10:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "13:40 గంటల నుండి 5 గంటల 30 నిమిషాలను తీసివేయండి. 13:40 - 5:30 = 08:10 గంటలు."
   },
@@ -13008,19 +13008,19 @@
     "exam_style": "Sainik",
     "question": "If a school clock shows 11:50 AM, what will be the time 20 minutes later?",
     "options": [
-      "Sat Dec 30 1899 12:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 00:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 12:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Adding 10 minutes to 11:50 AM brings the time to 12:00 PM (noon). Adding the remaining 10 minutes results in 12:10 PM.",
     "question_te": "పాఠశాల గడియారం ఉదయం 11:50 ని చూపిస్తే, 20 నిమిషాల తర్వాత సమయం ఎంత అవుతుంది?",
     "options_te": [
-      "Sat Dec 30 1899 12:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 00:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ఉదయం 11:50 కి 10 నిమిషాలు కలిపితే సమయం మధ్యాహ్నం 12:00 (మధ్యాహ్నం) అవుతుంది. మిగిలిన 10 నిమిషాలు కలిపితే మధ్యాహ్నం 12:10 అవుతుంది."
   },
@@ -13033,19 +13033,19 @@
     "exam_style": "Sainik",
     "question": "A clock is currently showing 09:15 AM. What time will the clock show after 15 hours and 30 minutes?",
     "options": [
-      "Sat Dec 30 1899 00:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 23:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 11:45:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 00:45:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Adding 15 hours to 09:15 AM gives 00:15 AM (the next day). Adding 30 minutes to 00:15 AM results in 12:45 AM.",
     "question_te": "ప్రస్తుతం ఒక గడియారం ఉదయం 09:15 ని చూపిస్తోంది. 15 గంటల 30 నిమిషాల తర్వాత గడియారం ఏ సమయాన్ని చూపుతుంది?",
     "options_te": [
-      "Sat Dec 30 1899 00:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 23:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 11:45:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "ఉదయం 09:15 కి 15 గంటలు కలిపితే రాత్రి 00:15 (మరుసటి రోజు) వస్తుంది. రాత్రి 00:15 కి 30 నిమిషాలు కలిపితే రాత్రి 12:45 అవుతుంది."
   },
@@ -13083,19 +13083,19 @@
     "exam_style": "Sainik",
     "question": "The time is 14:45 hours in 24-hour format. What is the time in 12-hour format?",
     "options": [
-      "Sat Dec 30 1899 02:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 14:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 16:45:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 14:45:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtract 12 from 14:45 to get 2:45. Since it is greater than 12, it is PM.",
     "question_te": "24-గంటల ఆకృతిలో సమయం 14:45 గంటలు. 12-గంటల ఆకృతిలో సమయం ఎంత?",
     "options_te": [
-      "Sat Dec 30 1899 02:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 14:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 16:45:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "2:45 పొందడానికి 14:45 నుండి 12 ని తీసివేయండి. ఇది 12 కంటే ఎక్కువగా ఉన్నందున, ఇది PM అవుతుంది."
   },
@@ -13108,19 +13108,19 @@
     "exam_style": "Sainik",
     "question": "A train journey takes 4 hours and 40 minutes. If the train reaches the destination at 02:10 AM, when did it depart?",
     "options": [
-      "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 22:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 10:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "Subtracting 4 hours from 02:10 AM gives 10:10 PM. Subtracting the remaining 40 minutes gives 9:30 PM.",
     "question_te": "ఒక రైలు ప్రయాణానికి 4 గంటల 40 నిమిషాలు పడుతుంది. రైలు గమ్యస్థానానికి తెల్లవారుజామున 02:10 కి చేరుకుంటే, అది ఎప్పుడు బయలుదేరింది?",
     "options_te": [
-      "Sat Dec 30 1899 21:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 22:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 09:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 10:30:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "తెల్లవారుజామున 02:10 నుండి 4 గంటలు తీసివేస్తే రాత్రి 10:10 అవుతుంది. మిగిలిన 40 నిమిషాలు తీసివేస్తే రాత్రి 9:30 అవుతుంది."
   },
@@ -13258,19 +13258,19 @@
     "exam_style": "Sainik",
     "question": "A student starts homework at 06:45 PM and works for 1 hour and 35 minutes. At what time does the student finish?",
     "options": [
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:15:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:20:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "06:45 + 1 hour = 07:45. Adding 35 minutes: 07:45 + 15 min = 08:00, then + 20 min = 08:20 PM.",
     "question_te": "ఒక విద్యార్థి సాయంత్రం 06:45 PM కు హోంవర్క్ ప్రారంభించి, 1 గంట 35 నిమిషాలు పనిచేశాడు. విద్యార్థి ఏ సమయానికి పూర్తి చేస్తాడు?",
     "options_te": [
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:15:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 20:20:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 21:20:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "06:45 + 1 గంట = 07:45. మరో 35 నిమిషాలు కలపగా: 07:45 + 15 నిమిషాలు = 08:00, తర్వాత + 20 నిమిషాలు = 08:20 PM."
   },
@@ -13333,19 +13333,19 @@
     "exam_style": "Sainik",
     "question": "A clock is 10 minutes fast. If the clock shows 03:20 PM, what is the actual time?",
     "options": [
-      "Sat Dec 30 1899 15:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:40:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 15:10:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "If the clock is fast, it is ahead of the actual time. Subtract 10 minutes from 03:20 PM to get 03:10 PM.",
     "question_te": "ఒక గడిారం 10 నిమిషాలు ముందుగా నడుస్తోంది. గడిారంలో సమయం 03:20 PM చూపిస్తే, అసలు సమయం ఎంత?",
     "options_te": [
-      "Sat Dec 30 1899 15:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:10:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 15:40:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "గడిారం ముందుగా నడుస్తుంటే, అది అసలు సమయం కంటే ముందు ఉంటుంది. 03:20 PM నుండి 10 నిమిషాలు తీసివేస్తే 03:10 PM వస్తుంది."
   },
@@ -13358,18 +13358,18 @@
     "exam_style": "Sainik",
     "question": "What time is 00:00 hours in the 12-hour clock format?",
     "options": [
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 00:00:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 01:00:00 GMT+0521 (India Standard Time)",
+      "12/30",
+      "12/30",
+      "12/30",
       "12:00 noon"
     ],
-    "answer": "Sat Dec 30 1899 00:00:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "00:00 hours marks the start of the day, which is 12:00 midnight or 12:00 AM.",
     "question_te": "12 గంటల గడిార విధానంలో 00:00 గంటలు అంటే ఏ సమయం?",
     "options_te": [
-      "12:00 రాత్రి (మధ్యరాత్రి)",
-      "00:00 సమయం",
-      "01:00 సమయం",
+      "12/30",
+      "12/30",
+      "12/30",
       "12:00 మధ్యాహ్నం"
     ],
     "explanation_te": "00:00 గంటలు అనేది రోజు ప్రారంభాన్ని సూచిస్తుంది, అది రాత్రి 12:00 లేదా 12:00 AM."
@@ -13433,19 +13433,19 @@
     "exam_style": "Sainik",
     "question": "What is the time 45 minutes before 01:15 PM?",
     "options": [
-      "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:15:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
-    "answer": "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
+    "answer": "12/30",
     "explanation": "From 01:15 PM, go back 15 minutes to 01:00 PM, then go back another 30 minutes to reach 12:30 PM.",
     "question_te": "01:15 PM కు 45 నిమిషాల ముందు సమయం ఎంత?",
     "options_te": [
-      "Sat Dec 30 1899 12:30:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:45:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:15:00 GMT+0521 (India Standard Time)",
-      "Sat Dec 30 1899 12:00:00 GMT+0521 (India Standard Time)"
+      "12/30",
+      "12/30",
+      "12/30",
+      "12/30"
     ],
     "explanation_te": "01:15 PM నుండి 15 నిమిషాలు వెనక్కి వెళ్తే 01:00 PM, తర్వాత మరో 30 నిమిషాలు వెనక్కి వెళ్తే 12:30 PM వస్తుంది."
   },
