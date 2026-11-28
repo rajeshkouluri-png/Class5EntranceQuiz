@@ -9008,19 +9008,19 @@
     "exam_style": "Foundation",
     "question": "When did India get independence from British rule?",
     "options": [
-      "Fri Aug 15 1947 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jan 26 1950 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Aug 15 1950 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Jan 26 1947 00:00:00 GMT+0530 (India Standard Time)"
+      "8/15",
+      "1/26",
+      "8/15",
+      "1/26"
     ],
-    "answer": "Fri Aug 15 1947 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "8/15",
     "explanation": "India officially gained independence on August 15, 1947, after a long battle against British rule.",
     "question_te": "బ్రిటిష్ పాలన నుండి భారతదేశానికి ఎప్పుడు స్వాతంత్ర్యం వచ్చింది?",
     "options_te": [
-      "Fri Aug 15 1947 00:00:00 GMT+0530 (India Standard Time)",
-      "Thu Jan 26 1950 00:00:00 GMT+0530 (India Standard Time)",
-      "Tue Aug 15 1950 00:00:00 GMT+0530 (India Standard Time)",
-      "Sun Jan 26 1947 00:00:00 GMT+0530 (India Standard Time)"
+      "8/15",
+      "1/26",
+      "8/15",
+      "1/26"
     ],
     "explanation_te": "బ్రిటిష్ పాలనకు వ్యతిరేకంగా సుదీర్ఘ పోరాటం తరువాత భారతదేశం అధికారికంగా ఆగస్టు 15, 1947న స్వాతంత్ర్యం పొందింది."
   },
@@ -13508,19 +13508,19 @@
     "exam_style": "Foundation",
     "question": "When do we celebrate India's Independence Day?",
     "options": [
-      "Sat Aug 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jan 26 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Oct 02 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Nov 14 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "8/15",
+      "1/26",
+      "10/2",
+      "11/14"
     ],
-    "answer": "Sat Aug 15 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "8/15",
     "explanation": "India became free on August 15, 1947, which is why we celebrate Independence Day on this date every year.",
     "question_te": "మనం భారతదేశ స్వాతంత్ర్య దినోత్సవాన్ని ఎప్పుడు జరుపుకుంటాము?",
     "options_te": [
-      "ఆగస్టు 15",
-      "జనవరి 26",
-      "అక్టోబర్ 02",
-      "నవంబర్ 14"
+      "8/15",
+      "1/26",
+      "10/2",
+      "11/14"
     ],
     "explanation_te": "భారతదేశానికి ఆగస్టు 15, 1947న స్వాతంత్ర్యం వచ్చింది, అందుకే ప్రతి సంవత్సరం ఈ రోజున స్వాతంత్ర్య దినోత్సవాన్ని జరుపుకుంటాము."
   },
@@ -13833,19 +13833,19 @@
     "exam_style": "Foundation",
     "question": "When do we celebrate Republic Day?",
     "options": [
-      "Sat Aug 15 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Mon Jan 26 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Sat Nov 14 2026 00:00:00 GMT+0530 (India Standard Time)",
-      "Fri Oct 02 2026 00:00:00 GMT+0530 (India Standard Time)"
+      "8/15",
+      "1/26",
+      "11/14",
+      "10/2"
     ],
-    "answer": "Mon Jan 26 2026 00:00:00 GMT+0530 (India Standard Time)",
+    "answer": "1/26",
     "explanation": "The Constitution of India came into effect on 26th January 1950, which we celebrate as Republic Day.",
     "question_te": "మనం గణతంత్ర దినోత్సవాన్ని ఎప్పుడు జరుపుకుంటాము?",
     "options_te": [
-      "ఆగస్టు 15",
-      "జనవరి 26",
-      "నవంబర్ 14",
-      "అక్టోబర్ 02"
+      "8/15",
+      "1/26",
+      "11/14",
+      "10/2"
     ],
     "explanation_te": "భారత రాజ్యాంగం 1950 జనవరి 26న అమలులోకి వచ్చింది, ఆ రోజునే మనం గణతంత్ర దినోత్సవంగా జరుపుకుంటాము."
   },
