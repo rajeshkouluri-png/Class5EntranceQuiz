@@ -36,6 +36,14 @@
       padding-bottom: 40px;
     }
 
+    .tally-5 {
+      display: inline-block;
+      width: 1.4em;
+      height: 1.15em;
+      vertical-align: -0.2em;
+      margin: 0 2px;
+    }
+
     header {
       background: linear-gradient(135deg, var(--primary-dark), var(--primary));
       color: #fff;
@@ -1030,11 +1038,14 @@
 
   const PAPER_FOOTER_TEXT = "Developed by Rajesh Kouluri, National Teachers' Awardee 2026  •  www.rajclassroom.com";
 
+  // True visual tally mark for 5 (four vertical bars crossed diagonally by a fifth line)
+  const TALLY_FIVE_SVG = '<svg class="tally-5" viewBox="0 0 24 20" aria-label="5 tally marks" role="img"><line x1="4" y1="2" x2="4" y2="18" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><line x1="9" y1="2" x2="9" y2="18" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><line x1="14" y1="2" x2="14" y2="18" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><line x1="19" y1="2" x2="19" y2="18" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/><line x1="1" y1="16" x2="22" y2="4" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/></svg>';
+
   // ================= GLOBAL STATE =================
   let syllabusMeta = null;
   const subjectCache = {};
   let student = null;
-  let langMode = localStorage.getItem("c5_lang_mode") || "both"; // "both" | "te" | "en"
+  let langMode = localStorage.getItem("c5_lang_mode") || "both";
   let printReturnView = "homeView";
   let currentPaper = null;
 
@@ -1290,17 +1301,29 @@
   }
 
   function prepareQuestionForQuiz(q) {
+    const tallyNoteRegex = /\|{4,5}\s*\(with a diagonal line[^)]*\)/gi;
+    let cleanOptions = [...q.options];
+    let cleanAnswer = q.answer;
+
+    if (cleanOptions.some(o => tallyNoteRegex.test(o))) {
+      cleanOptions = cleanOptions.map(o => o === "||||/" ? "||/" : o.replace(tallyNoteRegex, "||||/"));
+      cleanAnswer = cleanAnswer.replace(tallyNoteRegex, "||||/");
+    }
+
     const hasTe = Boolean(q.question_te && q.question_te.trim());
     const teArr = Array.isArray(q.options_te) ? q.options_te : [];
-    const pairedOptions = q.options.map((enText, idx) => ({
-      en: enText,
-      te: hasTe ? String(teArr[idx] || "").trim() : ""
-    }));
-    const answerIdx = q.options.indexOf(q.answer);
-    const answerTe = (hasTe && answerIdx >= 0) ? String(teArr[answerIdx] || "").trim() : "";
+    const pairedOptions = cleanOptions.map((enText, idx) => {
+      let teText = hasTe ? String(teArr[idx] || "").trim() : "";
+      if (/^[|/ ]+$/.test(enText)) teText = enText;
+      return { en: enText, te: teText };
+    });
+    const answerIdx = cleanOptions.indexOf(cleanAnswer);
+    const answerTe = (hasTe && answerIdx >= 0) ? pairedOptions[answerIdx].te : "";
 
     return {
       ...q,
+      options: cleanOptions,
+      answer: cleanAnswer,
       hasTe,
       answer_te: answerTe,
       optionPairs: shuffleArray(pairedOptions)
@@ -1470,11 +1493,11 @@
 
     const qEl = document.getElementById("questionText");
     if (q.hasTe && langMode === "both") {
-      qEl.innerHTML = `${escapeHtml(q.question)}<span class="te-q">${escapeHtml(q.question_te)}</span>`;
+      qEl.innerHTML = `${formatMathHtml(q.question)}<span class="te-q">${formatMathHtml(q.question_te)}</span>`;
     } else if (q.hasTe && langMode === "te") {
-      qEl.textContent = q.question_te;
+      qEl.innerHTML = formatMathHtml(q.question_te);
     } else {
-      qEl.textContent = q.question;
+      qEl.innerHTML = formatMathHtml(q.question);
     }
 
     const list = document.getElementById("optionsList");
@@ -1489,11 +1512,11 @@
       let bodyHtml = "";
       if (q.hasTe && langMode === "both") {
         const showSubTe = pair.te && pair.te !== pair.en;
-        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.en)}</span>${showSubTe ? `<span class="te-opt">${escapeHtml(pair.te)}</span>` : ""}</span>`;
+        bodyHtml = `<span class="opt-body"><span>${formatMathHtml(pair.en)}</span>${showSubTe ? `<span class="te-opt">${formatMathHtml(pair.te)}</span>` : ""}</span>`;
       } else if (q.hasTe && langMode === "te") {
-        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.te || pair.en)}</span></span>`;
+        bodyHtml = `<span class="opt-body"><span>${formatMathHtml(pair.te || pair.en)}</span></span>`;
       } else {
-        bodyHtml = `<span class="opt-body"><span>${escapeHtml(pair.en)}</span></span>`;
+        bodyHtml = `<span class="opt-body"><span>${formatMathHtml(pair.en)}</span></span>`;
       }
 
       btn.innerHTML = `<span class="opt-letter">${letters[idx]}</span>${bodyHtml}`;
@@ -1600,9 +1623,9 @@
   function formatBilingualVal(enVal, teVal) {
     if (!enVal) return "Not Answered";
     if (teVal && teVal !== enVal) {
-      return `${escapeHtml(enVal)} <span style="color:#0f766e;">(${escapeHtml(teVal)})</span>`;
+      return `${formatMathHtml(enVal)} <span style="color:#0f766e;">(${formatMathHtml(teVal)})</span>`;
     }
-    return escapeHtml(enVal);
+    return formatMathHtml(enVal);
   }
 
   function renderResultScreen(record, split) {
@@ -1629,8 +1652,8 @@
 
       const expHtml = (q.explanation || q.explanation_te)
         ? `<div class="review-exp">
-            ${q.explanation ? `<div><strong>Explanation:</strong> ${escapeHtml(q.explanation)}</div>` : ""}
-            ${q.explanation_te ? `<div class="review-te"><strong>వివరణ:</strong> ${escapeHtml(q.explanation_te)}</div>` : ""}
+            ${q.explanation ? `<div><strong>Explanation:</strong> ${formatMathHtml(q.explanation)}</div>` : ""}
+            ${q.explanation_te ? `<div class="review-te"><strong>వివరణ:</strong> ${formatMathHtml(q.explanation_te)}</div>` : ""}
            </div>`
         : "";
 
@@ -1639,8 +1662,8 @@
       div.innerHTML = `
         <div class="review-meta">Q${idx + 1} • ${escapeHtml(q.subject)} L${q.lesson_no} (${escapeHtml(q.exam_style)}) • <strong>${label}</strong></div>
         <div class="review-q">
-          ${escapeHtml(q.question)}
-          ${q.hasTe ? `<div class="review-te">${escapeHtml(q.question_te)}</div>` : ""}
+          ${formatMathHtml(q.question)}
+          ${q.hasTe ? `<div class="review-te">${formatMathHtml(q.question_te)}</div>` : ""}
         </div>
         <div class="review-ans">Your Answer: <strong>${chosen ? formatBilingualVal(chosen, chosenTe) : "Not Answered"}</strong></div>
         <div class="review-ans">Correct Answer: <strong>${formatBilingualVal(q.answer, q.answer_te)}</strong></div>
@@ -1846,15 +1869,14 @@
     const letters = ["A", "B", "C", "D"];
     const total = currentPaper.questions.length;
 
-    // Build numbered questions HTML
     const questionsHtml = currentPaper.questions.map((q, idx) => {
       let stemHtml = "";
       if (q.hasTe && pLang === "both") {
-        stemHtml = `${idx + 1}. ${escapeHtml(q.question)}<span class="paper-q-te">${escapeHtml(q.question_te)}</span>`;
+        stemHtml = `${idx + 1}. ${formatMathHtml(q.question)}<span class="paper-q-te">${formatMathHtml(q.question_te)}</span>`;
       } else if (q.hasTe && pLang === "te") {
-        stemHtml = `${idx + 1}. ${escapeHtml(q.question_te)}`;
+        stemHtml = `${idx + 1}. ${formatMathHtml(q.question_te)}`;
       } else {
-        stemHtml = `${idx + 1}. ${escapeHtml(q.question)}`;
+        stemHtml = `${idx + 1}. ${formatMathHtml(q.question)}`;
       }
 
       const isLongOpt = q.optionPairs.some(p => {
@@ -1867,11 +1889,11 @@
         let optText = "";
         if (q.hasTe && pLang === "both") {
           const showTe = pair.te && pair.te !== pair.en;
-          optText = `${escapeHtml(pair.en)}${showTe ? ` <span class="paper-opt-te">/ ${escapeHtml(pair.te)}</span>` : ""}`;
+          optText = `${formatMathHtml(pair.en)}${showTe ? ` <span class="paper-opt-te">/ ${formatMathHtml(pair.te)}</span>` : ""}`;
         } else if (q.hasTe && pLang === "te") {
-          optText = escapeHtml(pair.te || pair.en);
+          optText = formatMathHtml(pair.te || pair.en);
         } else {
-          optText = escapeHtml(pair.en);
+          optText = formatMathHtml(pair.en);
         }
         return `<div class="paper-opt-cell"><strong>(${letters[oIdx]})</strong> ${optText}</div>`;
       }).join("");
@@ -1886,7 +1908,6 @@
       `;
     }).join("");
 
-    // Build optional Answer Key page
     let keyHtml = "";
     if (includeKey) {
       const keyCells = currentPaper.questions.map((q, idx) => {
@@ -1897,21 +1918,21 @@
         let ansDisplay = "";
         if (q.hasTe && pLang === "both") {
           const showTe = ansPair.te && ansPair.te !== ansPair.en;
-          ansDisplay = `${escapeHtml(ansPair.en)}${showTe ? ` (${escapeHtml(ansPair.te)})` : ""}`;
+          ansDisplay = `${formatMathHtml(ansPair.en)}${showTe ? ` (${formatMathHtml(ansPair.te)})` : ""}`;
         } else if (q.hasTe && pLang === "te") {
-          ansDisplay = escapeHtml(ansPair.te || ansPair.en);
+          ansDisplay = formatMathHtml(ansPair.te || ansPair.en);
         } else {
-          ansDisplay = escapeHtml(ansPair.en);
+          ansDisplay = formatMathHtml(ansPair.en);
         }
 
         let expBlock = "";
         if (includeExp && (q.explanation || q.explanation_te)) {
           if (q.hasTe && pLang === "both") {
-            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation)}${q.explanation_te ? `<br/>${escapeHtml(q.explanation_te)}` : ""}</div>`;
+            expBlock = `<div class="key-exp-line">${formatMathHtml(q.explanation)}${q.explanation_te ? `<br/>${formatMathHtml(q.explanation_te)}` : ""}</div>`;
           } else if (q.hasTe && pLang === "te") {
-            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation_te || q.explanation)}</div>`;
+            expBlock = `<div class="key-exp-line">${formatMathHtml(q.explanation_te || q.explanation)}</div>`;
           } else {
-            expBlock = `<div class="key-exp-line">${escapeHtml(q.explanation)}</div>`;
+            expBlock = `<div class="key-exp-line">${formatMathHtml(q.explanation)}</div>`;
           }
         }
 
@@ -1989,18 +2010,22 @@
       .replace(/_+/g, "_")
       .substring(0, 60);
 
-    // Trigger Android native Print / Save as PDF inside Kodular CustomWebView
     if (window.AppInventor && typeof window.AppInventor.setWebViewString === "function") {
       window.AppInventor.setWebViewString("PRINT:" + safeName + "_" + String(Date.now()).slice(-4));
       return;
     }
 
-    // Normal browser fallback (Chrome / Desktop)
     const origTitle = document.title;
     document.title = safeName;
     window.print();
     setTimeout(() => { document.title = origTitle; }, 1000);
   }
+
+  function formatMathHtml(str) {
+    const safe = escapeHtml(str).replace(/\|{4,5}\s*\(with a diagonal line[^)]*\)/gi, "||||/");
+    return safe.replace(/(^|[^|])\|\|\|\|\//g, "$1" + TALLY_FIVE_SVG);
+  }
+
   function escapeHtml(str) {
     return String(str || "")
       .replace(/&/g, "&amp;")
